@@ -15,8 +15,9 @@ The ground truth values of the todomvc project are gathered with the help of ext
 # Execution
 Lets get down to business.
 
-**Setup**
+## Step 0. Setup
 The following command will download all of the nessesary dependencies.
+
 Run `init.sh`
 
 
