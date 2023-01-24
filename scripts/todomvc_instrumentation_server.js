@@ -85,7 +85,7 @@ function buildPath(frameworkName, file) {
         return path.join("todomvc", "examples", frameworkName, file);    
     }
 
-    return path.join("todomvc", framework.path, file);
+    return path.join("../todomvc", framework.path, file);
 }
 
 
