@@ -90,9 +90,9 @@ gulp.task('html', function () {
 gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
 
 // Build Production Files, the Default Task
-gulp.task('default', ['clean'], function (cb) {
-	runSequence(['styles', 'copy'], ['jshint', 'html', 'images'], cb);
-});
+// gulp.task('default', ['clean'], function (cb) {
+// 	runSequence(['styles', 'copy'], ['jshint', 'html', 'images'], cb);
+// });
 
 // Run PageSpeed Insights
 // Update `url` below to the public URL for your site

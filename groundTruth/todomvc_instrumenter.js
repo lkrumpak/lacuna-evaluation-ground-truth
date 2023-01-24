@@ -11,8 +11,8 @@ var frameworks = frameworkPathLookup();
 process.chdir(cwd);
 
 const TODOMVC_DIR = "todomvc";
-const EXAMPLES_DIR = "examples.lacunized";
-const EXAMPLES_OUTPUT_DIR = "examples.lacunized.instrumented";
+const EXAMPLES_DIR = "examples";
+const EXAMPLES_OUTPUT_DIR = "examples.instrumented";
 
 function start() {
     createDestinationFolder(); // should work with EXAMPLES_OUTPUT_DIR after this
