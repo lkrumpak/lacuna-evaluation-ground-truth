@@ -2,15 +2,15 @@ const puppeteer = require("puppeteer");
 const path = require("path");
 const fs = require('fs-extra');
 
-var instrumenter = require("./dynamic-deadfunction-detector/instrumenter_runner");
+var instrumenter = require("../dynamic-deadfunction-detector/instrumenter_runner");
 
 var cwd = process.cwd();
-process.chdir('./todomvc/tests');
-var frameworkPathLookup = require('./todomvc/tests/framework-path-lookup');
+process.chdir('../todomvc/tests');
+var frameworkPathLookup = require('../todomvc/tests/framework-path-lookup');
 var frameworks = frameworkPathLookup();
 process.chdir(cwd);
 
-const TODOMVC_DIR = "todomvc";
+const TODOMVC_DIR = "../todomvc";
 const EXAMPLES_DIR = "examples";
 const EXAMPLES_OUTPUT_DIR = "examples.instrumented";
 
