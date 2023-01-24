@@ -1,0 +1,2816 @@
+Frameworks to test: 1
+Analyzer combinations to test: 255
+Number of runOptions: 255
+
+
+Run: 0
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static"],"entry":"index.html","destination":null,"logfile":"lacuna_static.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_static.log
+
+
+Run: 1
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecalls.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecalls.log
+
+
+Run: 2
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamic.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamic.log
+
+
+Run: 3
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compiler.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compiler.log
+
+
+Run: 4
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","wala"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilerwala.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilerwala.log
+
+
+Run: 5
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","wala","npm_cg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilerwalanpm_cg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilerwalanpm_cg.log
+
+
+Run: 6
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","wala","npm_cg","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilerwalanpm_cgtajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilerwalanpm_cgtajs.log
+
+
+Run: 7
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","wala","npm_cg","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilerwalanpm_cgtajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilerwalanpm_cgtajsacg.log
+
+
+Run: 8
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","wala","npm_cg","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilerwalanpm_cgacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilerwalanpm_cgacg.log
+
+
+Run: 9
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","wala","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilerwalatajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilerwalatajs.log
+
+
+Run: 10
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","wala","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilerwalatajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilerwalatajsacg.log
+
+
+Run: 11
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","wala","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilerwalaacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  wala: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilerwalaacg.log
+
+
+Run: 12
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","npm_cg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilernpm_cg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  npm_cg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilernpm_cg.log
+
+
+Run: 13
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","npm_cg","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilernpm_cgtajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  npm_cg: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilernpm_cgtajs.log
+
+
+Run: 14
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","npm_cg","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilernpm_cgtajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  npm_cg: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  npm_cg: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilernpm_cgtajsacg.log
+
+
+Run: 15
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","npm_cg","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilernpm_cgacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  npm_cg: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  npm_cg: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilernpm_cgacg.log
+
+
+Run: 16
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilertajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilertajs.log
+
+
+Run: 17
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compilertajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compilertajsacg.log
+
+
+Run: 18
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","closure_compiler","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicclosure_compileracg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  closure_compiler: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicclosure_compileracg.log
+
+
+Run: 19
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","wala"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicwala.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, dynamic: true, wala: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicwala.log
+
+
+Run: 20
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","wala","npm_cg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicwalanpm_cg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, dynamic: true, wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  npm_cg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicwalanpm_cg.log
+
+
+Run: 21
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","wala","npm_cg","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicwalanpm_cgtajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, dynamic: true, wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicwalanpm_cgtajs.log
+
+
+Run: 22
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","wala","npm_cg","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicwalanpm_cgtajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, dynamic: true, wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicwalanpm_cgtajsacg.log
+
+
+Run: 23
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","wala","npm_cg","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicwalanpm_cgacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, dynamic: true, wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  npm_cg: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  npm_cg: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicwalanpm_cgacg.log
+
+
+Run: 24
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","wala","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicwalatajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, dynamic: true, wala: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicwalatajs.log
+
+
+Run: 25
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","wala","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicwalatajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, dynamic: true, wala: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicwalatajsacg.log
+
+
+Run: 26
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","wala","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicwalaacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, dynamic: true, wala: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  wala: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicwalaacg.log
+
+
+Run: 27
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","npm_cg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicnpm_cg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true, nativecalls: true, dynamic: true, npm_cg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicnpm_cg.log
+
+
+Run: 28
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","npm_cg","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicnpm_cgtajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true, nativecalls: true, dynamic: true, npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  npm_cg: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicnpm_cgtajs.log
+
+
+Run: 29
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","npm_cg","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicnpm_cgtajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true, nativecalls: true, dynamic: true, npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  npm_cg: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  npm_cg: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicnpm_cgtajsacg.log
+
+
+Run: 30
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","npm_cg","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicnpm_cgacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true, nativecalls: true, dynamic: true, npm_cg: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  npm_cg: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicnpm_cgacg.log
+
+
+Run: 31
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamictajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true, nativecalls: true, dynamic: true, tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamictajs.log
+
+
+Run: 32
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamictajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true, nativecalls: true, dynamic: true, tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  dynamic: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamictajsacg.log
+
+
+Run: 33
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","dynamic","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsdynamicacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[32minfo[39m: Analyzer[dynamic] localhost:8012
+[34mdebug[39m: Hosting: todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[dynamic] aliveFunctions: 417
+[32minfo[39m: Analyzer[dynamic] finished
+{ static: true, nativecalls: true, dynamic: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true, nativecalls: true, dynamic: true, acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsdynamicacg.log
+
+
+Run: 34
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compiler.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compiler.log
+
+
+Run: 35
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","wala"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilerwala.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilerwala.log
+
+
+Run: 36
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","wala","npm_cg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilerwalanpm_cg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilerwalanpm_cg.log
+
+
+Run: 37
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","wala","npm_cg","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilerwalanpm_cgtajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilerwalanpm_cgtajs.log
+
+
+Run: 38
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","wala","npm_cg","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilerwalanpm_cgtajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilerwalanpm_cgtajsacg.log
+
+
+Run: 39
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","wala","npm_cg","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilerwalanpm_cgacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  npm_cg: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilerwalanpm_cgacg.log
+
+
+Run: 40
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","wala","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilerwalatajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilerwalatajs.log
+
+
+Run: 41
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","wala","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilerwalatajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilerwalatajsacg.log
+
+
+Run: 42
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","wala","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilerwalaacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  wala: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilerwalaacg.log
+
+
+Run: 43
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","npm_cg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilernpm_cg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  npm_cg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilernpm_cg.log
+
+
+Run: 44
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","npm_cg","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilernpm_cgtajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  npm_cg: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilernpm_cgtajs.log
+
+
+Run: 45
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","npm_cg","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilernpm_cgtajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  npm_cg: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  npm_cg: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilernpm_cgtajsacg.log
+
+
+Run: 46
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","npm_cg","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilernpm_cgacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  npm_cg: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  npm_cg: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilernpm_cgacg.log
+
+
+Run: 47
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilertajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilertajs.log
+
+
+Run: 48
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compilertajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compilertajsacg.log
+
+
+Run: 49
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","closure_compiler","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallsclosure_compileracg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[7154,7407]}
+[33mwarn[39m: [getNode] not found {"file":"node_modules/react/dist/JSXTransformer.js","range":[40,358]}
+[35msilly[39m: Analyzer[closure_compiler] aliveFunctions: 4138
+[32minfo[39m: Analyzer[closure_compiler] finished
+{ static: true, nativecalls: true, closure_compiler: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  closure_compiler: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallsclosure_compileracg.log
+
+
+Run: 50
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","wala"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallswala.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, wala: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallswala.log
+
+
+Run: 51
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","wala","npm_cg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallswalanpm_cg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true, nativecalls: true, wala: true, npm_cg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallswalanpm_cg.log
+
+
+Run: 52
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","wala","npm_cg","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallswalanpm_cgtajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true, nativecalls: true, wala: true, npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallswalanpm_cgtajs.log
+
+
+Run: 53
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","wala","npm_cg","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallswalanpm_cgtajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true, nativecalls: true, wala: true, npm_cg: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true,
+  nativecalls: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  wala: true,
+  npm_cg: true,
+  tajs: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallswalanpm_cgtajsacg.log
+
+
+Run: 54
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","wala","npm_cg","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallswalanpm_cgacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, wala: true }
+[35msilly[39m: Analyzer[npm_cg] aliveFunctions: 0
+[32minfo[39m: Analyzer[npm_cg] finished
+{ static: true, nativecalls: true, wala: true, npm_cg: true }
+[35msilly[39m: Analyzer[acg] aliveFunctions: 5734
+[32minfo[39m: Analyzer[acg] finished
+{ static: true,
+  nativecalls: true,
+  wala: true,
+  npm_cg: true,
+  acg: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallswalanpm_cgacg.log
+
+
+Run: 55
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","wala","tajs"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallswalatajs.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+[35msilly[39m: Analyzer[static] aliveFunctions: 4309
+[32minfo[39m: Analyzer[static] finished
+{ static: true }
+[35msilly[39m: Analyzer[nativecalls] aliveFunctions: 71
+[32minfo[39m: Analyzer[nativecalls] finished
+{ static: true, nativecalls: true }
+[31merror[39m: Analyser[WALA] timeout
+[35msilly[39m: Analyzer[wala] aliveFunctions: 0
+[32minfo[39m: Analyzer[wala] finished
+{ static: true, nativecalls: true, wala: true }
+java -jar analyzers/tajs/tajs-all.jar -quiet -callgraph todomvc/examples.lacunized/react/index.html
+[35msilly[39m: Analyzer[tajs] aliveFunctions: 0
+[32minfo[39m: Analyzer[tajs] finished
+{ static: true, nativecalls: true, wala: true, tajs: true }
+[36mverbose[39m: CallGraph creation completed
+[32minfo[39m: Lacuna finished.
+See results in: todomvc/examples.lacunized/react/lacuna_staticnativecallswalatajs.log
+
+
+Run: 56
+[35msilly[39m: runOptions.directory OK
+[35msilly[39m: runOptions.entry OK
+[35msilly[39m: runOptions.destination OK
+[36mverbose[39m: Overwriting source todomvc/examples.lacunized/react
+[35msilly[39m: runOptions.analyzer OK
+[35msilly[39m: runOptions.olevel OK
+[34mdebug[39m: runOptions verified
+[34mdebug[39m: runOptions: {"analyzer":["static","nativecalls","wala","tajs","acg"],"entry":"index.html","destination":null,"logfile":"lacuna_staticnativecallswalatajsacg.log","timeout":null,"olevel":0,"force":true,"normalizeOnly":false,"assumeNormalization":true,"directory":"todomvc/examples.lacunized/react"}
+[36mverbose[39m: Starting Lacuna
+[35msilly[39m: [18] node_modules/todomvc-common/base.js
+[35msilly[39m: [952] node_modules/react/dist/react-with-addons.js
+[35msilly[39m: [3] node_modules/classnames/index.js
+[35msilly[39m: [795] node_modules/react/dist/JSXTransformer.js
+[35msilly[39m: [59] node_modules/director/build/director.js
+[35msilly[39m: [5] js/utils.js
+[35msilly[39m: [16] js/todoModel.js
+[35msilly[39m: [0] lacuna_cache/eventAttributes.js
+
+<--- Last few GCs --->
+
+[41845:0x102801c00]  3330134 ms: Scavenge 7943.5 (8344.3) -> 7927.8 (8344.8) MB, 19.5 / 0.0 ms  (average mu = 0.104, current mu = 0.070) allocation failure 
+[41845:0x102801c00]  3330185 ms: Scavenge 7943.6 (8344.8) -> 7928.0 (8345.3) MB, 18.6 / 0.0 ms  (average mu = 0.104, current mu = 0.070) allocation failure 
+[41845:0x102801c00]  3330240 ms: Scavenge 7943.7 (8345.8) -> 7928.1 (8346.3) MB, 19.7 / 0.0 ms  (average mu = 0.104, current mu = 0.070) allocation failure 
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+    0: ExitFrame [pc: 0x4c252bcfb7d]
+Security context: 0x2bcd75d9d969 <JSObject>
+    1: doVisit [0x2bce781ff039] [/Users/kishannirghin/Desktop/Scriptie.nosync/LacunaV2/analyzers/static/javascript-call-graph/astutil.js:~25] [pc=0x4c2545aca72](this=0x2bcd49404de9 <JSGlobal Object>,0x2bcf77986e01 <Node map = 0x2bcd4d411f21>,0x2bcd833025b1 <undefined>,0x2bcd833025b1 <undefined>)
+    2: arguments adaptor frame: 1->3
+    3: enter [0x2bce781feed...
+
