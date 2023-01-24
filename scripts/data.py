@@ -94,10 +94,10 @@ false_positives, false_negatives for each subject
 '''
 def create_table(subject, true_positives, false_positives, false_negatives):
   data = []
-  if not os.path.exists('_statistics_.csv'):
+  if not os.path.exists('../statistics/_statistics_.csv'):
     data.append(['Subject','Precision','Recall','f_score'])
     
-  with open('_statistics_.csv', 'a', newline='') as f:
+  with open('../statistics/_statistics_.csv', 'a', newline='') as f:
     writer = csv.writer(f)
 
     # Precision = TruePositives / (TruePositives + FalsePositives)
@@ -125,7 +125,7 @@ def get_desriptive_stats(name, array):
   
 def create_descriptive_stats():
   # Open the CSV file
-  with open('_statistics_.csv', 'r') as f:
+  with open('../statistics/_statistics_.csv', 'r') as f:
     csv_data = list(csv.reader(f, delimiter=','))
     # Skip the header row
     csv_data = csv_data[1:]
@@ -136,7 +136,7 @@ def create_descriptive_stats():
     f_score = [float(row[3]) for row in csv_data]
 
   data = [['-','Min','Max','Median','Mean','SD','CV']]
-  with open('_descriptive_stats_.csv', 'a', newline='') as f:
+  with open('../statistics/_descriptive_stats_.csv', 'a', newline='') as f:
     writer = csv.writer(f)
 
     data.append(get_desriptive_stats('precision', precision))
