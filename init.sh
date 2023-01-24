@@ -1,10 +1,10 @@
 
 # Runs npm install on all projects
-npm --prefix ./groundtruth install ./groundtruth
+npm --prefix ./scripts install ./scripts
 npm --prefix ./todomvc install ./todomvc
 npm --prefix ./todomvc/tests install ./todomvc/tests
-npm --prefix ./groundtruth/dynamic-deadfunction-detector install ./groundtruth/dynamic-deadfunction-detector
+npm --prefix ./dynamic-deadfunction-detector install ./dynamic-deadfunction-detector
 
 # apply todomvc diff 
-(cd todomvc && git apply ../groundTruth/todomvc.diff)
+(cd todomvc && git apply ../scripts/todomvc.diff)
 
