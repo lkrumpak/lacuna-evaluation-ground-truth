@@ -17,8 +17,8 @@ const ALIVE_FILE = "_alive_functions.json";
 
 /* The base path will be fetched from the framework path */
 var cwd = process.cwd();
-process.chdir('./todomvc/tests');
-var frameworkPathLookup = require('./todomvc/tests/framework-path-lookup');
+process.chdir('../todomvc/tests');
+var frameworkPathLookup = require('../todomvc/tests/framework-path-lookup');
 var frameworks = frameworkPathLookup();
 process.chdir(cwd);
 
