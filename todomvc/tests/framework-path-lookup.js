@@ -54,6 +54,19 @@ module.exports = function (names) {
 		return excludedFrameworks.indexOf(framework.name) === -1;
 	});
 
+	const EXCLUDED_FRAMEWORKS = [
+		"angular2", // Heap out of memory
+		"binding-scala", // Heap out of memory
+		"emberjs", // Heap out of memory
+		"react-backbone", // Heap out of memory
+		"extjs_deftjs", // Heap out of memory
+		"reagent", // Heap out of memory
+	];
+	list = list.filter(function (framework) {
+		return EXCLUDED_FRAMEWORKS.indexOf(framework.name) === -1;
+	});
+	return list;
+
 	return list.filter(function (framework) {
 		return [].concat(names).some(function (f) {
 			return f === framework.name;
