@@ -1,0 +1,4727 @@
+{
+    "runDate": "2023-01-13T02:35:54.558Z",
+    "runOptions": {
+        "analyzer": [
+            "dynamic"
+        ],
+        "entry": "index.html",
+        "destination": "todomvc/examples.lacunised.cl/troopjs_require",
+        "logfile": "lacuna.log",
+        "timeout": null,
+        "olevel": 1,
+        "force": true,
+        "normalizeOnly": false,
+        "assumeNormalization": false,
+        "directory": "todomvc/examples.lacunised.cl/troopjs_require"
+    },
+    "graphStats": {
+        "connectedNodes": 72,
+        "disconnectedNodes": 58,
+        "nodes": 130,
+        "files": 2
+    },
+    "deadFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                179,
+                548
+            ],
+            "bodyRange": [
+                197,
+                548
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 9,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2189,
+                2238
+            ],
+            "bodyRange": [
+                2205,
+                2238
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 72,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2069,
+                2568
+            ],
+            "bodyRange": [
+                2124,
+                2568
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 70,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3076,
+                3136
+            ],
+            "bodyRange": [
+                3091,
+                3136
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 103,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1557,
+                3332
+            ],
+            "bodyRange": [
+                1588,
+                3332
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 56,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3468,
+                3518
+            ],
+            "bodyRange": [
+                3478,
+                3518
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 117,
+                "column": 67
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3404,
+                3646
+            ],
+            "bodyRange": [
+                3427,
+                3646
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 117,
+                "column": 3
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4487,
+                5446
+            ],
+            "bodyRange": [
+                4521,
+                5446
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 154,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6198,
+                6375
+            ],
+            "bodyRange": [
+                6218,
+                6375
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 216,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5474,
+                6529
+            ],
+            "bodyRange": [
+                5490,
+                6529
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 199,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6836,
+                7176
+            ],
+            "bodyRange": [
+                6849,
+                7176
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 15,
+            "start": {
+                "line": 233,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6567,
+                7199
+            ],
+            "bodyRange": [
+                6579,
+                7199
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 16,
+            "start": {
+                "line": 227,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4797,
+                4852
+            ],
+            "bodyRange": [
+                4826,
+                4852
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 12,
+            "start": {
+                "line": 139,
+                "column": 4
+            },
+            "functionName": "defaultOnError"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5083,
+                5135
+            ],
+            "bodyRange": [
+                5099,
+                5135
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 13,
+            "start": {
+                "line": 150,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4942,
+                5161
+            ],
+            "bodyRange": [
+                4968,
+                5161
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 14,
+            "start": {
+                "line": 145,
+                "column": 4
+            },
+            "functionName": "getGlobal"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                5480,
+                5771
+            ],
+            "bodyRange": [
+                5529,
+                5771
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 15,
+            "start": {
+                "line": 164,
+                "column": 4
+            },
+            "functionName": "makeError"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                13276,
+                13631
+            ],
+            "bodyRange": [
+                13298,
+                13631
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 18,
+            "start": {
+                "line": 357,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                13185,
+                13657
+            ],
+            "bodyRange": [
+                13213,
+                13657
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 19,
+            "start": {
+                "line": 355,
+                "column": 8
+            },
+            "functionName": "removeScript"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                13667,
+                14296
+            ],
+            "bodyRange": [
+                13696,
+                14296
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 20,
+            "start": {
+                "line": 367,
+                "column": 8
+            },
+            "functionName": "hasPathFallback"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16673,
+                16790
+            ],
+            "bodyRange": [
+                16689,
+                16790
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 22,
+            "start": {
+                "line": 442,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                20076,
+                20501
+            ],
+            "bodyRange": [
+                20090,
+                20501
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 26,
+            "start": {
+                "line": 531,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                19862,
+                20617
+            ],
+            "bodyRange": [
+                19893,
+                20617
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 27,
+            "start": {
+                "line": 524,
+                "column": 8
+            },
+            "functionName": "onError"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                21541,
+                21901
+            ],
+            "bodyRange": [
+                21556,
+                21901
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 31,
+            "start": {
+                "line": 575,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22882,
+                23643
+            ],
+            "bodyRange": [
+                22903,
+                23643
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 35,
+            "start": {
+                "line": 614,
+                "column": 34
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                22637,
+                23707
+            ],
+            "bodyRange": [
+                22681,
+                23707
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 36,
+            "start": {
+                "line": 607,
+                "column": 8
+            },
+            "functionName": "breakCycle"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26396,
+                26475
+            ],
+            "bodyRange": [
+                26411,
+                26475
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 38,
+            "start": {
+                "line": 700,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28578,
+                28665
+            ],
+            "bodyRange": [
+                28593,
+                28665
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 42,
+            "start": {
+                "line": 757,
+                "column": 41
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                30762,
+                30874
+            ],
+            "bodyRange": [
+                30774,
+                30874
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 45,
+            "start": {
+                "line": 814,
+                "column": 56
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37137,
+                37258
+            ],
+            "bodyRange": [
+                37153,
+                37258
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 49,
+            "start": {
+                "line": 960,
+                "column": 58
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37749,
+                37778
+            ],
+            "bodyRange": [
+                37761,
+                37778
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 50,
+            "start": {
+                "line": 971,
+                "column": 46
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37684,
+                37953
+            ],
+            "bodyRange": [
+                37701,
+                37953
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 51,
+            "start": {
+                "line": 970,
+                "column": 50
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                38399,
+                38510
+            ],
+            "bodyRange": [
+                38414,
+                38510
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 52,
+            "start": {
+                "line": 984,
+                "column": 69
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39126,
+                39155
+            ],
+            "bodyRange": [
+                39138,
+                39155
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 53,
+            "start": {
+                "line": 1003,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39069,
+                39256
+            ],
+            "bodyRange": [
+                39086,
+                39256
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 54,
+            "start": {
+                "line": 1002,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39653,
+                39866
+            ],
+            "bodyRange": [
+                39668,
+                39866
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 55,
+            "start": {
+                "line": 1015,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39304,
+                39929
+            ],
+            "bodyRange": [
+                39319,
+                39929
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 56,
+            "start": {
+                "line": 1008,
+                "column": 44
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                40123,
+                42500
+            ],
+            "bodyRange": [
+                40148,
+                42500
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 57,
+            "start": {
+                "line": 1026,
+                "column": 47
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36332,
+                42815
+            ],
+            "bodyRange": [
+                36350,
+                42815
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 58,
+            "start": {
+                "line": 946,
+                "column": 52
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35922,
+                42941
+            ],
+            "bodyRange": [
+                35934,
+                42941
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 59,
+            "start": {
+                "line": 936,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                45074,
+                45176
+            ],
+            "bodyRange": [
+                45088,
+                45176
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 61,
+            "start": {
+                "line": 1137,
+                "column": 59
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                45827,
+                46055
+            ],
+            "bodyRange": [
+                45848,
+                46055
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 63,
+            "start": {
+                "line": 1156,
+                "column": 53
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                51062,
+                51232
+            ],
+            "bodyRange": [
+                51075,
+                51232
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 73,
+            "start": {
+                "line": 1303,
+                "column": 36
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                51001,
+                51256
+            ],
+            "bodyRange": [
+                51024,
+                51256
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 74,
+            "start": {
+                "line": 1302,
+                "column": 42
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                51378,
+                51884
+            ],
+            "bodyRange": [
+                51399,
+                51884
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 75,
+            "start": {
+                "line": 1313,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                54138,
+                54406
+            ],
+            "bodyRange": [
+                54152,
+                54406
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 79,
+            "start": {
+                "line": 1373,
+                "column": 16
+            },
+            "functionName": "fn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                54103,
+                54447
+            ],
+            "bodyRange": [
+                54120,
+                54447
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 80,
+            "start": {
+                "line": 1372,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                57762,
+                58646
+            ],
+            "bodyRange": [
+                57791,
+                58646
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 83,
+            "start": {
+                "line": 1459,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                58678,
+                58807
+            ],
+            "bodyRange": [
+                58692,
+                58807
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 84,
+            "start": {
+                "line": 1476,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                58841,
+                59028
+            ],
+            "bodyRange": [
+                58855,
+                59028
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 85,
+            "start": {
+                "line": 1480,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                59936,
+                60116
+            ],
+            "bodyRange": [
+                59954,
+                60116
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 86,
+            "start": {
+                "line": 1506,
+                "column": 46
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                59184,
+                60641
+            ],
+            "bodyRange": [
+                59198,
+                60641
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 87,
+            "start": {
+                "line": 1488,
+                "column": 41
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                68692,
+                68946
+            ],
+            "bodyRange": [
+                68707,
+                68946
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 95,
+            "start": {
+                "line": 1706,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                70857,
+                70910
+            ],
+            "bodyRange": [
+                70875,
+                70910
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 98,
+            "start": {
+                "line": 1772,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                71241,
+                71264
+            ],
+            "bodyRange": [
+                71255,
+                71264
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 100,
+            "start": {
+                "line": 1784,
+                "column": 8
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                72082,
+                72213
+            ],
+            "bodyRange": [
+                72094,
+                72213
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 101,
+            "start": {
+                "line": 1816,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                78787,
+                78938
+            ],
+            "bodyRange": [
+                78805,
+                78938
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 105,
+            "start": {
+                "line": 1958,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                78590,
+                78980
+            ],
+            "bodyRange": [
+                78622,
+                78980
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 106,
+            "start": {
+                "line": 1953,
+                "column": 4
+            },
+            "functionName": "getInteractiveScript"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                84124,
+                84205
+            ],
+            "bodyRange": [
+                84140,
+                84205
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 110,
+            "start": {
+                "line": 2096,
+                "column": 15
+            },
+            "functionName": null
+        }
+    ],
+    "aliveFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16,
+                7247
+            ],
+            "bodyRange": [
+                28,
+                7247
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 17,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                149,
+                3349
+            ],
+            "bodyRange": [
+                162,
+                3349
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 8,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3825,
+                3990
+            ],
+            "bodyRange": [
+                3845,
+                3990
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 126,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4109,
+                4484
+            ],
+            "bodyRange": [
+                4142,
+                4484
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 137,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3993,
+                4106
+            ],
+            "bodyRange": [
+                4013,
+                4106
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4385,
+                4480
+            ],
+            "bodyRange": [
+                4397,
+                4480
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 147,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                536,
+                84254
+            ],
+            "bodyRange": [
+                554,
+                84254
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 111,
+            "start": {
+                "line": 12,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                69696,
+                70702
+            ],
+            "bodyRange": [
+                69741,
+                70702
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 97,
+            "start": {
+                "line": 1732,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2033,
+                2115
+            ],
+            "bodyRange": [
+                2054,
+                2115
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 1,
+            "start": {
+                "line": 44,
+                "column": 4
+            },
+            "functionName": "isArray"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3001,
+                3083
+            ],
+            "bodyRange": [
+                3028,
+                3083
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 5,
+            "start": {
+                "line": 82,
+                "column": 4
+            },
+            "functionName": "getOwn"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2921,
+                2995
+            ],
+            "bodyRange": [
+                2949,
+                2995
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 4,
+            "start": {
+                "line": 78,
+                "column": 4
+            },
+            "functionName": "hasProp"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                6376,
+                69037
+            ],
+            "bodyRange": [
+                6409,
+                69037
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 96,
+            "start": {
+                "line": 196,
+                "column": 4
+            },
+            "functionName": "newContext"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                54475,
+                60712
+            ],
+            "bodyRange": [
+                54502,
+                60712
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 88,
+            "start": {
+                "line": 1383,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3681,
+                4433
+            ],
+            "bodyRange": [
+                3736,
+                4433
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 8,
+            "start": {
+                "line": 106,
+                "column": 4
+            },
+            "functionName": "mixin"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3279,
+                3513
+            ],
+            "bodyRange": [
+                3308,
+                3513
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 6,
+            "start": {
+                "line": 91,
+                "column": 4
+            },
+            "functionName": "eachProp"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3789,
+                4392
+            ],
+            "bodyRange": [
+                3812,
+                4392
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 7,
+            "start": {
+                "line": 108,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                49863,
+                54071
+            ],
+            "bodyRange": [
+                49878,
+                54071
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 78,
+            "start": {
+                "line": 1271,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                54562,
+                57391
+            ],
+            "bodyRange": [
+                54609,
+                57391
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 82,
+            "start": {
+                "line": 1386,
+                "column": 16
+            },
+            "functionName": "localRequire"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                48546,
+                49309
+            ],
+            "bodyRange": [
+                48571,
+                49309
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 71,
+            "start": {
+                "line": 1233,
+                "column": 8
+            },
+            "functionName": "intakeDefines"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                20747,
+                21249
+            ],
+            "bodyRange": [
+                20774,
+                21249
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 29,
+            "start": {
+                "line": 553,
+                "column": 8
+            },
+            "functionName": "takeGlobalQueue"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                71190,
+                71238
+            ],
+            "bodyRange": [
+                71204,
+                71238
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 99,
+            "start": {
+                "line": 1782,
+                "column": 55
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2261,
+                2504
+            ],
+            "bodyRange": [
+                2286,
+                2504
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 2,
+            "start": {
+                "line": 52,
+                "column": 4
+            },
+            "functionName": "each"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                71852,
+                72220
+            ],
+            "bodyRange": [
+                71868,
+                72220
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 102,
+            "start": {
+                "line": 1812,
+                "column": 7
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4709,
+                4791
+            ],
+            "bodyRange": [
+                4728,
+                4791
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 11,
+            "start": {
+                "line": 135,
+                "column": 4
+            },
+            "functionName": "scripts"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2660,
+                2915
+            ],
+            "bodyRange": [
+                2692,
+                2915
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 3,
+            "start": {
+                "line": 67,
+                "column": 4
+            },
+            "functionName": "eachReverse"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                79217,
+                80833
+            ],
+            "bodyRange": [
+                79235,
+                80833
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 107,
+            "start": {
+                "line": 1969,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                50519,
+                50878
+            ],
+            "bodyRange": [
+                50542,
+                50878
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 72,
+            "start": {
+                "line": 1289,
+                "column": 30
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                56680,
+                57329
+            ],
+            "bodyRange": [
+                56692,
+                57329
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 81,
+            "start": {
+                "line": 1430,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                15500,
+                19033
+            ],
+            "bodyRange": [
+                15570,
+                19033
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 23,
+            "start": {
+                "line": 413,
+                "column": 8
+            },
+            "functionName": "makeModuleMap"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                14456,
+                14766
+            ],
+            "bodyRange": [
+                14483,
+                14766
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 21,
+            "start": {
+                "line": 388,
+                "column": 8
+            },
+            "functionName": "splitPrefix"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                9263,
+                13175
+            ],
+            "bodyRange": [
+                9308,
+                13175
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 17,
+            "start": {
+                "line": 266,
+                "column": 8
+            },
+            "functionName": "normalize"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                7824,
+                8764
+            ],
+            "bodyRange": [
+                7847,
+                8764
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 16,
+            "start": {
+                "line": 233,
+                "column": 8
+            },
+            "functionName": "trimDots"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                64144,
+                66947
+            ],
+            "bodyRange": [
+                64180,
+                66947
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 91,
+            "start": {
+                "line": 1606,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                19043,
+                19286
+            ],
+            "bodyRange": [
+                19070,
+                19286
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 24,
+            "start": {
+                "line": 494,
+                "column": 8
+            },
+            "functionName": "getModule"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27248,
+                27713
+            ],
+            "bodyRange": [
+                27263,
+                27713
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 41,
+            "start": {
+                "line": 722,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27763,
+                29813
+            ],
+            "bodyRange": [
+                27809,
+                29813
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 43,
+            "start": {
+                "line": 739,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                42964,
+                46143
+            ],
+            "bodyRange": [
+                42976,
+                46143
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 64,
+            "start": {
+                "line": 1091,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4588,
+                4703
+            ],
+            "bodyRange": [
+                4611,
+                4703
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 10,
+            "start": {
+                "line": 129,
+                "column": 4
+            },
+            "functionName": "bind"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                31484,
+                35895
+            ],
+            "bodyRange": [
+                31496,
+                35895
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 48,
+            "start": {
+                "line": 837,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                1939,
+                2027
+            ],
+            "bodyRange": [
+                1963,
+                2027
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 0,
+            "start": {
+                "line": 40,
+                "column": 4
+            },
+            "functionName": "isFunction"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                22457,
+                22627
+            ],
+            "bodyRange": [
+                22484,
+                22627
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 34,
+            "start": {
+                "line": 601,
+                "column": 8
+            },
+            "functionName": "cleanRegistry"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                46389,
+                46843
+            ],
+            "bodyRange": [
+                46410,
+                46843
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 67,
+            "start": {
+                "line": 1176,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                23717,
+                27229
+            ],
+            "bodyRange": [
+                23740,
+                27229
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 40,
+            "start": {
+                "line": 635,
+                "column": 8
+            },
+            "functionName": "checkLoaded"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4628,
+                4696
+            ],
+            "bodyRange": [
+                4640,
+                4696
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 9,
+            "start": {
+                "line": 130,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                43450,
+                45685
+            ],
+            "bodyRange": [
+                43471,
+                45685
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 62,
+            "start": {
+                "line": 1102,
+                "column": 46
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                19296,
+                19852
+            ],
+            "bodyRange": [
+                19326,
+                19852
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 25,
+            "start": {
+                "line": 505,
+                "column": 8
+            },
+            "functionName": "on"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                46162,
+                46368
+            ],
+            "bodyRange": [
+                46182,
+                46368
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 65,
+            "start": {
+                "line": 1168,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                61058,
+                61239
+            ],
+            "bodyRange": [
+                61076,
+                61239
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 89,
+            "start": {
+                "line": 1535,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                30223,
+                31049
+            ],
+            "bodyRange": [
+                30235,
+                31049
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 46,
+            "start": {
+                "line": 799,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                31070,
+                31330
+            ],
+            "bodyRange": [
+                31082,
+                31330
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 47,
+            "start": {
+                "line": 823,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                67091,
+                67169
+            ],
+            "bodyRange": [
+                67110,
+                67169
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 92,
+            "start": {
+                "line": 1666,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                73748,
+                78583
+            ],
+            "bodyRange": [
+                73784,
+                78583
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 104,
+            "start": {
+                "line": 1862,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                73026,
+                73382
+            ],
+            "bodyRange": [
+                73061,
+                73382
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 103,
+            "start": {
+                "line": 1843,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24441,
+                25957
+            ],
+            "bodyRange": [
+                24456,
+                25957
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 37,
+            "start": {
+                "line": 653,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                52069,
+                53057
+            ],
+            "bodyRange": [
+                52087,
+                53057
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 76,
+            "start": {
+                "line": 1330,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                53312,
+                53694
+            ],
+            "bodyRange": [
+                53331,
+                53694
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 77,
+            "start": {
+                "line": 1355,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                67845,
+                68587
+            ],
+            "bodyRange": [
+                67860,
+                68587
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 94,
+            "start": {
+                "line": 1687,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                47898,
+                48536
+            ],
+            "bodyRange": [
+                47926,
+                48536
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 70,
+            "start": {
+                "line": 1217,
+                "column": 8
+            },
+            "functionName": "getScriptData"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                47104,
+                47666
+            ],
+            "bodyRange": [
+                47154,
+                47666
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 69,
+            "start": {
+                "line": 1196,
+                "column": 8
+            },
+            "functionName": "removeListener"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                61592,
+                63731
+            ],
+            "bodyRange": [
+                61614,
+                63731
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 90,
+            "start": {
+                "line": 1548,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                46864,
+                47094
+            ],
+            "bodyRange": [
+                46893,
+                47094
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 68,
+            "start": {
+                "line": 1189,
+                "column": 8
+            },
+            "functionName": "callGetModule"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                46452,
+                46514
+            ],
+            "bodyRange": [
+                46466,
+                46514
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 66,
+            "start": {
+                "line": 1177,
+                "column": 40
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                44351,
+                44619
+            ],
+            "bodyRange": [
+                44373,
+                44619
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 60,
+            "start": {
+                "line": 1123,
+                "column": 57
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                29839,
+                30201
+            ],
+            "bodyRange": [
+                29864,
+                30201
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 44,
+            "start": {
+                "line": 789,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                21295,
+                21516
+            ],
+            "bodyRange": [
+                21310,
+                21516
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 30,
+            "start": {
+                "line": 568,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27021,
+                27145
+            ],
+            "bodyRange": [
+                27033,
+                27145
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 39,
+            "start": {
+                "line": 712,
+                "column": 54
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                81187,
+                83787
+            ],
+            "bodyRange": [
+                81219,
+                83787
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 109,
+            "start": {
+                "line": 2019,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                20930,
+                21186
+            ],
+            "bodyRange": [
+                20950,
+                21186
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 28,
+            "start": {
+                "line": 556,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                67476,
+                67586
+            ],
+            "bodyRange": [
+                67517,
+                67586
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 93,
+            "start": {
+                "line": 1677,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                21925,
+                22436
+            ],
+            "bodyRange": [
+                21940,
+                22436
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 33,
+            "start": {
+                "line": 585,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                82155,
+                82240
+            ],
+            "bodyRange": [
+                82177,
+                82240
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 108,
+            "start": {
+                "line": 2047,
+                "column": 47
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22197,
+                22312
+            ],
+            "bodyRange": [
+                22209,
+                22312
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 32,
+            "start": {
+                "line": 592,
+                "column": 32
+            },
+            "functionName": null
+        }
+    ],
+    "allFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                179,
+                548
+            ],
+            "bodyRange": [
+                197,
+                548
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 9,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2189,
+                2238
+            ],
+            "bodyRange": [
+                2205,
+                2238
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 72,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2069,
+                2568
+            ],
+            "bodyRange": [
+                2124,
+                2568
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 70,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3076,
+                3136
+            ],
+            "bodyRange": [
+                3091,
+                3136
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 103,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1557,
+                3332
+            ],
+            "bodyRange": [
+                1588,
+                3332
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 56,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                149,
+                3349
+            ],
+            "bodyRange": [
+                162,
+                3349
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 8,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3468,
+                3518
+            ],
+            "bodyRange": [
+                3478,
+                3518
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 117,
+                "column": 67
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3404,
+                3646
+            ],
+            "bodyRange": [
+                3427,
+                3646
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 117,
+                "column": 3
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3825,
+                3990
+            ],
+            "bodyRange": [
+                3845,
+                3990
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 126,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3993,
+                4106
+            ],
+            "bodyRange": [
+                4013,
+                4106
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4385,
+                4480
+            ],
+            "bodyRange": [
+                4397,
+                4480
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 147,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4109,
+                4484
+            ],
+            "bodyRange": [
+                4142,
+                4484
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 137,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4487,
+                5446
+            ],
+            "bodyRange": [
+                4521,
+                5446
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 154,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6198,
+                6375
+            ],
+            "bodyRange": [
+                6218,
+                6375
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 216,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5474,
+                6529
+            ],
+            "bodyRange": [
+                5490,
+                6529
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 199,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6836,
+                7176
+            ],
+            "bodyRange": [
+                6849,
+                7176
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 15,
+            "start": {
+                "line": 233,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6567,
+                7199
+            ],
+            "bodyRange": [
+                6579,
+                7199
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 16,
+            "start": {
+                "line": 227,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16,
+                7247
+            ],
+            "bodyRange": [
+                28,
+                7247
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 17,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                1939,
+                2027
+            ],
+            "bodyRange": [
+                1963,
+                2027
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 0,
+            "start": {
+                "line": 40,
+                "column": 4
+            },
+            "functionName": "isFunction"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2033,
+                2115
+            ],
+            "bodyRange": [
+                2054,
+                2115
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 1,
+            "start": {
+                "line": 44,
+                "column": 4
+            },
+            "functionName": "isArray"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2261,
+                2504
+            ],
+            "bodyRange": [
+                2286,
+                2504
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 2,
+            "start": {
+                "line": 52,
+                "column": 4
+            },
+            "functionName": "each"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2660,
+                2915
+            ],
+            "bodyRange": [
+                2692,
+                2915
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 3,
+            "start": {
+                "line": 67,
+                "column": 4
+            },
+            "functionName": "eachReverse"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2921,
+                2995
+            ],
+            "bodyRange": [
+                2949,
+                2995
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 4,
+            "start": {
+                "line": 78,
+                "column": 4
+            },
+            "functionName": "hasProp"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3001,
+                3083
+            ],
+            "bodyRange": [
+                3028,
+                3083
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 5,
+            "start": {
+                "line": 82,
+                "column": 4
+            },
+            "functionName": "getOwn"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3279,
+                3513
+            ],
+            "bodyRange": [
+                3308,
+                3513
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 6,
+            "start": {
+                "line": 91,
+                "column": 4
+            },
+            "functionName": "eachProp"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3789,
+                4392
+            ],
+            "bodyRange": [
+                3812,
+                4392
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 7,
+            "start": {
+                "line": 108,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3681,
+                4433
+            ],
+            "bodyRange": [
+                3736,
+                4433
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 8,
+            "start": {
+                "line": 106,
+                "column": 4
+            },
+            "functionName": "mixin"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4628,
+                4696
+            ],
+            "bodyRange": [
+                4640,
+                4696
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 9,
+            "start": {
+                "line": 130,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4588,
+                4703
+            ],
+            "bodyRange": [
+                4611,
+                4703
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 10,
+            "start": {
+                "line": 129,
+                "column": 4
+            },
+            "functionName": "bind"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4709,
+                4791
+            ],
+            "bodyRange": [
+                4728,
+                4791
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 11,
+            "start": {
+                "line": 135,
+                "column": 4
+            },
+            "functionName": "scripts"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4797,
+                4852
+            ],
+            "bodyRange": [
+                4826,
+                4852
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 12,
+            "start": {
+                "line": 139,
+                "column": 4
+            },
+            "functionName": "defaultOnError"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5083,
+                5135
+            ],
+            "bodyRange": [
+                5099,
+                5135
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 13,
+            "start": {
+                "line": 150,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4942,
+                5161
+            ],
+            "bodyRange": [
+                4968,
+                5161
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 14,
+            "start": {
+                "line": 145,
+                "column": 4
+            },
+            "functionName": "getGlobal"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                5480,
+                5771
+            ],
+            "bodyRange": [
+                5529,
+                5771
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 15,
+            "start": {
+                "line": 164,
+                "column": 4
+            },
+            "functionName": "makeError"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                7824,
+                8764
+            ],
+            "bodyRange": [
+                7847,
+                8764
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 16,
+            "start": {
+                "line": 233,
+                "column": 8
+            },
+            "functionName": "trimDots"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                9263,
+                13175
+            ],
+            "bodyRange": [
+                9308,
+                13175
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 17,
+            "start": {
+                "line": 266,
+                "column": 8
+            },
+            "functionName": "normalize"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                13276,
+                13631
+            ],
+            "bodyRange": [
+                13298,
+                13631
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 18,
+            "start": {
+                "line": 357,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                13185,
+                13657
+            ],
+            "bodyRange": [
+                13213,
+                13657
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 19,
+            "start": {
+                "line": 355,
+                "column": 8
+            },
+            "functionName": "removeScript"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                13667,
+                14296
+            ],
+            "bodyRange": [
+                13696,
+                14296
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 20,
+            "start": {
+                "line": 367,
+                "column": 8
+            },
+            "functionName": "hasPathFallback"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                14456,
+                14766
+            ],
+            "bodyRange": [
+                14483,
+                14766
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 21,
+            "start": {
+                "line": 388,
+                "column": 8
+            },
+            "functionName": "splitPrefix"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16673,
+                16790
+            ],
+            "bodyRange": [
+                16689,
+                16790
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 22,
+            "start": {
+                "line": 442,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                15500,
+                19033
+            ],
+            "bodyRange": [
+                15570,
+                19033
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 23,
+            "start": {
+                "line": 413,
+                "column": 8
+            },
+            "functionName": "makeModuleMap"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                19043,
+                19286
+            ],
+            "bodyRange": [
+                19070,
+                19286
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 24,
+            "start": {
+                "line": 494,
+                "column": 8
+            },
+            "functionName": "getModule"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                19296,
+                19852
+            ],
+            "bodyRange": [
+                19326,
+                19852
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 25,
+            "start": {
+                "line": 505,
+                "column": 8
+            },
+            "functionName": "on"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                20076,
+                20501
+            ],
+            "bodyRange": [
+                20090,
+                20501
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 26,
+            "start": {
+                "line": 531,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                19862,
+                20617
+            ],
+            "bodyRange": [
+                19893,
+                20617
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 27,
+            "start": {
+                "line": 524,
+                "column": 8
+            },
+            "functionName": "onError"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                20930,
+                21186
+            ],
+            "bodyRange": [
+                20950,
+                21186
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 28,
+            "start": {
+                "line": 556,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                20747,
+                21249
+            ],
+            "bodyRange": [
+                20774,
+                21249
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 29,
+            "start": {
+                "line": 553,
+                "column": 8
+            },
+            "functionName": "takeGlobalQueue"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                21295,
+                21516
+            ],
+            "bodyRange": [
+                21310,
+                21516
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 30,
+            "start": {
+                "line": 568,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                21541,
+                21901
+            ],
+            "bodyRange": [
+                21556,
+                21901
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 31,
+            "start": {
+                "line": 575,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22197,
+                22312
+            ],
+            "bodyRange": [
+                22209,
+                22312
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 32,
+            "start": {
+                "line": 592,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                21925,
+                22436
+            ],
+            "bodyRange": [
+                21940,
+                22436
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 33,
+            "start": {
+                "line": 585,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                22457,
+                22627
+            ],
+            "bodyRange": [
+                22484,
+                22627
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 34,
+            "start": {
+                "line": 601,
+                "column": 8
+            },
+            "functionName": "cleanRegistry"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22882,
+                23643
+            ],
+            "bodyRange": [
+                22903,
+                23643
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 35,
+            "start": {
+                "line": 614,
+                "column": 34
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                22637,
+                23707
+            ],
+            "bodyRange": [
+                22681,
+                23707
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 36,
+            "start": {
+                "line": 607,
+                "column": 8
+            },
+            "functionName": "breakCycle"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24441,
+                25957
+            ],
+            "bodyRange": [
+                24456,
+                25957
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 37,
+            "start": {
+                "line": 653,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26396,
+                26475
+            ],
+            "bodyRange": [
+                26411,
+                26475
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 38,
+            "start": {
+                "line": 700,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27021,
+                27145
+            ],
+            "bodyRange": [
+                27033,
+                27145
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 39,
+            "start": {
+                "line": 712,
+                "column": 54
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                23717,
+                27229
+            ],
+            "bodyRange": [
+                23740,
+                27229
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 40,
+            "start": {
+                "line": 635,
+                "column": 8
+            },
+            "functionName": "checkLoaded"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27248,
+                27713
+            ],
+            "bodyRange": [
+                27263,
+                27713
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 41,
+            "start": {
+                "line": 722,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28578,
+                28665
+            ],
+            "bodyRange": [
+                28593,
+                28665
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 42,
+            "start": {
+                "line": 757,
+                "column": 41
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27763,
+                29813
+            ],
+            "bodyRange": [
+                27809,
+                29813
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 43,
+            "start": {
+                "line": 739,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                29839,
+                30201
+            ],
+            "bodyRange": [
+                29864,
+                30201
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 44,
+            "start": {
+                "line": 789,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                30762,
+                30874
+            ],
+            "bodyRange": [
+                30774,
+                30874
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 45,
+            "start": {
+                "line": 814,
+                "column": 56
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                30223,
+                31049
+            ],
+            "bodyRange": [
+                30235,
+                31049
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 46,
+            "start": {
+                "line": 799,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                31070,
+                31330
+            ],
+            "bodyRange": [
+                31082,
+                31330
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 47,
+            "start": {
+                "line": 823,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                31484,
+                35895
+            ],
+            "bodyRange": [
+                31496,
+                35895
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 48,
+            "start": {
+                "line": 837,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37137,
+                37258
+            ],
+            "bodyRange": [
+                37153,
+                37258
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 49,
+            "start": {
+                "line": 960,
+                "column": 58
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37749,
+                37778
+            ],
+            "bodyRange": [
+                37761,
+                37778
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 50,
+            "start": {
+                "line": 971,
+                "column": 46
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37684,
+                37953
+            ],
+            "bodyRange": [
+                37701,
+                37953
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 51,
+            "start": {
+                "line": 970,
+                "column": 50
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                38399,
+                38510
+            ],
+            "bodyRange": [
+                38414,
+                38510
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 52,
+            "start": {
+                "line": 984,
+                "column": 69
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39126,
+                39155
+            ],
+            "bodyRange": [
+                39138,
+                39155
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 53,
+            "start": {
+                "line": 1003,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39069,
+                39256
+            ],
+            "bodyRange": [
+                39086,
+                39256
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 54,
+            "start": {
+                "line": 1002,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39653,
+                39866
+            ],
+            "bodyRange": [
+                39668,
+                39866
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 55,
+            "start": {
+                "line": 1015,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39304,
+                39929
+            ],
+            "bodyRange": [
+                39319,
+                39929
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 56,
+            "start": {
+                "line": 1008,
+                "column": 44
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                40123,
+                42500
+            ],
+            "bodyRange": [
+                40148,
+                42500
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 57,
+            "start": {
+                "line": 1026,
+                "column": 47
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36332,
+                42815
+            ],
+            "bodyRange": [
+                36350,
+                42815
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 58,
+            "start": {
+                "line": 946,
+                "column": 52
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35922,
+                42941
+            ],
+            "bodyRange": [
+                35934,
+                42941
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 59,
+            "start": {
+                "line": 936,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                44351,
+                44619
+            ],
+            "bodyRange": [
+                44373,
+                44619
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 60,
+            "start": {
+                "line": 1123,
+                "column": 57
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                45074,
+                45176
+            ],
+            "bodyRange": [
+                45088,
+                45176
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 61,
+            "start": {
+                "line": 1137,
+                "column": 59
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                43450,
+                45685
+            ],
+            "bodyRange": [
+                43471,
+                45685
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 62,
+            "start": {
+                "line": 1102,
+                "column": 46
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                45827,
+                46055
+            ],
+            "bodyRange": [
+                45848,
+                46055
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 63,
+            "start": {
+                "line": 1156,
+                "column": 53
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                42964,
+                46143
+            ],
+            "bodyRange": [
+                42976,
+                46143
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 64,
+            "start": {
+                "line": 1091,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                46162,
+                46368
+            ],
+            "bodyRange": [
+                46182,
+                46368
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 65,
+            "start": {
+                "line": 1168,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                46452,
+                46514
+            ],
+            "bodyRange": [
+                46466,
+                46514
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 66,
+            "start": {
+                "line": 1177,
+                "column": 40
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                46389,
+                46843
+            ],
+            "bodyRange": [
+                46410,
+                46843
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 67,
+            "start": {
+                "line": 1176,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                46864,
+                47094
+            ],
+            "bodyRange": [
+                46893,
+                47094
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 68,
+            "start": {
+                "line": 1189,
+                "column": 8
+            },
+            "functionName": "callGetModule"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                47104,
+                47666
+            ],
+            "bodyRange": [
+                47154,
+                47666
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 69,
+            "start": {
+                "line": 1196,
+                "column": 8
+            },
+            "functionName": "removeListener"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                47898,
+                48536
+            ],
+            "bodyRange": [
+                47926,
+                48536
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 70,
+            "start": {
+                "line": 1217,
+                "column": 8
+            },
+            "functionName": "getScriptData"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                48546,
+                49309
+            ],
+            "bodyRange": [
+                48571,
+                49309
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 71,
+            "start": {
+                "line": 1233,
+                "column": 8
+            },
+            "functionName": "intakeDefines"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                50519,
+                50878
+            ],
+            "bodyRange": [
+                50542,
+                50878
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 72,
+            "start": {
+                "line": 1289,
+                "column": 30
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                51062,
+                51232
+            ],
+            "bodyRange": [
+                51075,
+                51232
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 73,
+            "start": {
+                "line": 1303,
+                "column": 36
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                51001,
+                51256
+            ],
+            "bodyRange": [
+                51024,
+                51256
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 74,
+            "start": {
+                "line": 1302,
+                "column": 42
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                51378,
+                51884
+            ],
+            "bodyRange": [
+                51399,
+                51884
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 75,
+            "start": {
+                "line": 1313,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                52069,
+                53057
+            ],
+            "bodyRange": [
+                52087,
+                53057
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 76,
+            "start": {
+                "line": 1330,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                53312,
+                53694
+            ],
+            "bodyRange": [
+                53331,
+                53694
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 77,
+            "start": {
+                "line": 1355,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                49863,
+                54071
+            ],
+            "bodyRange": [
+                49878,
+                54071
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 78,
+            "start": {
+                "line": 1271,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                54138,
+                54406
+            ],
+            "bodyRange": [
+                54152,
+                54406
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 79,
+            "start": {
+                "line": 1373,
+                "column": 16
+            },
+            "functionName": "fn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                54103,
+                54447
+            ],
+            "bodyRange": [
+                54120,
+                54447
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 80,
+            "start": {
+                "line": 1372,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                56680,
+                57329
+            ],
+            "bodyRange": [
+                56692,
+                57329
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 81,
+            "start": {
+                "line": 1430,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                54562,
+                57391
+            ],
+            "bodyRange": [
+                54609,
+                57391
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 82,
+            "start": {
+                "line": 1386,
+                "column": 16
+            },
+            "functionName": "localRequire"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                57762,
+                58646
+            ],
+            "bodyRange": [
+                57791,
+                58646
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 83,
+            "start": {
+                "line": 1459,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                58678,
+                58807
+            ],
+            "bodyRange": [
+                58692,
+                58807
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 84,
+            "start": {
+                "line": 1476,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                58841,
+                59028
+            ],
+            "bodyRange": [
+                58855,
+                59028
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 85,
+            "start": {
+                "line": 1480,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                59936,
+                60116
+            ],
+            "bodyRange": [
+                59954,
+                60116
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 86,
+            "start": {
+                "line": 1506,
+                "column": 46
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                59184,
+                60641
+            ],
+            "bodyRange": [
+                59198,
+                60641
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 87,
+            "start": {
+                "line": 1488,
+                "column": 41
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                54475,
+                60712
+            ],
+            "bodyRange": [
+                54502,
+                60712
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 88,
+            "start": {
+                "line": 1383,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                61058,
+                61239
+            ],
+            "bodyRange": [
+                61076,
+                61239
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 89,
+            "start": {
+                "line": 1535,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                61592,
+                63731
+            ],
+            "bodyRange": [
+                61614,
+                63731
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 90,
+            "start": {
+                "line": 1548,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                64144,
+                66947
+            ],
+            "bodyRange": [
+                64180,
+                66947
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 91,
+            "start": {
+                "line": 1606,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                67091,
+                67169
+            ],
+            "bodyRange": [
+                67110,
+                67169
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 92,
+            "start": {
+                "line": 1666,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                67476,
+                67586
+            ],
+            "bodyRange": [
+                67517,
+                67586
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 93,
+            "start": {
+                "line": 1677,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                67845,
+                68587
+            ],
+            "bodyRange": [
+                67860,
+                68587
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 94,
+            "start": {
+                "line": 1687,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                68692,
+                68946
+            ],
+            "bodyRange": [
+                68707,
+                68946
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 95,
+            "start": {
+                "line": 1706,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                6376,
+                69037
+            ],
+            "bodyRange": [
+                6409,
+                69037
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 96,
+            "start": {
+                "line": 196,
+                "column": 4
+            },
+            "functionName": "newContext"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                69696,
+                70702
+            ],
+            "bodyRange": [
+                69741,
+                70702
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 97,
+            "start": {
+                "line": 1732,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                70857,
+                70910
+            ],
+            "bodyRange": [
+                70875,
+                70910
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 98,
+            "start": {
+                "line": 1772,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                71190,
+                71238
+            ],
+            "bodyRange": [
+                71204,
+                71238
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 99,
+            "start": {
+                "line": 1782,
+                "column": 55
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                71241,
+                71264
+            ],
+            "bodyRange": [
+                71255,
+                71264
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 100,
+            "start": {
+                "line": 1784,
+                "column": 8
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                72082,
+                72213
+            ],
+            "bodyRange": [
+                72094,
+                72213
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 101,
+            "start": {
+                "line": 1816,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                71852,
+                72220
+            ],
+            "bodyRange": [
+                71868,
+                72220
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 102,
+            "start": {
+                "line": 1812,
+                "column": 7
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                73026,
+                73382
+            ],
+            "bodyRange": [
+                73061,
+                73382
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 103,
+            "start": {
+                "line": 1843,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                73748,
+                78583
+            ],
+            "bodyRange": [
+                73784,
+                78583
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 104,
+            "start": {
+                "line": 1862,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                78787,
+                78938
+            ],
+            "bodyRange": [
+                78805,
+                78938
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 105,
+            "start": {
+                "line": 1958,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                78590,
+                78980
+            ],
+            "bodyRange": [
+                78622,
+                78980
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 106,
+            "start": {
+                "line": 1953,
+                "column": 4
+            },
+            "functionName": "getInteractiveScript"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                79217,
+                80833
+            ],
+            "bodyRange": [
+                79235,
+                80833
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 107,
+            "start": {
+                "line": 1969,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                82155,
+                82240
+            ],
+            "bodyRange": [
+                82177,
+                82240
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 108,
+            "start": {
+                "line": 2047,
+                "column": 47
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                81187,
+                83787
+            ],
+            "bodyRange": [
+                81219,
+                83787
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 109,
+            "start": {
+                "line": 2019,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                84124,
+                84205
+            ],
+            "bodyRange": [
+                84140,
+                84205
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 110,
+            "start": {
+                "line": 2096,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                536,
+                84254
+            ],
+            "bodyRange": [
+                554,
+                84254
+            ],
+            "file": "node_modules/requirejs/require.js",
+            "index": 111,
+            "start": {
+                "line": 12,
+                "column": 1
+            },
+            "functionName": null
+        }
+    ],
+    "affectedFiles": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "node_modules/requirejs/require.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        }
+    ]
+}

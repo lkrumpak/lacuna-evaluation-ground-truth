@@ -1,0 +1,28 @@
+{
+    "runDate": "2023-01-12T22:40:47.680Z",
+    "runOptions": {
+        "analyzer": [
+            "tajs",
+            "dynamic"
+        ],
+        "entry": "index.html",
+        "destination": "todomvc/examples.lacunised.cl/emberjs_require",
+        "logfile": "lacuna.log",
+        "timeout": null,
+        "olevel": 1,
+        "force": true,
+        "normalizeOnly": false,
+        "assumeNormalization": false,
+        "directory": "todomvc/examples.lacunised.cl/emberjs_require"
+    },
+    "graphStats": {
+        "connectedNodes": 0,
+        "disconnectedNodes": 0,
+        "nodes": 0,
+        "files": 0
+    },
+    "deadFunctions": [],
+    "aliveFunctions": [],
+    "allFunctions": [],
+    "affectedFiles": []
+}

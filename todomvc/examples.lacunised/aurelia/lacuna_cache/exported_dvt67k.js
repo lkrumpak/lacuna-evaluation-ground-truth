@@ -1,0 +1,3 @@
+
+    System.import('aurelia-bootstrapper');
+  

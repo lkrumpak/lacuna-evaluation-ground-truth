@@ -1,0 +1,9 @@
+digraph lacunaCG {
+ "rootNode@bower_components/todomvc-common/base.js:," -> "FunctionExpression@bower_components/todomvc-common/base.js:1,6231" [label="dynamic" ];
+ "rootNode@bower_components/todomvc-common/base.js:," -> "FunctionExpression@bower_components/todomvc-common/base.js:107,3307" [label="dynamic" ];
+ "rootNode@bower_components/todomvc-common/base.js:," -> "FunctionDeclaration@bower_components/todomvc-common/base.js:3598,3763" [label="dynamic" ];
+ "rootNode@bower_components/todomvc-common/base.js:," -> "FunctionDeclaration@bower_components/todomvc-common/base.js:3882,4257" [label="dynamic" ];
+ "rootNode@bower_components/todomvc-common/base.js:," -> "FunctionDeclaration@bower_components/todomvc-common/base.js:3766,3879" [label="dynamic" ];
+ "rootNode@bower_components/todomvc-common/base.js:," -> "FunctionExpression@bower_components/todomvc-common/base.js:4158,4253" [label="dynamic" ];
+ "rootNode@js/app.js:," -> "FunctionExpression@js/app.js:51,345" [label="dynamic" ];
+ }

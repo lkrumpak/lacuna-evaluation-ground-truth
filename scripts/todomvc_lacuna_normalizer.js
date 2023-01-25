@@ -6,7 +6,7 @@ require("./prototype_extension");
 
 const path = require("path");
 const fs = require("fs-extra");
-const lacuna = require("../LacunaV2/lacuna_runner");
+const lacuna = require("../lacuna_evaluation/LacunaV2/lacuna_runner");
 
 const TODOMVC_DIR = "../todomvc";
 const EXAMPLES_DIR = "examples";

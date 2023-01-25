@@ -1,0 +1,4044 @@
+{
+    "runDate": "2023-01-12T20:29:21.219Z",
+    "runOptions": {
+        "analyzer": [
+            "tajs",
+            "dynamic"
+        ],
+        "entry": "index.html",
+        "destination": "todomvc/examples.lacunised.cl/cujo",
+        "logfile": "lacuna.log",
+        "timeout": null,
+        "olevel": 1,
+        "force": true,
+        "normalizeOnly": false,
+        "assumeNormalization": false,
+        "directory": "todomvc/examples.lacunised.cl/cujo"
+    },
+    "graphStats": {
+        "connectedNodes": 94,
+        "disconnectedNodes": 17,
+        "nodes": 111,
+        "files": 2
+    },
+    "deadFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                137,
+                506
+            ],
+            "bodyRange": [
+                155,
+                506
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2147,
+                2196
+            ],
+            "bodyRange": [
+                2163,
+                2196
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 70,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2027,
+                2526
+            ],
+            "bodyRange": [
+                2082,
+                2526
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 68,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3034,
+                3094
+            ],
+            "bodyRange": [
+                3049,
+                3094
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 101,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1515,
+                3290
+            ],
+            "bodyRange": [
+                1546,
+                3290
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 54,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3429,
+                3571
+            ],
+            "bodyRange": [
+                3442,
+                3571
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 115,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5852,
+                6029
+            ],
+            "bodyRange": [
+                5872,
+                6029
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 204,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5128,
+                6183
+            ],
+            "bodyRange": [
+                5144,
+                6183
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 187,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5189,
+                5249
+            ],
+            "bodyRange": [
+                5219,
+                5249
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 15,
+            "start": {
+                "line": 176,
+                "column": 4
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5779,
+                5845
+            ],
+            "bodyRange": [
+                5793,
+                5845
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 19,
+            "start": {
+                "line": 196,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11936,
+                11970
+            ],
+            "bodyRange": [
+                11948,
+                11970
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 41,
+            "start": {
+                "line": 418,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                20860,
+                21071
+            ],
+            "bodyRange": [
+                20878,
+                21071
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 54,
+            "start": {
+                "line": 698,
+                "column": 3
+            },
+            "functionName": "fail"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27042,
+                27484
+            ],
+            "bodyRange": [
+                27057,
+                27484
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 65,
+            "start": {
+                "line": 902,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35314,
+                35386
+            ],
+            "bodyRange": [
+                35326,
+                35386
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 82,
+            "start": {
+                "line": 1184,
+                "column": 7
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35998,
+                36067
+            ],
+            "bodyRange": [
+                36012,
+                36067
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 85,
+            "start": {
+                "line": 1205,
+                "column": 4
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36113,
+                36198
+            ],
+            "bodyRange": [
+                36136,
+                36198
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 87,
+            "start": {
+                "line": 1212,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                38954,
+                38985
+            ],
+            "bodyRange": [
+                38966,
+                38985
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 94,
+            "start": {
+                "line": 1316,
+                "column": 12
+            },
+            "functionName": null
+        }
+    ],
+    "aliveFunctions": [
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3598,
+                3763
+            ],
+            "bodyRange": [
+                3618,
+                3763
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 118,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3766,
+                3879
+            ],
+            "bodyRange": [
+                3786,
+                3879
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 124,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3882,
+                4257
+            ],
+            "bodyRange": [
+                3915,
+                4257
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 129,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4260,
+                5100
+            ],
+            "bodyRange": [
+                4294,
+                5100
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 146,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1,
+                6231
+            ],
+            "bodyRange": [
+                13,
+                6231
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 1,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                107,
+                3307
+            ],
+            "bodyRange": [
+                120,
+                3307
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 6,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4158,
+                4253
+            ],
+            "bodyRange": [
+                4170,
+                4253
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 139,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                346,
+                39054
+            ],
+            "bodyRange": [
+                364,
+                39054
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 95,
+            "start": {
+                "line": 13,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                33456,
+                33894
+            ],
+            "bodyRange": [
+                33471,
+                33894
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 78,
+            "start": {
+                "line": 1121,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                33285,
+                33428
+            ],
+            "bodyRange": [
+                33306,
+                33428
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 76,
+            "start": {
+                "line": 1114,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                33516,
+                33751
+            ],
+            "bodyRange": [
+                33534,
+                33751
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 77,
+            "start": {
+                "line": 1123,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                34396,
+                35497
+            ],
+            "bodyRange": [
+                34438,
+                35497
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 83,
+            "start": {
+                "line": 1161,
+                "column": 1
+            },
+            "functionName": "_config"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                12430,
+                15081
+            ],
+            "bodyRange": [
+                12445,
+                15081
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 44,
+            "start": {
+                "line": 435,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                15094,
+                19181
+            ],
+            "bodyRange": [
+                15109,
+                19181
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 48,
+            "start": {
+                "line": 517,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4398,
+                4611
+            ],
+            "bodyRange": [
+                4429,
+                4611
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 11,
+            "start": {
+                "line": 143,
+                "column": 1
+            },
+            "functionName": "beget"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4372,
+                4395
+            ],
+            "bodyRange": [
+                4393,
+                4395
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 10,
+            "start": {
+                "line": 141,
+                "column": 1
+            },
+            "functionName": "Begetter"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                16264,
+                17677
+            ],
+            "bodyRange": [
+                16303,
+                17677
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 45,
+            "start": {
+                "line": 547,
+                "column": 3
+            },
+            "functionName": "fixAndPushPaths"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                17747,
+                18056
+            ],
+            "bodyRange": [
+                17781,
+                18056
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 47,
+            "start": {
+                "line": 595,
+                "column": 3
+            },
+            "functionName": "convertPathMatcher"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4614,
+                5908
+            ],
+            "bodyRange": [
+                4634,
+                5908
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 21,
+            "start": {
+                "line": 151,
+                "column": 1
+            },
+            "functionName": "Promise"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5570,
+                5674
+            ],
+            "bodyRange": [
+                5612,
+                5674
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 17,
+            "start": {
+                "line": 188,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4699,
+                4833
+            ],
+            "bodyRange": [
+                4746,
+                4833
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 12,
+            "start": {
+                "line": 158,
+                "column": 2
+            },
+            "functionName": "then"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                35563,
+                36491
+            ],
+            "bodyRange": [
+                35625,
+                36491
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 91,
+            "start": {
+                "line": 1193,
+                "column": 1
+            },
+            "functionName": "CurlApi"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                8627,
+                10269
+            ],
+            "bodyRange": [
+                8671,
+                10269
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 31,
+            "start": {
+                "line": 294,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35753,
+                36093
+            ],
+            "bodyRange": [
+                35783,
+                36093
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 86,
+            "start": {
+                "line": 1198,
+                "column": 36
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                5996,
+                6325
+            ],
+            "bodyRange": [
+                6056,
+                6325
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 23,
+            "start": {
+                "line": 210,
+                "column": 1
+            },
+            "functionName": "when"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                5911,
+                5993
+            ],
+            "bodyRange": [
+                5934,
+                5993
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 22,
+            "start": {
+                "line": 206,
+                "column": 1
+            },
+            "functionName": "isPromise"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                33909,
+                33954
+            ],
+            "bodyRange": [
+                33925,
+                33954
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 79,
+            "start": {
+                "line": 1138,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36354,
+                36486
+            ],
+            "bodyRange": [
+                36366,
+                36486
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 90,
+            "start": {
+                "line": 1222,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36398,
+                36480
+            ],
+            "bodyRange": [
+                36410,
+                36480
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 89,
+            "start": {
+                "line": 1223,
+                "column": 30
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36430,
+                36464
+            ],
+            "bodyRange": [
+                36442,
+                36464
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 88,
+            "start": {
+                "line": 1224,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24593,
+                27664
+            ],
+            "bodyRange": [
+                24614,
+                27664
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 69,
+            "start": {
+                "line": 822,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                6932,
+                7246
+            ],
+            "bodyRange": [
+                6980,
+                7246
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 25,
+            "start": {
+                "line": 235,
+                "column": 1
+            },
+            "functionName": "countdown"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                26332,
+                27496
+            ],
+            "bodyRange": [
+                26362,
+                27496
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 66,
+            "start": {
+                "line": 877,
+                "column": 3
+            },
+            "functionName": "getDep"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28378,
+                32732
+            ],
+            "bodyRange": [
+                28408,
+                32732
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 74,
+            "start": {
+                "line": 963,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                8881,
+                8961
+            ],
+            "bodyRange": [
+                8908,
+                8961
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 27,
+            "start": {
+                "line": 306,
+                "column": 3
+            },
+            "functionName": "toAbsId"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                7901,
+                8607
+            ],
+            "bodyRange": [
+                7930,
+                8607
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 26,
+            "start": {
+                "line": 264,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3001,
+                4165
+            ],
+            "bodyRange": [
+                3046,
+                4165
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 8,
+            "start": {
+                "line": 95,
+                "column": 1
+            },
+            "functionName": "reduceLeadingDots"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2668,
+                2725
+            ],
+            "bodyRange": [
+                2691,
+                2725
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 3,
+            "start": {
+                "line": 79,
+                "column": 1
+            },
+            "functionName": "isRelUrl"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4168,
+                4369
+            ],
+            "bodyRange": [
+                4194,
+                4369
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 9,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "pluginParts"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                19203,
+                19755
+            ],
+            "bodyRange": [
+                19225,
+                19755
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 50,
+            "start": {
+                "line": 642,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2728,
+                2783
+            ],
+            "bodyRange": [
+                2751,
+                2783
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 4,
+            "start": {
+                "line": 83,
+                "column": 1
+            },
+            "functionName": "isAbsUrl"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                19772,
+                19899
+            ],
+            "bodyRange": [
+                19793,
+                19899
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 51,
+            "start": {
+                "line": 666,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                10293,
+                11366
+            ],
+            "bodyRange": [
+                10323,
+                11366
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 37,
+            "start": {
+                "line": 353,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                19921,
+                20142
+            ],
+            "bodyRange": [
+                19941,
+                20142
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 52,
+            "start": {
+                "line": 671,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27682,
+                28363
+            ],
+            "bodyRange": [
+                27697,
+                28363
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 71,
+            "start": {
+                "line": 929,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                12084,
+                12244
+            ],
+            "bodyRange": [
+                12099,
+                12244
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 43,
+            "start": {
+                "line": 425,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                20159,
+                21899
+            ],
+            "bodyRange": [
+                20192,
+                21899
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 55,
+            "start": {
+                "line": 677,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                37512,
+                37662
+            ],
+            "bodyRange": [
+                37531,
+                37662
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 93,
+            "start": {
+                "line": 1265,
+                "column": 1
+            },
+            "functionName": "define"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22681,
+                23704
+            ],
+            "bodyRange": [
+                22697,
+                23704
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 59,
+            "start": {
+                "line": 751,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2026,
+                2119
+            ],
+            "bodyRange": [
+                2054,
+                2119
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 1,
+            "start": {
+                "line": 61,
+                "column": 1
+            },
+            "functionName": "isType"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                36552,
+                37509
+            ],
+            "bodyRange": [
+                36576,
+                37509
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 92,
+            "start": {
+                "line": 1232,
+                "column": 1
+            },
+            "functionName": "_define"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                32756,
+                33268
+            ],
+            "bodyRange": [
+                32768,
+                33268
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 75,
+            "start": {
+                "line": 1096,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                20345,
+                20855
+            ],
+            "bodyRange": [
+                20367,
+                20855
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 53,
+            "start": {
+                "line": 684,
+                "column": 3
+            },
+            "functionName": "process"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27783,
+                28318
+            ],
+            "bodyRange": [
+                27795,
+                28318
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 70,
+            "start": {
+                "line": 936,
+                "column": 4
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24454,
+                24579
+            ],
+            "bodyRange": [
+                24475,
+                24579
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 61,
+            "start": {
+                "line": 813,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                7005,
+                7243
+            ],
+            "bodyRange": [
+                7017,
+                7243
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 24,
+            "start": {
+                "line": 237,
+                "column": 9
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26452,
+                26531
+            ],
+            "bodyRange": [
+                26467,
+                26531
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 63,
+            "start": {
+                "line": 880,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26564,
+                26620
+            ],
+            "bodyRange": [
+                26579,
+                26620
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 64,
+            "start": {
+                "line": 884,
+                "column": 30
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                24821,
+                24941
+            ],
+            "bodyRange": [
+                24863,
+                24941
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 62,
+            "start": {
+                "line": 833,
+                "column": 3
+            },
+            "functionName": "collect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                27565,
+                27659
+            ],
+            "bodyRange": [
+                27593,
+                27659
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 68,
+            "start": {
+                "line": 923,
+                "column": 3
+            },
+            "functionName": "allExportsReady"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                10984,
+                11345
+            ],
+            "bodyRange": [
+                11015,
+                11345
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 36,
+            "start": {
+                "line": 379,
+                "column": 22
+            },
+            "functionName": "executeFactory"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11048,
+                11338
+            ],
+            "bodyRange": [
+                11060,
+                11338
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 35,
+            "start": {
+                "line": 380,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                27501,
+                27560
+            ],
+            "bodyRange": [
+                27525,
+                27560
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 67,
+            "start": {
+                "line": 919,
+                "column": 3
+            },
+            "functionName": "allResolved"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                10785,
+                10939
+            ],
+            "bodyRange": [
+                10809,
+                10939
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 34,
+            "start": {
+                "line": 372,
+                "column": 17
+            },
+            "functionName": "resolve"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                10842,
+                10932
+            ],
+            "bodyRange": [
+                10854,
+                10932
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 33,
+            "start": {
+                "line": 373,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                10536,
+                10677
+            ],
+            "bodyRange": [
+                10552,
+                10677
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 32,
+            "start": {
+                "line": 360,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                23725,
+                24433
+            ],
+            "bodyRange": [
+                23740,
+                24433
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 60,
+            "start": {
+                "line": 794,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                34108,
+                34393
+            ],
+            "bodyRange": [
+                34139,
+                34393
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 80,
+            "start": {
+                "line": 1147,
+                "column": 1
+            },
+            "functionName": "_curl"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2868,
+                2998
+            ],
+            "bodyRange": [
+                2899,
+                2998
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 6,
+            "start": {
+                "line": 91,
+                "column": 1
+            },
+            "functionName": "removeEndSlash"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2122,
+                2665
+            ],
+            "bodyRange": [
+                2167,
+                2665
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 2,
+            "start": {
+                "line": 65,
+                "column": 1
+            },
+            "functionName": "normalizePkgDescriptor"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3562,
+                3671
+            ],
+            "bodyRange": [
+                3602,
+                3671
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 7,
+            "start": {
+                "line": 108,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                17872,
+                17947
+            ],
+            "bodyRange": [
+                17888,
+                17947
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 46,
+            "start": {
+                "line": 598,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5693,
+                5761
+            ],
+            "bodyRange": [
+                5708,
+                5761
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 18,
+            "start": {
+                "line": 192,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5023,
+                5553
+            ],
+            "bodyRange": [
+                5063,
+                5553
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 16,
+            "start": {
+                "line": 172,
+                "column": 13
+            },
+            "functionName": "promiseComplete"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4837,
+                5008
+            ],
+            "bodyRange": [
+                4866,
+                5008
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 13,
+            "start": {
+                "line": 163,
+                "column": 2
+            },
+            "functionName": "notify"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35860,
+                35931
+            ],
+            "bodyRange": [
+                35876,
+                35931
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 84,
+            "start": {
+                "line": 1201,
+                "column": 4
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                19424,
+                19625
+            ],
+            "bodyRange": [
+                19441,
+                19625
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 49,
+            "start": {
+                "line": 649,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                34948,
+                34983
+            ],
+            "bodyRange": [
+                34960,
+                34983
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 81,
+            "start": {
+                "line": 1174,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                21920,
+                22667
+            ],
+            "bodyRange": [
+                21939,
+                22667
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 57,
+            "start": {
+                "line": 729,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22337,
+                22646
+            ],
+            "bodyRange": [
+                22362,
+                22646
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 56,
+            "start": {
+                "line": 737,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11590,
+                11633
+            ],
+            "bodyRange": [
+                11605,
+                11633
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 39,
+            "start": {
+                "line": 403,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11653,
+                11718
+            ],
+            "bodyRange": [
+                11668,
+                11718
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 40,
+            "start": {
+                "line": 407,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5865,
+                5904
+            ],
+            "bodyRange": [
+                5880,
+                5904
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 20,
+            "start": {
+                "line": 200,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11737,
+                12068
+            ],
+            "bodyRange": [
+                11752,
+                12068
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 42,
+            "start": {
+                "line": 411,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2004,
+                2023
+            ],
+            "bodyRange": [
+                2021,
+                2023
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 0,
+            "start": {
+                "line": 59,
+                "column": 1
+            },
+            "functionName": "noop"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5122,
+                5182
+            ],
+            "bodyRange": [
+                5152,
+                5182
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 14,
+            "start": {
+                "line": 175,
+                "column": 4
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                9235,
+                10157
+            ],
+            "bodyRange": [
+                9282,
+                10157
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 30,
+            "start": {
+                "line": 317,
+                "column": 3
+            },
+            "functionName": "localRequire"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                30883,
+                32621
+            ],
+            "bodyRange": [
+                30900,
+                32621
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 73,
+            "start": {
+                "line": 1037,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11388,
+                11570
+            ],
+            "bodyRange": [
+                11425,
+                11570
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 38,
+            "start": {
+                "line": 394,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                23649,
+                23680
+            ],
+            "bodyRange": [
+                23661,
+                23680
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 58,
+            "start": {
+                "line": 789,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                9420,
+                9472
+            ],
+            "bodyRange": [
+                9432,
+                9472
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 29,
+            "start": {
+                "line": 322,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2786,
+                2865
+            ],
+            "bodyRange": [
+                2817,
+                2865
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 5,
+            "start": {
+                "line": 87,
+                "column": 1
+            },
+            "functionName": "joinPath"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                8966,
+                9230
+            ],
+            "bodyRange": [
+                8985,
+                9230
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 28,
+            "start": {
+                "line": 310,
+                "column": 3
+            },
+            "functionName": "toUrl"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                32133,
+                32234
+            ],
+            "bodyRange": [
+                32148,
+                32234
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 72,
+            "start": {
+                "line": 1071,
+                "column": 19
+            },
+            "functionName": null
+        }
+    ],
+    "allFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                137,
+                506
+            ],
+            "bodyRange": [
+                155,
+                506
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2147,
+                2196
+            ],
+            "bodyRange": [
+                2163,
+                2196
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 70,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2027,
+                2526
+            ],
+            "bodyRange": [
+                2082,
+                2526
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 68,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3034,
+                3094
+            ],
+            "bodyRange": [
+                3049,
+                3094
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 101,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1515,
+                3290
+            ],
+            "bodyRange": [
+                1546,
+                3290
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 54,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                107,
+                3307
+            ],
+            "bodyRange": [
+                120,
+                3307
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 6,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3429,
+                3571
+            ],
+            "bodyRange": [
+                3442,
+                3571
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 115,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3598,
+                3763
+            ],
+            "bodyRange": [
+                3618,
+                3763
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 118,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3766,
+                3879
+            ],
+            "bodyRange": [
+                3786,
+                3879
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 124,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4158,
+                4253
+            ],
+            "bodyRange": [
+                4170,
+                4253
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 139,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3882,
+                4257
+            ],
+            "bodyRange": [
+                3915,
+                4257
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 129,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4260,
+                5100
+            ],
+            "bodyRange": [
+                4294,
+                5100
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 146,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5852,
+                6029
+            ],
+            "bodyRange": [
+                5872,
+                6029
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 204,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5128,
+                6183
+            ],
+            "bodyRange": [
+                5144,
+                6183
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 187,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1,
+                6231
+            ],
+            "bodyRange": [
+                13,
+                6231
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 1,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2004,
+                2023
+            ],
+            "bodyRange": [
+                2021,
+                2023
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 0,
+            "start": {
+                "line": 59,
+                "column": 1
+            },
+            "functionName": "noop"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2026,
+                2119
+            ],
+            "bodyRange": [
+                2054,
+                2119
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 1,
+            "start": {
+                "line": 61,
+                "column": 1
+            },
+            "functionName": "isType"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2122,
+                2665
+            ],
+            "bodyRange": [
+                2167,
+                2665
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 2,
+            "start": {
+                "line": 65,
+                "column": 1
+            },
+            "functionName": "normalizePkgDescriptor"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2668,
+                2725
+            ],
+            "bodyRange": [
+                2691,
+                2725
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 3,
+            "start": {
+                "line": 79,
+                "column": 1
+            },
+            "functionName": "isRelUrl"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2728,
+                2783
+            ],
+            "bodyRange": [
+                2751,
+                2783
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 4,
+            "start": {
+                "line": 83,
+                "column": 1
+            },
+            "functionName": "isAbsUrl"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2786,
+                2865
+            ],
+            "bodyRange": [
+                2817,
+                2865
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 5,
+            "start": {
+                "line": 87,
+                "column": 1
+            },
+            "functionName": "joinPath"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2868,
+                2998
+            ],
+            "bodyRange": [
+                2899,
+                2998
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 6,
+            "start": {
+                "line": 91,
+                "column": 1
+            },
+            "functionName": "removeEndSlash"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3562,
+                3671
+            ],
+            "bodyRange": [
+                3602,
+                3671
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 7,
+            "start": {
+                "line": 108,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3001,
+                4165
+            ],
+            "bodyRange": [
+                3046,
+                4165
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 8,
+            "start": {
+                "line": 95,
+                "column": 1
+            },
+            "functionName": "reduceLeadingDots"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4168,
+                4369
+            ],
+            "bodyRange": [
+                4194,
+                4369
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 9,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "pluginParts"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4372,
+                4395
+            ],
+            "bodyRange": [
+                4393,
+                4395
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 10,
+            "start": {
+                "line": 141,
+                "column": 1
+            },
+            "functionName": "Begetter"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4398,
+                4611
+            ],
+            "bodyRange": [
+                4429,
+                4611
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 11,
+            "start": {
+                "line": 143,
+                "column": 1
+            },
+            "functionName": "beget"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4699,
+                4833
+            ],
+            "bodyRange": [
+                4746,
+                4833
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 12,
+            "start": {
+                "line": 158,
+                "column": 2
+            },
+            "functionName": "then"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4837,
+                5008
+            ],
+            "bodyRange": [
+                4866,
+                5008
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 13,
+            "start": {
+                "line": 163,
+                "column": 2
+            },
+            "functionName": "notify"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5122,
+                5182
+            ],
+            "bodyRange": [
+                5152,
+                5182
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 14,
+            "start": {
+                "line": 175,
+                "column": 4
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5189,
+                5249
+            ],
+            "bodyRange": [
+                5219,
+                5249
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 15,
+            "start": {
+                "line": 176,
+                "column": 4
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5023,
+                5553
+            ],
+            "bodyRange": [
+                5063,
+                5553
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 16,
+            "start": {
+                "line": 172,
+                "column": 13
+            },
+            "functionName": "promiseComplete"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5570,
+                5674
+            ],
+            "bodyRange": [
+                5612,
+                5674
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 17,
+            "start": {
+                "line": 188,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5693,
+                5761
+            ],
+            "bodyRange": [
+                5708,
+                5761
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 18,
+            "start": {
+                "line": 192,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5779,
+                5845
+            ],
+            "bodyRange": [
+                5793,
+                5845
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 19,
+            "start": {
+                "line": 196,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5865,
+                5904
+            ],
+            "bodyRange": [
+                5880,
+                5904
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 20,
+            "start": {
+                "line": 200,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4614,
+                5908
+            ],
+            "bodyRange": [
+                4634,
+                5908
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 21,
+            "start": {
+                "line": 151,
+                "column": 1
+            },
+            "functionName": "Promise"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                5911,
+                5993
+            ],
+            "bodyRange": [
+                5934,
+                5993
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 22,
+            "start": {
+                "line": 206,
+                "column": 1
+            },
+            "functionName": "isPromise"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                5996,
+                6325
+            ],
+            "bodyRange": [
+                6056,
+                6325
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 23,
+            "start": {
+                "line": 210,
+                "column": 1
+            },
+            "functionName": "when"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                7005,
+                7243
+            ],
+            "bodyRange": [
+                7017,
+                7243
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 24,
+            "start": {
+                "line": 237,
+                "column": 9
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                6932,
+                7246
+            ],
+            "bodyRange": [
+                6980,
+                7246
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 25,
+            "start": {
+                "line": 235,
+                "column": 1
+            },
+            "functionName": "countdown"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                7901,
+                8607
+            ],
+            "bodyRange": [
+                7930,
+                8607
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 26,
+            "start": {
+                "line": 264,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                8881,
+                8961
+            ],
+            "bodyRange": [
+                8908,
+                8961
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 27,
+            "start": {
+                "line": 306,
+                "column": 3
+            },
+            "functionName": "toAbsId"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                8966,
+                9230
+            ],
+            "bodyRange": [
+                8985,
+                9230
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 28,
+            "start": {
+                "line": 310,
+                "column": 3
+            },
+            "functionName": "toUrl"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                9420,
+                9472
+            ],
+            "bodyRange": [
+                9432,
+                9472
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 29,
+            "start": {
+                "line": 322,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                9235,
+                10157
+            ],
+            "bodyRange": [
+                9282,
+                10157
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 30,
+            "start": {
+                "line": 317,
+                "column": 3
+            },
+            "functionName": "localRequire"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                8627,
+                10269
+            ],
+            "bodyRange": [
+                8671,
+                10269
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 31,
+            "start": {
+                "line": 294,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                10536,
+                10677
+            ],
+            "bodyRange": [
+                10552,
+                10677
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 32,
+            "start": {
+                "line": 360,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                10842,
+                10932
+            ],
+            "bodyRange": [
+                10854,
+                10932
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 33,
+            "start": {
+                "line": 373,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                10785,
+                10939
+            ],
+            "bodyRange": [
+                10809,
+                10939
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 34,
+            "start": {
+                "line": 372,
+                "column": 17
+            },
+            "functionName": "resolve"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11048,
+                11338
+            ],
+            "bodyRange": [
+                11060,
+                11338
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 35,
+            "start": {
+                "line": 380,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                10984,
+                11345
+            ],
+            "bodyRange": [
+                11015,
+                11345
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 36,
+            "start": {
+                "line": 379,
+                "column": 22
+            },
+            "functionName": "executeFactory"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                10293,
+                11366
+            ],
+            "bodyRange": [
+                10323,
+                11366
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 37,
+            "start": {
+                "line": 353,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11388,
+                11570
+            ],
+            "bodyRange": [
+                11425,
+                11570
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 38,
+            "start": {
+                "line": 394,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11590,
+                11633
+            ],
+            "bodyRange": [
+                11605,
+                11633
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 39,
+            "start": {
+                "line": 403,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11653,
+                11718
+            ],
+            "bodyRange": [
+                11668,
+                11718
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 40,
+            "start": {
+                "line": 407,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11936,
+                11970
+            ],
+            "bodyRange": [
+                11948,
+                11970
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 41,
+            "start": {
+                "line": 418,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                11737,
+                12068
+            ],
+            "bodyRange": [
+                11752,
+                12068
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 42,
+            "start": {
+                "line": 411,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                12084,
+                12244
+            ],
+            "bodyRange": [
+                12099,
+                12244
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 43,
+            "start": {
+                "line": 425,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                12430,
+                15081
+            ],
+            "bodyRange": [
+                12445,
+                15081
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 44,
+            "start": {
+                "line": 435,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                16264,
+                17677
+            ],
+            "bodyRange": [
+                16303,
+                17677
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 45,
+            "start": {
+                "line": 547,
+                "column": 3
+            },
+            "functionName": "fixAndPushPaths"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                17872,
+                17947
+            ],
+            "bodyRange": [
+                17888,
+                17947
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 46,
+            "start": {
+                "line": 598,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                17747,
+                18056
+            ],
+            "bodyRange": [
+                17781,
+                18056
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 47,
+            "start": {
+                "line": 595,
+                "column": 3
+            },
+            "functionName": "convertPathMatcher"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                15094,
+                19181
+            ],
+            "bodyRange": [
+                15109,
+                19181
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 48,
+            "start": {
+                "line": 517,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                19424,
+                19625
+            ],
+            "bodyRange": [
+                19441,
+                19625
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 49,
+            "start": {
+                "line": 649,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                19203,
+                19755
+            ],
+            "bodyRange": [
+                19225,
+                19755
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 50,
+            "start": {
+                "line": 642,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                19772,
+                19899
+            ],
+            "bodyRange": [
+                19793,
+                19899
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 51,
+            "start": {
+                "line": 666,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                19921,
+                20142
+            ],
+            "bodyRange": [
+                19941,
+                20142
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 52,
+            "start": {
+                "line": 671,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                20345,
+                20855
+            ],
+            "bodyRange": [
+                20367,
+                20855
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 53,
+            "start": {
+                "line": 684,
+                "column": 3
+            },
+            "functionName": "process"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                20860,
+                21071
+            ],
+            "bodyRange": [
+                20878,
+                21071
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 54,
+            "start": {
+                "line": 698,
+                "column": 3
+            },
+            "functionName": "fail"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                20159,
+                21899
+            ],
+            "bodyRange": [
+                20192,
+                21899
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 55,
+            "start": {
+                "line": 677,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22337,
+                22646
+            ],
+            "bodyRange": [
+                22362,
+                22646
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 56,
+            "start": {
+                "line": 737,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                21920,
+                22667
+            ],
+            "bodyRange": [
+                21939,
+                22667
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 57,
+            "start": {
+                "line": 729,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                23649,
+                23680
+            ],
+            "bodyRange": [
+                23661,
+                23680
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 58,
+            "start": {
+                "line": 789,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22681,
+                23704
+            ],
+            "bodyRange": [
+                22697,
+                23704
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 59,
+            "start": {
+                "line": 751,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                23725,
+                24433
+            ],
+            "bodyRange": [
+                23740,
+                24433
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 60,
+            "start": {
+                "line": 794,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24454,
+                24579
+            ],
+            "bodyRange": [
+                24475,
+                24579
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 61,
+            "start": {
+                "line": 813,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                24821,
+                24941
+            ],
+            "bodyRange": [
+                24863,
+                24941
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 62,
+            "start": {
+                "line": 833,
+                "column": 3
+            },
+            "functionName": "collect"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26452,
+                26531
+            ],
+            "bodyRange": [
+                26467,
+                26531
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 63,
+            "start": {
+                "line": 880,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26564,
+                26620
+            ],
+            "bodyRange": [
+                26579,
+                26620
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 64,
+            "start": {
+                "line": 884,
+                "column": 30
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27042,
+                27484
+            ],
+            "bodyRange": [
+                27057,
+                27484
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 65,
+            "start": {
+                "line": 902,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                26332,
+                27496
+            ],
+            "bodyRange": [
+                26362,
+                27496
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 66,
+            "start": {
+                "line": 877,
+                "column": 3
+            },
+            "functionName": "getDep"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                27501,
+                27560
+            ],
+            "bodyRange": [
+                27525,
+                27560
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 67,
+            "start": {
+                "line": 919,
+                "column": 3
+            },
+            "functionName": "allResolved"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                27565,
+                27659
+            ],
+            "bodyRange": [
+                27593,
+                27659
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 68,
+            "start": {
+                "line": 923,
+                "column": 3
+            },
+            "functionName": "allExportsReady"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24593,
+                27664
+            ],
+            "bodyRange": [
+                24614,
+                27664
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 69,
+            "start": {
+                "line": 822,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27783,
+                28318
+            ],
+            "bodyRange": [
+                27795,
+                28318
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 70,
+            "start": {
+                "line": 936,
+                "column": 4
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27682,
+                28363
+            ],
+            "bodyRange": [
+                27697,
+                28363
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 71,
+            "start": {
+                "line": 929,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                32133,
+                32234
+            ],
+            "bodyRange": [
+                32148,
+                32234
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 72,
+            "start": {
+                "line": 1071,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                30883,
+                32621
+            ],
+            "bodyRange": [
+                30900,
+                32621
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 73,
+            "start": {
+                "line": 1037,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28378,
+                32732
+            ],
+            "bodyRange": [
+                28408,
+                32732
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 74,
+            "start": {
+                "line": 963,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                32756,
+                33268
+            ],
+            "bodyRange": [
+                32768,
+                33268
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 75,
+            "start": {
+                "line": 1096,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                33285,
+                33428
+            ],
+            "bodyRange": [
+                33306,
+                33428
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 76,
+            "start": {
+                "line": 1114,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                33516,
+                33751
+            ],
+            "bodyRange": [
+                33534,
+                33751
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 77,
+            "start": {
+                "line": 1123,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                33456,
+                33894
+            ],
+            "bodyRange": [
+                33471,
+                33894
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 78,
+            "start": {
+                "line": 1121,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                33909,
+                33954
+            ],
+            "bodyRange": [
+                33925,
+                33954
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 79,
+            "start": {
+                "line": 1138,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                34108,
+                34393
+            ],
+            "bodyRange": [
+                34139,
+                34393
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 80,
+            "start": {
+                "line": 1147,
+                "column": 1
+            },
+            "functionName": "_curl"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                34948,
+                34983
+            ],
+            "bodyRange": [
+                34960,
+                34983
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 81,
+            "start": {
+                "line": 1174,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35314,
+                35386
+            ],
+            "bodyRange": [
+                35326,
+                35386
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 82,
+            "start": {
+                "line": 1184,
+                "column": 7
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                34396,
+                35497
+            ],
+            "bodyRange": [
+                34438,
+                35497
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 83,
+            "start": {
+                "line": 1161,
+                "column": 1
+            },
+            "functionName": "_config"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35860,
+                35931
+            ],
+            "bodyRange": [
+                35876,
+                35931
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 84,
+            "start": {
+                "line": 1201,
+                "column": 4
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35998,
+                36067
+            ],
+            "bodyRange": [
+                36012,
+                36067
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 85,
+            "start": {
+                "line": 1205,
+                "column": 4
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35753,
+                36093
+            ],
+            "bodyRange": [
+                35783,
+                36093
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 86,
+            "start": {
+                "line": 1198,
+                "column": 36
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36113,
+                36198
+            ],
+            "bodyRange": [
+                36136,
+                36198
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 87,
+            "start": {
+                "line": 1212,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36430,
+                36464
+            ],
+            "bodyRange": [
+                36442,
+                36464
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 88,
+            "start": {
+                "line": 1224,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36398,
+                36480
+            ],
+            "bodyRange": [
+                36410,
+                36480
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 89,
+            "start": {
+                "line": 1223,
+                "column": 30
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36354,
+                36486
+            ],
+            "bodyRange": [
+                36366,
+                36486
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 90,
+            "start": {
+                "line": 1222,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                35563,
+                36491
+            ],
+            "bodyRange": [
+                35625,
+                36491
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 91,
+            "start": {
+                "line": 1193,
+                "column": 1
+            },
+            "functionName": "CurlApi"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                36552,
+                37509
+            ],
+            "bodyRange": [
+                36576,
+                37509
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 92,
+            "start": {
+                "line": 1232,
+                "column": 1
+            },
+            "functionName": "_define"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                37512,
+                37662
+            ],
+            "bodyRange": [
+                37531,
+                37662
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 93,
+            "start": {
+                "line": 1265,
+                "column": 1
+            },
+            "functionName": "define"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                38954,
+                38985
+            ],
+            "bodyRange": [
+                38966,
+                38985
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 94,
+            "start": {
+                "line": 1316,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                346,
+                39054
+            ],
+            "bodyRange": [
+                364,
+                39054
+            ],
+            "file": "bower_components/curl/src/curl.js",
+            "index": 95,
+            "start": {
+                "line": 13,
+                "column": 1
+            },
+            "functionName": null
+        }
+    ],
+    "affectedFiles": [
+        {
+            "file": "bower_components/todomvc-common/base.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "bower_components/curl/src/curl.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        }
+    ]
+}

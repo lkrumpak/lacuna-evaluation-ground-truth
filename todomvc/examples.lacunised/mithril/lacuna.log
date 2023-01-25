@@ -1,0 +1,5012 @@
+{
+    "runDate": "2023-01-12T20:26:32.562Z",
+    "runOptions": {
+        "analyzer": [
+            "tajs",
+            "dynamic"
+        ],
+        "entry": "index.html",
+        "destination": "todomvc/examples.lacunised.cl/mithril",
+        "logfile": "lacuna.log",
+        "timeout": null,
+        "olevel": 1,
+        "force": true,
+        "normalizeOnly": false,
+        "assumeNormalization": false,
+        "directory": "todomvc/examples.lacunised.cl/mithril"
+    },
+    "graphStats": {
+        "connectedNodes": 49,
+        "disconnectedNodes": 87,
+        "nodes": 136,
+        "files": 11
+    },
+    "deadFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                179,
+                548
+            ],
+            "bodyRange": [
+                197,
+                548
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 9,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2189,
+                2238
+            ],
+            "bodyRange": [
+                2205,
+                2238
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 72,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2069,
+                2568
+            ],
+            "bodyRange": [
+                2124,
+                2568
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 70,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3076,
+                3136
+            ],
+            "bodyRange": [
+                3091,
+                3136
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 103,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1557,
+                3332
+            ],
+            "bodyRange": [
+                1588,
+                3332
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 56,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3468,
+                3518
+            ],
+            "bodyRange": [
+                3478,
+                3518
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 117,
+                "column": 67
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3404,
+                3646
+            ],
+            "bodyRange": [
+                3427,
+                3646
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 117,
+                "column": 3
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6198,
+                6375
+            ],
+            "bodyRange": [
+                6218,
+                6375
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 216,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5474,
+                6529
+            ],
+            "bodyRange": [
+                5490,
+                6529
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 199,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6836,
+                7176
+            ],
+            "bodyRange": [
+                6849,
+                7176
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 15,
+            "start": {
+                "line": 233,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6567,
+                7199
+            ],
+            "bodyRange": [
+                6579,
+                7199
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 16,
+            "start": {
+                "line": 227,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                400,
+                413
+            ],
+            "bodyRange": [
+                411,
+                413
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 0,
+            "start": {
+                "line": 6,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                17925,
+                18001
+            ],
+            "bodyRange": [
+                17952,
+                18001
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 6,
+            "start": {
+                "line": 379,
+                "column": 1
+            },
+            "functionName": "sortChanges"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                21512,
+                22209
+            ],
+            "bodyRange": [
+                21560,
+                22209
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 10,
+            "start": {
+                "line": 457,
+                "column": 1
+            },
+            "functionName": "injectHTML"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22260,
+                22436
+            ],
+            "bodyRange": [
+                22272,
+                22436
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 11,
+            "start": {
+                "line": 478,
+                "column": 9
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22489,
+                22794
+            ],
+            "bodyRange": [
+                22504,
+                22794
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 13,
+            "start": {
+                "line": 491,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22812,
+                22858
+            ],
+            "bodyRange": [
+                22827,
+                22858
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 14,
+            "start": {
+                "line": 499,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                23806,
+                23895
+            ],
+            "bodyRange": [
+                23822,
+                23895
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 17,
+            "start": {
+                "line": 522,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24041,
+                24073
+            ],
+            "bodyRange": [
+                24052,
+                24073
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 19,
+            "start": {
+                "line": 534,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24740,
+                24823
+            ],
+            "bodyRange": [
+                24751,
+                24823
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 22,
+            "start": {
+                "line": 553,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24837,
+                25013
+            ],
+            "bodyRange": [
+                24852,
+                25013
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 23,
+            "start": {
+                "line": 556,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                24680,
+                25190
+            ],
+            "bodyRange": [
+                24719,
+                25190
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 24,
+            "start": {
+                "line": 552,
+                "column": 1
+            },
+            "functionName": "parameterize"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                25206,
+                25292
+            ],
+            "bodyRange": [
+                25226,
+                25292
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 25,
+            "start": {
+                "line": 565,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                25585,
+                25680
+            ],
+            "bodyRange": [
+                25596,
+                25680
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 26,
+            "start": {
+                "line": 574,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26393,
+                26406
+            ],
+            "bodyRange": [
+                26404,
+                26406
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 27,
+            "start": {
+                "line": 596,
+                "column": 79
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28946,
+                29130
+            ],
+            "bodyRange": [
+                28958,
+                29130
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 35,
+            "start": {
+                "line": 666,
+                "column": 9
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                33119,
+                33397
+            ],
+            "bodyRange": [
+                33130,
+                33397
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 43,
+            "start": {
+                "line": 780,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                33429,
+                33976
+            ],
+            "bodyRange": [
+                33458,
+                33976
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 45,
+            "start": {
+                "line": 790,
+                "column": 1
+            },
+            "functionName": "routeUnobtrusive"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                34500,
+                34753
+            ],
+            "bodyRange": [
+                34521,
+                34753
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 47,
+            "start": {
+                "line": 813,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                35515,
+                35661
+            ],
+            "bodyRange": [
+                35536,
+                35661
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 50,
+            "start": {
+                "line": 845,
+                "column": 1
+            },
+            "functionName": "reset"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35677,
+                35792
+            ],
+            "bodyRange": [
+                35689,
+                35792
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 51,
+            "start": {
+                "line": 851,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35908,
+                36002
+            ],
+            "bodyRange": [
+                35934,
+                36002
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 52,
+            "start": {
+                "line": 859,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                35795,
+                36020
+            ],
+            "bodyRange": [
+                35835,
+                36020
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 53,
+            "start": {
+                "line": 856,
+                "column": 1
+            },
+            "functionName": "propify"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36724,
+                36843
+            ],
+            "bodyRange": [
+                36740,
+                36843
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 54,
+            "start": {
+                "line": 874,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36865,
+                36984
+            ],
+            "bodyRange": [
+                36881,
+                36984
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 55,
+            "start": {
+                "line": 884,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37012,
+                37334
+            ],
+            "bodyRange": [
+                37055,
+                37334
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 56,
+            "start": {
+                "line": 894,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37404,
+                37519
+            ],
+            "bodyRange": [
+                37423,
+                37519
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 57,
+            "start": {
+                "line": 910,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                37339,
+                37524
+            ],
+            "bodyRange": [
+                37361,
+                37524
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 58,
+            "start": {
+                "line": 908,
+                "column": 2
+            },
+            "functionName": "finish"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37868,
+                37971
+            ],
+            "bodyRange": [
+                37884,
+                37971
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 59,
+            "start": {
+                "line": 920,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37973,
+                38077
+            ],
+            "bodyRange": [
+                37990,
+                38077
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 60,
+            "start": {
+                "line": 924,
+                "column": 8
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                37528,
+                38228
+            ],
+            "bodyRange": [
+                37609,
+                38228
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 61,
+            "start": {
+                "line": 915,
+                "column": 2
+            },
+            "functionName": "thennable"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                38482,
+                38533
+            ],
+            "bodyRange": [
+                38493,
+                38533
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 62,
+            "start": {
+                "line": 952,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                38535,
+                38586
+            ],
+            "bodyRange": [
+                38546,
+                38586
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 63,
+            "start": {
+                "line": 955,
+                "column": 6
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39120,
+                39163
+            ],
+            "bodyRange": [
+                39132,
+                39163
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 64,
+            "start": {
+                "line": 979,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39173,
+                39239
+            ],
+            "bodyRange": [
+                39185,
+                39239
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 65,
+            "start": {
+                "line": 981,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                38588,
+                39251
+            ],
+            "bodyRange": [
+                38599,
+                39251
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 66,
+            "start": {
+                "line": 958,
+                "column": 6
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                38232,
+                39256
+            ],
+            "bodyRange": [
+                38248,
+                39256
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 67,
+            "start": {
+                "line": 940,
+                "column": 2
+            },
+            "functionName": "fire"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                36501,
+                39259
+            ],
+            "bodyRange": [
+                36553,
+                39259
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 68,
+            "start": {
+                "line": 868,
+                "column": 1
+            },
+            "functionName": "Deferred"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39282,
+                39392
+            ],
+            "bodyRange": [
+                39294,
+                39392
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 69,
+            "start": {
+                "line": 988,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39499,
+                39702
+            ],
+            "bodyRange": [
+                39515,
+                39702
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 70,
+            "start": {
+                "line": 995,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                39450,
+                39706
+            ],
+            "bodyRange": [
+                39487,
+                39706
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 71,
+            "start": {
+                "line": 994,
+                "column": 2
+            },
+            "functionName": "synchronizer"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39405,
+                40011
+            ],
+            "bodyRange": [
+                39420,
+                40011
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 72,
+            "start": {
+                "line": 992,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                40014,
+                40053
+            ],
+            "bodyRange": [
+                40039,
+                40053
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 73,
+            "start": {
+                "line": 1018,
+                "column": 1
+            },
+            "functionName": "identity"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                40351,
+                40546
+            ],
+            "bodyRange": [
+                40366,
+                40546
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 74,
+            "start": {
+                "line": 1025,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                40569,
+                40851
+            ],
+            "bodyRange": [
+                40581,
+                40851
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 75,
+            "start": {
+                "line": 1036,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                40873,
+                40908
+            ],
+            "bodyRange": [
+                40885,
+                40908
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 76,
+            "start": {
+                "line": 1051,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                41324,
+                41528
+            ],
+            "bodyRange": [
+                41335,
+                41528
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 77,
+            "start": {
+                "line": 1065,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                40056,
+                42274
+            ],
+            "bodyRange": [
+                40079,
+                42274
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 78,
+            "start": {
+                "line": 1020,
+                "column": 1
+            },
+            "functionName": "ajax"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                42276,
+                42649
+            ],
+            "bodyRange": [
+                42323,
+                42649
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 79,
+            "start": {
+                "line": 1090,
+                "column": 1
+            },
+            "functionName": "bindData"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                42651,
+                42923
+            ],
+            "bodyRange": [
+                42687,
+                42923
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 80,
+            "start": {
+                "line": 1099,
+                "column": 1
+            },
+            "functionName": "parameterizeUrl"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                43372,
+                43415
+            ],
+            "bodyRange": [
+                43388,
+                43415
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 81,
+            "start": {
+                "line": 1117,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                43440,
+                43555
+            ],
+            "bodyRange": [
+                43454,
+                43555
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 82,
+            "start": {
+                "line": 1117,
+                "column": 94
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                43800,
+                44497
+            ],
+            "bodyRange": [
+                43812,
+                44497
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 83,
+            "start": {
+                "line": 1123,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                42938,
+                44620
+            ],
+            "bodyRange": [
+                42959,
+                44620
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 84,
+            "start": {
+                "line": 1111,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                44648,
+                44723
+            ],
+            "bodyRange": [
+                44663,
+                44723
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 85,
+            "start": {
+                "line": 1148,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                45017,
+                45038
+            ],
+            "bodyRange": [
+                45028,
+                45038
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 87,
+            "start": {
+                "line": 1159,
+                "column": 60
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                104,
+                138
+            ],
+            "bodyRange": [
+                116,
+                138
+            ],
+            "file": "js/models/todo.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 8
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                172,
+                347
+            ],
+            "bodyRange": [
+                188,
+                347
+            ],
+            "file": "js/models/todo.js",
+            "index": 2,
+            "start": {
+                "line": 13,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                200,
+                282
+            ],
+            "bodyRange": [
+                217,
+                282
+            ],
+            "file": "js/models/storage.js",
+            "index": 1,
+            "start": {
+                "line": 10,
+                "column": 7
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                184,
+                233
+            ],
+            "bodyRange": [
+                200,
+                233
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 0,
+            "start": {
+                "line": 11,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                379,
+                547
+            ],
+            "bodyRange": [
+                391,
+                547
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 1,
+            "start": {
+                "line": 21,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                568,
+                746
+            ],
+            "bodyRange": [
+                584,
+                746
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 2,
+            "start": {
+                "line": 30,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                766,
+                908
+            ],
+            "bodyRange": [
+                782,
+                908
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 3,
+            "start": {
+                "line": 41,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                924,
+                1003
+            ],
+            "bodyRange": [
+                940,
+                1003
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 4,
+            "start": {
+                "line": 50,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1026,
+                1240
+            ],
+            "bodyRange": [
+                1049,
+                1240
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 5,
+            "start": {
+                "line": 55,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1265,
+                1342
+            ],
+            "bodyRange": [
+                1281,
+                1342
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 6,
+            "start": {
+                "line": 68,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1364,
+                1398
+            ],
+            "bodyRange": [
+                1376,
+                1398
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 7,
+            "start": {
+                "line": 73,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1416,
+                1493
+            ],
+            "bodyRange": [
+                1431,
+                1493
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 8,
+            "start": {
+                "line": 77,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1519,
+                1689
+            ],
+            "bodyRange": [
+                1531,
+                1689
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 9,
+            "start": {
+                "line": 82,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1716,
+                1872
+            ],
+            "bodyRange": [
+                1728,
+                1872
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 10,
+            "start": {
+                "line": 91,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2060,
+                2241
+            ],
+            "bodyRange": [
+                2072,
+                2241
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 12,
+            "start": {
+                "line": 110,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                122,
+                340
+            ],
+            "bodyRange": [
+                135,
+                340
+            ],
+            "file": "js/views/main-view.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 8
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1184,
+                1360
+            ],
+            "bodyRange": [
+                1196,
+                1360
+            ],
+            "file": "js/views/main-view.js",
+            "index": 3,
+            "start": {
+                "line": 49,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1998,
+                2090
+            ],
+            "bodyRange": [
+                2015,
+                2090
+            ],
+            "file": "js/views/main-view.js",
+            "index": 4,
+            "start": {
+                "line": 74,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2109,
+                2208
+            ],
+            "bodyRange": [
+                2128,
+                2208
+            ],
+            "file": "js/views/main-view.js",
+            "index": 5,
+            "start": {
+                "line": 78,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1128,
+                2293
+            ],
+            "bodyRange": [
+                1151,
+                2293
+            ],
+            "file": "js/views/main-view.js",
+            "index": 6,
+            "start": {
+                "line": 48,
+                "column": 53
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                63,
+                914
+            ],
+            "bodyRange": [
+                79,
+                914
+            ],
+            "file": "js/views/footer-view.js",
+            "index": 0,
+            "start": {
+                "line": 5,
+                "column": 13
+            },
+            "functionName": null
+        }
+    ],
+    "aliveFunctions": [
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3825,
+                3990
+            ],
+            "bodyRange": [
+                3845,
+                3990
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 126,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3993,
+                4106
+            ],
+            "bodyRange": [
+                4013,
+                4106
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4109,
+                4484
+            ],
+            "bodyRange": [
+                4142,
+                4484
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 137,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4487,
+                5446
+            ],
+            "bodyRange": [
+                4521,
+                5446
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 154,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16,
+                7247
+            ],
+            "bodyRange": [
+                28,
+                7247
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 17,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                149,
+                3349
+            ],
+            "bodyRange": [
+                162,
+                3349
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 8,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4385,
+                4480
+            ],
+            "bodyRange": [
+                4397,
+                4480
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 147,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                9,
+                44818
+            ],
+            "bodyRange": [
+                41,
+                44818
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 86,
+            "start": {
+                "line": 1,
+                "column": 9
+            },
+            "functionName": "app"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                591,
+                840
+            ],
+            "bodyRange": [
+                618,
+                840
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 1,
+            "start": {
+                "line": 12,
+                "column": 1
+            },
+            "functionName": "initialize"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2688,
+                17923
+            ],
+            "bodyRange": [
+                2822,
+                17923
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 5,
+            "start": {
+                "line": 74,
+                "column": 1
+            },
+            "functionName": "build"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                20453,
+                20900
+            ],
+            "bodyRange": [
+                20483,
+                20900
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 8,
+            "start": {
+                "line": 429,
+                "column": 1
+            },
+            "functionName": "clear"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                20902,
+                21510
+            ],
+            "bodyRange": [
+                20926,
+                21510
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 9,
+            "start": {
+                "line": 440,
+                "column": 1
+            },
+            "functionName": "unload"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                23656,
+                23793
+            ],
+            "bodyRange": [
+                23690,
+                23793
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 16,
+            "start": {
+                "line": 517,
+                "column": 1
+            },
+            "functionName": "getCellCacheKey"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                23899,
+                24092
+            ],
+            "bodyRange": [
+                23928,
+                24092
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 20,
+            "start": {
+                "line": 528,
+                "column": 1
+            },
+            "functionName": "gettersetter"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                27766,
+                28511
+            ],
+            "bodyRange": [
+                27784,
+                28511
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 31,
+            "start": {
+                "line": 630,
+                "column": 1
+            },
+            "functionName": "redraw"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                32267,
+                32351
+            ],
+            "bodyRange": [
+                32298,
+                32351
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 42,
+            "start": {
+                "line": 750,
+                "column": 1
+            },
+            "functionName": "normalizeRoute"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                32353,
+                33427
+            ],
+            "bodyRange": [
+                32395,
+                33427
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 44,
+            "start": {
+                "line": 753,
+                "column": 1
+            },
+            "functionName": "routeByValue"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                33978,
+                34113
+            ],
+            "bodyRange": [
+                33999,
+                34113
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 46,
+            "start": {
+                "line": 800,
+                "column": 1
+            },
+            "functionName": "setScroll"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                34115,
+                34905
+            ],
+            "bodyRange": [
+                34157,
+                34905
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 48,
+            "start": {
+                "line": 804,
+                "column": 1
+            },
+            "functionName": "buildQueryString"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                34907,
+                35421
+            ],
+            "bodyRange": [
+                34938,
+                35421
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 49,
+            "start": {
+                "line": 826,
+                "column": 1
+            },
+            "functionName": "parseQueryString"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24104,
+                24405
+            ],
+            "bodyRange": [
+                24121,
+                24405
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 21,
+            "start": {
+                "line": 541,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                29284,
+                32052
+            ],
+            "bodyRange": [
+                29295,
+                32052
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 40,
+            "start": {
+                "line": 676,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                29998,
+                30190
+            ],
+            "bodyRange": [
+                30009,
+                30190
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 38,
+            "start": {
+                "line": 692,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                29569,
+                29899
+            ],
+            "bodyRange": [
+                29586,
+                29899
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 37,
+            "start": {
+                "line": 682,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                25315,
+                26838
+            ],
+            "bodyRange": [
+                25341,
+                26838
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 28,
+            "start": {
+                "line": 568,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                23943,
+                24022
+            ],
+            "bodyRange": [
+                23954,
+                24022
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 18,
+            "start": {
+                "line": 529,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28561,
+                28591
+            ],
+            "bodyRange": [
+                28572,
+                28591
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 32,
+            "start": {
+                "line": 652,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                32071,
+                32238
+            ],
+            "bodyRange": [
+                32085,
+                32238
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 41,
+            "start": {
+                "line": 745,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28751,
+                28886
+            ],
+            "bodyRange": [
+                28762,
+                28886
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 34,
+            "start": {
+                "line": 657,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28613,
+                28722
+            ],
+            "bodyRange": [
+                28624,
+                28722
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 33,
+            "start": {
+                "line": 653,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26875,
+                27732
+            ],
+            "bodyRange": [
+                26891,
+                27732
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 30,
+            "start": {
+                "line": 610,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                1228,
+                2686
+            ],
+            "bodyRange": [
+                1241,
+                2686
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 2,
+            "start": {
+                "line": 35,
+                "column": 1
+            },
+            "functionName": "m"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28902,
+                29133
+            ],
+            "bodyRange": [
+                28935,
+                29133
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 36,
+            "start": {
+                "line": 665,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22930,
+                23653
+            ],
+            "bodyRange": [
+                22968,
+                23653
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 15,
+            "start": {
+                "line": 505,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                18003,
+                20451
+            ],
+            "bodyRange": [
+                18072,
+                20451
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 7,
+            "start": {
+                "line": 380,
+                "column": 1
+            },
+            "functionName": "setAttributes"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                22211,
+                22439
+            ],
+            "bodyRange": [
+                22249,
+                22439
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 12,
+            "start": {
+                "line": 477,
+                "column": 1
+            },
+            "functionName": "autoredraw"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16106,
+                16218
+            ],
+            "bodyRange": [
+                16127,
+                16218
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 4,
+            "start": {
+                "line": 327,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16141,
+                16212
+            ],
+            "bodyRange": [
+                16152,
+                16212
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 3,
+            "start": {
+                "line": 328,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                31727,
+                31883
+            ],
+            "bodyRange": [
+                31738,
+                31883
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 39,
+            "start": {
+                "line": 734,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27658,
+                27690
+            ],
+            "bodyRange": [
+                27669,
+                27690
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 29,
+            "start": {
+                "line": 625,
+                "column": 41
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                66,
+                141
+            ],
+            "bodyRange": [
+                78,
+                141
+            ],
+            "file": "js/models/todo.js",
+            "index": 1,
+            "start": {
+                "line": 5,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37,
+                288
+            ],
+            "bodyRange": [
+                49,
+                288
+            ],
+            "file": "js/models/storage.js",
+            "index": 2,
+            "start": {
+                "line": 4,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                110,
+                191
+            ],
+            "bodyRange": [
+                122,
+                191
+            ],
+            "file": "js/models/storage.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 7
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                67,
+                2244
+            ],
+            "bodyRange": [
+                79,
+                2244
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 13,
+            "start": {
+                "line": 5,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1896,
+                2037
+            ],
+            "bodyRange": [
+                1908,
+                2037
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 11,
+            "start": {
+                "line": 101,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                358,
+                2365
+            ],
+            "bodyRange": [
+                370,
+                2365
+            ],
+            "file": "js/views/main-view.js",
+            "index": 8,
+            "start": {
+                "line": 19,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                403,
+                2363
+            ],
+            "bodyRange": [
+                419,
+                2363
+            ],
+            "file": "js/views/main-view.js",
+            "index": 7,
+            "start": {
+                "line": 22,
+                "column": 8
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                83,
+                343
+            ],
+            "bodyRange": [
+                112,
+                343
+            ],
+            "file": "js/views/main-view.js",
+            "index": 1,
+            "start": {
+                "line": 6,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                709,
+                813
+            ],
+            "bodyRange": [
+                728,
+                813
+            ],
+            "file": "js/views/main-view.js",
+            "index": 2,
+            "start": {
+                "line": 30,
+                "column": 13
+            },
+            "functionName": null
+        }
+    ],
+    "allFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                179,
+                548
+            ],
+            "bodyRange": [
+                197,
+                548
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 9,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2189,
+                2238
+            ],
+            "bodyRange": [
+                2205,
+                2238
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 72,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2069,
+                2568
+            ],
+            "bodyRange": [
+                2124,
+                2568
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 70,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3076,
+                3136
+            ],
+            "bodyRange": [
+                3091,
+                3136
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 103,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1557,
+                3332
+            ],
+            "bodyRange": [
+                1588,
+                3332
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 56,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                149,
+                3349
+            ],
+            "bodyRange": [
+                162,
+                3349
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 8,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3468,
+                3518
+            ],
+            "bodyRange": [
+                3478,
+                3518
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 117,
+                "column": 67
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3404,
+                3646
+            ],
+            "bodyRange": [
+                3427,
+                3646
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 117,
+                "column": 3
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3825,
+                3990
+            ],
+            "bodyRange": [
+                3845,
+                3990
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 126,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3993,
+                4106
+            ],
+            "bodyRange": [
+                4013,
+                4106
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4385,
+                4480
+            ],
+            "bodyRange": [
+                4397,
+                4480
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 147,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4109,
+                4484
+            ],
+            "bodyRange": [
+                4142,
+                4484
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 137,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4487,
+                5446
+            ],
+            "bodyRange": [
+                4521,
+                5446
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 154,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6198,
+                6375
+            ],
+            "bodyRange": [
+                6218,
+                6375
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 216,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5474,
+                6529
+            ],
+            "bodyRange": [
+                5490,
+                6529
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 199,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6836,
+                7176
+            ],
+            "bodyRange": [
+                6849,
+                7176
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 15,
+            "start": {
+                "line": 233,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6567,
+                7199
+            ],
+            "bodyRange": [
+                6579,
+                7199
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 16,
+            "start": {
+                "line": 227,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16,
+                7247
+            ],
+            "bodyRange": [
+                28,
+                7247
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 17,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                400,
+                413
+            ],
+            "bodyRange": [
+                411,
+                413
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 0,
+            "start": {
+                "line": 6,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                591,
+                840
+            ],
+            "bodyRange": [
+                618,
+                840
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 1,
+            "start": {
+                "line": 12,
+                "column": 1
+            },
+            "functionName": "initialize"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                1228,
+                2686
+            ],
+            "bodyRange": [
+                1241,
+                2686
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 2,
+            "start": {
+                "line": 35,
+                "column": 1
+            },
+            "functionName": "m"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16141,
+                16212
+            ],
+            "bodyRange": [
+                16152,
+                16212
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 3,
+            "start": {
+                "line": 328,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16106,
+                16218
+            ],
+            "bodyRange": [
+                16127,
+                16218
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 4,
+            "start": {
+                "line": 327,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2688,
+                17923
+            ],
+            "bodyRange": [
+                2822,
+                17923
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 5,
+            "start": {
+                "line": 74,
+                "column": 1
+            },
+            "functionName": "build"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                17925,
+                18001
+            ],
+            "bodyRange": [
+                17952,
+                18001
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 6,
+            "start": {
+                "line": 379,
+                "column": 1
+            },
+            "functionName": "sortChanges"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                18003,
+                20451
+            ],
+            "bodyRange": [
+                18072,
+                20451
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 7,
+            "start": {
+                "line": 380,
+                "column": 1
+            },
+            "functionName": "setAttributes"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                20453,
+                20900
+            ],
+            "bodyRange": [
+                20483,
+                20900
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 8,
+            "start": {
+                "line": 429,
+                "column": 1
+            },
+            "functionName": "clear"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                20902,
+                21510
+            ],
+            "bodyRange": [
+                20926,
+                21510
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 9,
+            "start": {
+                "line": 440,
+                "column": 1
+            },
+            "functionName": "unload"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                21512,
+                22209
+            ],
+            "bodyRange": [
+                21560,
+                22209
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 10,
+            "start": {
+                "line": 457,
+                "column": 1
+            },
+            "functionName": "injectHTML"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22260,
+                22436
+            ],
+            "bodyRange": [
+                22272,
+                22436
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 11,
+            "start": {
+                "line": 478,
+                "column": 9
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                22211,
+                22439
+            ],
+            "bodyRange": [
+                22249,
+                22439
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 12,
+            "start": {
+                "line": 477,
+                "column": 1
+            },
+            "functionName": "autoredraw"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22489,
+                22794
+            ],
+            "bodyRange": [
+                22504,
+                22794
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 13,
+            "start": {
+                "line": 491,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22812,
+                22858
+            ],
+            "bodyRange": [
+                22827,
+                22858
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 14,
+            "start": {
+                "line": 499,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22930,
+                23653
+            ],
+            "bodyRange": [
+                22968,
+                23653
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 15,
+            "start": {
+                "line": 505,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                23656,
+                23793
+            ],
+            "bodyRange": [
+                23690,
+                23793
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 16,
+            "start": {
+                "line": 517,
+                "column": 1
+            },
+            "functionName": "getCellCacheKey"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                23806,
+                23895
+            ],
+            "bodyRange": [
+                23822,
+                23895
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 17,
+            "start": {
+                "line": 522,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                23943,
+                24022
+            ],
+            "bodyRange": [
+                23954,
+                24022
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 18,
+            "start": {
+                "line": 529,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24041,
+                24073
+            ],
+            "bodyRange": [
+                24052,
+                24073
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 19,
+            "start": {
+                "line": 534,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                23899,
+                24092
+            ],
+            "bodyRange": [
+                23928,
+                24092
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 20,
+            "start": {
+                "line": 528,
+                "column": 1
+            },
+            "functionName": "gettersetter"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24104,
+                24405
+            ],
+            "bodyRange": [
+                24121,
+                24405
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 21,
+            "start": {
+                "line": 541,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24740,
+                24823
+            ],
+            "bodyRange": [
+                24751,
+                24823
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 22,
+            "start": {
+                "line": 553,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                24837,
+                25013
+            ],
+            "bodyRange": [
+                24852,
+                25013
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 23,
+            "start": {
+                "line": 556,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                24680,
+                25190
+            ],
+            "bodyRange": [
+                24719,
+                25190
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 24,
+            "start": {
+                "line": 552,
+                "column": 1
+            },
+            "functionName": "parameterize"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                25206,
+                25292
+            ],
+            "bodyRange": [
+                25226,
+                25292
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 25,
+            "start": {
+                "line": 565,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                25585,
+                25680
+            ],
+            "bodyRange": [
+                25596,
+                25680
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 26,
+            "start": {
+                "line": 574,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26393,
+                26406
+            ],
+            "bodyRange": [
+                26404,
+                26406
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 27,
+            "start": {
+                "line": 596,
+                "column": 79
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                25315,
+                26838
+            ],
+            "bodyRange": [
+                25341,
+                26838
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 28,
+            "start": {
+                "line": 568,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27658,
+                27690
+            ],
+            "bodyRange": [
+                27669,
+                27690
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 29,
+            "start": {
+                "line": 625,
+                "column": 41
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26875,
+                27732
+            ],
+            "bodyRange": [
+                26891,
+                27732
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 30,
+            "start": {
+                "line": 610,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                27766,
+                28511
+            ],
+            "bodyRange": [
+                27784,
+                28511
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 31,
+            "start": {
+                "line": 630,
+                "column": 1
+            },
+            "functionName": "redraw"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28561,
+                28591
+            ],
+            "bodyRange": [
+                28572,
+                28591
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 32,
+            "start": {
+                "line": 652,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28613,
+                28722
+            ],
+            "bodyRange": [
+                28624,
+                28722
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 33,
+            "start": {
+                "line": 653,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28751,
+                28886
+            ],
+            "bodyRange": [
+                28762,
+                28886
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 34,
+            "start": {
+                "line": 657,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28946,
+                29130
+            ],
+            "bodyRange": [
+                28958,
+                29130
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 35,
+            "start": {
+                "line": 666,
+                "column": 9
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                28902,
+                29133
+            ],
+            "bodyRange": [
+                28935,
+                29133
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 36,
+            "start": {
+                "line": 665,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                29569,
+                29899
+            ],
+            "bodyRange": [
+                29586,
+                29899
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 37,
+            "start": {
+                "line": 682,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                29998,
+                30190
+            ],
+            "bodyRange": [
+                30009,
+                30190
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 38,
+            "start": {
+                "line": 692,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                31727,
+                31883
+            ],
+            "bodyRange": [
+                31738,
+                31883
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 39,
+            "start": {
+                "line": 734,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                29284,
+                32052
+            ],
+            "bodyRange": [
+                29295,
+                32052
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 40,
+            "start": {
+                "line": 676,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                32071,
+                32238
+            ],
+            "bodyRange": [
+                32085,
+                32238
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 41,
+            "start": {
+                "line": 745,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                32267,
+                32351
+            ],
+            "bodyRange": [
+                32298,
+                32351
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 42,
+            "start": {
+                "line": 750,
+                "column": 1
+            },
+            "functionName": "normalizeRoute"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                33119,
+                33397
+            ],
+            "bodyRange": [
+                33130,
+                33397
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 43,
+            "start": {
+                "line": 780,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                32353,
+                33427
+            ],
+            "bodyRange": [
+                32395,
+                33427
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 44,
+            "start": {
+                "line": 753,
+                "column": 1
+            },
+            "functionName": "routeByValue"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                33429,
+                33976
+            ],
+            "bodyRange": [
+                33458,
+                33976
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 45,
+            "start": {
+                "line": 790,
+                "column": 1
+            },
+            "functionName": "routeUnobtrusive"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                33978,
+                34113
+            ],
+            "bodyRange": [
+                33999,
+                34113
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 46,
+            "start": {
+                "line": 800,
+                "column": 1
+            },
+            "functionName": "setScroll"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                34500,
+                34753
+            ],
+            "bodyRange": [
+                34521,
+                34753
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 47,
+            "start": {
+                "line": 813,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                34115,
+                34905
+            ],
+            "bodyRange": [
+                34157,
+                34905
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 48,
+            "start": {
+                "line": 804,
+                "column": 1
+            },
+            "functionName": "buildQueryString"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                34907,
+                35421
+            ],
+            "bodyRange": [
+                34938,
+                35421
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 49,
+            "start": {
+                "line": 826,
+                "column": 1
+            },
+            "functionName": "parseQueryString"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                35515,
+                35661
+            ],
+            "bodyRange": [
+                35536,
+                35661
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 50,
+            "start": {
+                "line": 845,
+                "column": 1
+            },
+            "functionName": "reset"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35677,
+                35792
+            ],
+            "bodyRange": [
+                35689,
+                35792
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 51,
+            "start": {
+                "line": 851,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                35908,
+                36002
+            ],
+            "bodyRange": [
+                35934,
+                36002
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 52,
+            "start": {
+                "line": 859,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                35795,
+                36020
+            ],
+            "bodyRange": [
+                35835,
+                36020
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 53,
+            "start": {
+                "line": 856,
+                "column": 1
+            },
+            "functionName": "propify"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36724,
+                36843
+            ],
+            "bodyRange": [
+                36740,
+                36843
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 54,
+            "start": {
+                "line": 874,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                36865,
+                36984
+            ],
+            "bodyRange": [
+                36881,
+                36984
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 55,
+            "start": {
+                "line": 884,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37012,
+                37334
+            ],
+            "bodyRange": [
+                37055,
+                37334
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 56,
+            "start": {
+                "line": 894,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37404,
+                37519
+            ],
+            "bodyRange": [
+                37423,
+                37519
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 57,
+            "start": {
+                "line": 910,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                37339,
+                37524
+            ],
+            "bodyRange": [
+                37361,
+                37524
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 58,
+            "start": {
+                "line": 908,
+                "column": 2
+            },
+            "functionName": "finish"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37868,
+                37971
+            ],
+            "bodyRange": [
+                37884,
+                37971
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 59,
+            "start": {
+                "line": 920,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37973,
+                38077
+            ],
+            "bodyRange": [
+                37990,
+                38077
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 60,
+            "start": {
+                "line": 924,
+                "column": 8
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                37528,
+                38228
+            ],
+            "bodyRange": [
+                37609,
+                38228
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 61,
+            "start": {
+                "line": 915,
+                "column": 2
+            },
+            "functionName": "thennable"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                38482,
+                38533
+            ],
+            "bodyRange": [
+                38493,
+                38533
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 62,
+            "start": {
+                "line": 952,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                38535,
+                38586
+            ],
+            "bodyRange": [
+                38546,
+                38586
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 63,
+            "start": {
+                "line": 955,
+                "column": 6
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39120,
+                39163
+            ],
+            "bodyRange": [
+                39132,
+                39163
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 64,
+            "start": {
+                "line": 979,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39173,
+                39239
+            ],
+            "bodyRange": [
+                39185,
+                39239
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 65,
+            "start": {
+                "line": 981,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                38588,
+                39251
+            ],
+            "bodyRange": [
+                38599,
+                39251
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 66,
+            "start": {
+                "line": 958,
+                "column": 6
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                38232,
+                39256
+            ],
+            "bodyRange": [
+                38248,
+                39256
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 67,
+            "start": {
+                "line": 940,
+                "column": 2
+            },
+            "functionName": "fire"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                36501,
+                39259
+            ],
+            "bodyRange": [
+                36553,
+                39259
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 68,
+            "start": {
+                "line": 868,
+                "column": 1
+            },
+            "functionName": "Deferred"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39282,
+                39392
+            ],
+            "bodyRange": [
+                39294,
+                39392
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 69,
+            "start": {
+                "line": 988,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39499,
+                39702
+            ],
+            "bodyRange": [
+                39515,
+                39702
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 70,
+            "start": {
+                "line": 995,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                39450,
+                39706
+            ],
+            "bodyRange": [
+                39487,
+                39706
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 71,
+            "start": {
+                "line": 994,
+                "column": 2
+            },
+            "functionName": "synchronizer"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                39405,
+                40011
+            ],
+            "bodyRange": [
+                39420,
+                40011
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 72,
+            "start": {
+                "line": 992,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                40014,
+                40053
+            ],
+            "bodyRange": [
+                40039,
+                40053
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 73,
+            "start": {
+                "line": 1018,
+                "column": 1
+            },
+            "functionName": "identity"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                40351,
+                40546
+            ],
+            "bodyRange": [
+                40366,
+                40546
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 74,
+            "start": {
+                "line": 1025,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                40569,
+                40851
+            ],
+            "bodyRange": [
+                40581,
+                40851
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 75,
+            "start": {
+                "line": 1036,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                40873,
+                40908
+            ],
+            "bodyRange": [
+                40885,
+                40908
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 76,
+            "start": {
+                "line": 1051,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                41324,
+                41528
+            ],
+            "bodyRange": [
+                41335,
+                41528
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 77,
+            "start": {
+                "line": 1065,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                40056,
+                42274
+            ],
+            "bodyRange": [
+                40079,
+                42274
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 78,
+            "start": {
+                "line": 1020,
+                "column": 1
+            },
+            "functionName": "ajax"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                42276,
+                42649
+            ],
+            "bodyRange": [
+                42323,
+                42649
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 79,
+            "start": {
+                "line": 1090,
+                "column": 1
+            },
+            "functionName": "bindData"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                42651,
+                42923
+            ],
+            "bodyRange": [
+                42687,
+                42923
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 80,
+            "start": {
+                "line": 1099,
+                "column": 1
+            },
+            "functionName": "parameterizeUrl"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                43372,
+                43415
+            ],
+            "bodyRange": [
+                43388,
+                43415
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 81,
+            "start": {
+                "line": 1117,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                43440,
+                43555
+            ],
+            "bodyRange": [
+                43454,
+                43555
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 82,
+            "start": {
+                "line": 1117,
+                "column": 94
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                43800,
+                44497
+            ],
+            "bodyRange": [
+                43812,
+                44497
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 83,
+            "start": {
+                "line": 1123,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                42938,
+                44620
+            ],
+            "bodyRange": [
+                42959,
+                44620
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 84,
+            "start": {
+                "line": 1111,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                44648,
+                44723
+            ],
+            "bodyRange": [
+                44663,
+                44723
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 85,
+            "start": {
+                "line": 1148,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                9,
+                44818
+            ],
+            "bodyRange": [
+                41,
+                44818
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 86,
+            "start": {
+                "line": 1,
+                "column": 9
+            },
+            "functionName": "app"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                45017,
+                45038
+            ],
+            "bodyRange": [
+                45028,
+                45038
+            ],
+            "file": "node_modules/mithril/mithril.js",
+            "index": 87,
+            "start": {
+                "line": 1159,
+                "column": 60
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                104,
+                138
+            ],
+            "bodyRange": [
+                116,
+                138
+            ],
+            "file": "js/models/todo.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 8
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                66,
+                141
+            ],
+            "bodyRange": [
+                78,
+                141
+            ],
+            "file": "js/models/todo.js",
+            "index": 1,
+            "start": {
+                "line": 5,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                172,
+                347
+            ],
+            "bodyRange": [
+                188,
+                347
+            ],
+            "file": "js/models/todo.js",
+            "index": 2,
+            "start": {
+                "line": 13,
+                "column": 11
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                110,
+                191
+            ],
+            "bodyRange": [
+                122,
+                191
+            ],
+            "file": "js/models/storage.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 7
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                200,
+                282
+            ],
+            "bodyRange": [
+                217,
+                282
+            ],
+            "file": "js/models/storage.js",
+            "index": 1,
+            "start": {
+                "line": 10,
+                "column": 7
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                37,
+                288
+            ],
+            "bodyRange": [
+                49,
+                288
+            ],
+            "file": "js/models/storage.js",
+            "index": 2,
+            "start": {
+                "line": 4,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                184,
+                233
+            ],
+            "bodyRange": [
+                200,
+                233
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 0,
+            "start": {
+                "line": 11,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                379,
+                547
+            ],
+            "bodyRange": [
+                391,
+                547
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 1,
+            "start": {
+                "line": 21,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                568,
+                746
+            ],
+            "bodyRange": [
+                584,
+                746
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 2,
+            "start": {
+                "line": 30,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                766,
+                908
+            ],
+            "bodyRange": [
+                782,
+                908
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 3,
+            "start": {
+                "line": 41,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                924,
+                1003
+            ],
+            "bodyRange": [
+                940,
+                1003
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 4,
+            "start": {
+                "line": 50,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1026,
+                1240
+            ],
+            "bodyRange": [
+                1049,
+                1240
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 5,
+            "start": {
+                "line": 55,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1265,
+                1342
+            ],
+            "bodyRange": [
+                1281,
+                1342
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 6,
+            "start": {
+                "line": 68,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1364,
+                1398
+            ],
+            "bodyRange": [
+                1376,
+                1398
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 7,
+            "start": {
+                "line": 73,
+                "column": 19
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1416,
+                1493
+            ],
+            "bodyRange": [
+                1431,
+                1493
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 8,
+            "start": {
+                "line": 77,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1519,
+                1689
+            ],
+            "bodyRange": [
+                1531,
+                1689
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 9,
+            "start": {
+                "line": 82,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1716,
+                1872
+            ],
+            "bodyRange": [
+                1728,
+                1872
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 10,
+            "start": {
+                "line": 91,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1896,
+                2037
+            ],
+            "bodyRange": [
+                1908,
+                2037
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 11,
+            "start": {
+                "line": 101,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2060,
+                2241
+            ],
+            "bodyRange": [
+                2072,
+                2241
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 12,
+            "start": {
+                "line": 110,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                67,
+                2244
+            ],
+            "bodyRange": [
+                79,
+                2244
+            ],
+            "file": "js/controllers/todo.js",
+            "index": 13,
+            "start": {
+                "line": 5,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                122,
+                340
+            ],
+            "bodyRange": [
+                135,
+                340
+            ],
+            "file": "js/views/main-view.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 8
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                83,
+                343
+            ],
+            "bodyRange": [
+                112,
+                343
+            ],
+            "file": "js/views/main-view.js",
+            "index": 1,
+            "start": {
+                "line": 6,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                709,
+                813
+            ],
+            "bodyRange": [
+                728,
+                813
+            ],
+            "file": "js/views/main-view.js",
+            "index": 2,
+            "start": {
+                "line": 30,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1184,
+                1360
+            ],
+            "bodyRange": [
+                1196,
+                1360
+            ],
+            "file": "js/views/main-view.js",
+            "index": 3,
+            "start": {
+                "line": 49,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1998,
+                2090
+            ],
+            "bodyRange": [
+                2015,
+                2090
+            ],
+            "file": "js/views/main-view.js",
+            "index": 4,
+            "start": {
+                "line": 74,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2109,
+                2208
+            ],
+            "bodyRange": [
+                2128,
+                2208
+            ],
+            "file": "js/views/main-view.js",
+            "index": 5,
+            "start": {
+                "line": 78,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1128,
+                2293
+            ],
+            "bodyRange": [
+                1151,
+                2293
+            ],
+            "file": "js/views/main-view.js",
+            "index": 6,
+            "start": {
+                "line": 48,
+                "column": 53
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                403,
+                2363
+            ],
+            "bodyRange": [
+                419,
+                2363
+            ],
+            "file": "js/views/main-view.js",
+            "index": 7,
+            "start": {
+                "line": 22,
+                "column": 8
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                358,
+                2365
+            ],
+            "bodyRange": [
+                370,
+                2365
+            ],
+            "file": "js/views/main-view.js",
+            "index": 8,
+            "start": {
+                "line": 19,
+                "column": 12
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                63,
+                914
+            ],
+            "bodyRange": [
+                79,
+                914
+            ],
+            "file": "js/views/footer-view.js",
+            "index": 0,
+            "start": {
+                "line": 5,
+                "column": 13
+            },
+            "functionName": null
+        }
+    ],
+    "affectedFiles": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "node_modules/mithril/mithril.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/models/todo.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/models/storage.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/controllers/todo.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/views/main-view.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/views/footer-view.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/app.js",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": ".",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": ".",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": ".",
+            "range": [
+                null,
+                null
+            ]
+        }
+    ]
+}

@@ -1,0 +1,768 @@
+{
+    "runDate": "2023-01-13T00:44:50.935Z",
+    "runOptions": {
+        "analyzer": [
+            "tajs",
+            "dynamic"
+        ],
+        "entry": "index.html",
+        "destination": "todomvc/examples.lacunised.cl/enyo_backbone",
+        "logfile": "lacuna.log",
+        "timeout": null,
+        "olevel": 1,
+        "force": true,
+        "normalizeOnly": false,
+        "assumeNormalization": false,
+        "directory": "todomvc/examples.lacunised.cl/enyo_backbone"
+    },
+    "graphStats": {
+        "connectedNodes": 10,
+        "disconnectedNodes": 10,
+        "nodes": 20,
+        "files": 2
+    },
+    "deadFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                179,
+                548
+            ],
+            "bodyRange": [
+                197,
+                548
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 9,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2189,
+                2238
+            ],
+            "bodyRange": [
+                2205,
+                2238
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 72,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2069,
+                2568
+            ],
+            "bodyRange": [
+                2124,
+                2568
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 70,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3076,
+                3136
+            ],
+            "bodyRange": [
+                3091,
+                3136
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 103,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1557,
+                3332
+            ],
+            "bodyRange": [
+                1588,
+                3332
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 56,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3471,
+                3613
+            ],
+            "bodyRange": [
+                3484,
+                3613
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 117,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6038,
+                6215
+            ],
+            "bodyRange": [
+                6058,
+                6215
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 211,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5314,
+                6369
+            ],
+            "bodyRange": [
+                5330,
+                6369
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 194,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6676,
+                7015
+            ],
+            "bodyRange": [
+                6689,
+                7015
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 228,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6407,
+                7038
+            ],
+            "bodyRange": [
+                6419,
+                7038
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 15,
+            "start": {
+                "line": 222,
+                "column": 35
+            },
+            "functionName": null
+        }
+    ],
+    "aliveFunctions": [
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3665,
+                3830
+            ],
+            "bodyRange": [
+                3685,
+                3830
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 121,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3833,
+                3946
+            ],
+            "bodyRange": [
+                3853,
+                3946
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 127,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3949,
+                4324
+            ],
+            "bodyRange": [
+                3982,
+                4324
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4327,
+                5286
+            ],
+            "bodyRange": [
+                4361,
+                5286
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 149,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16,
+                7086
+            ],
+            "bodyRange": [
+                28,
+                7086
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 16,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                149,
+                3349
+            ],
+            "bodyRange": [
+                162,
+                3349
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 8,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4225,
+                4320
+            ],
+            "bodyRange": [
+                4237,
+                4320
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 142,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1,
+                1257
+            ],
+            "bodyRange": [
+                12,
+                1257
+            ],
+            "file": "enyo/enyo.js",
+            "index": 2,
+            "start": {
+                "line": 1,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                173,
+                551
+            ],
+            "bodyRange": [
+                190,
+                551
+            ],
+            "file": "enyo/enyo.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1044,
+                1158
+            ],
+            "bodyRange": [
+                1060,
+                1158
+            ],
+            "file": "enyo/enyo.js",
+            "index": 1,
+            "start": {
+                "line": 34,
+                "column": 14
+            },
+            "functionName": null
+        }
+    ],
+    "allFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                179,
+                548
+            ],
+            "bodyRange": [
+                197,
+                548
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 9,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2189,
+                2238
+            ],
+            "bodyRange": [
+                2205,
+                2238
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 72,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2069,
+                2568
+            ],
+            "bodyRange": [
+                2124,
+                2568
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 70,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3076,
+                3136
+            ],
+            "bodyRange": [
+                3091,
+                3136
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 103,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1557,
+                3332
+            ],
+            "bodyRange": [
+                1588,
+                3332
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 56,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                149,
+                3349
+            ],
+            "bodyRange": [
+                162,
+                3349
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 8,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3471,
+                3613
+            ],
+            "bodyRange": [
+                3484,
+                3613
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 117,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3665,
+                3830
+            ],
+            "bodyRange": [
+                3685,
+                3830
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 121,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3833,
+                3946
+            ],
+            "bodyRange": [
+                3853,
+                3946
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 127,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4225,
+                4320
+            ],
+            "bodyRange": [
+                4237,
+                4320
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 142,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3949,
+                4324
+            ],
+            "bodyRange": [
+                3982,
+                4324
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4327,
+                5286
+            ],
+            "bodyRange": [
+                4361,
+                5286
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 149,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6038,
+                6215
+            ],
+            "bodyRange": [
+                6058,
+                6215
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 211,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5314,
+                6369
+            ],
+            "bodyRange": [
+                5330,
+                6369
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 194,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6676,
+                7015
+            ],
+            "bodyRange": [
+                6689,
+                7015
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 228,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6407,
+                7038
+            ],
+            "bodyRange": [
+                6419,
+                7038
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 15,
+            "start": {
+                "line": 222,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16,
+                7086
+            ],
+            "bodyRange": [
+                28,
+                7086
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 16,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                173,
+                551
+            ],
+            "bodyRange": [
+                190,
+                551
+            ],
+            "file": "enyo/enyo.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 21
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1044,
+                1158
+            ],
+            "bodyRange": [
+                1060,
+                1158
+            ],
+            "file": "enyo/enyo.js",
+            "index": 1,
+            "start": {
+                "line": 34,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1,
+                1257
+            ],
+            "bodyRange": [
+                12,
+                1257
+            ],
+            "file": "enyo/enyo.js",
+            "index": 2,
+            "start": {
+                "line": 1,
+                "column": 1
+            },
+            "functionName": null
+        }
+    ],
+    "affectedFiles": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "enyo/enyo.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        }
+    ]
+}

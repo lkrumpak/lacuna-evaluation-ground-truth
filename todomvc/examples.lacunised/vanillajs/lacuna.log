@@ -1,0 +1,4826 @@
+{
+    "runDate": "2023-01-12T23:13:54.150Z",
+    "runOptions": {
+        "analyzer": [
+            "tajs",
+            "dynamic"
+        ],
+        "entry": "index.html",
+        "destination": "todomvc/examples.lacunised.cl/vanillajs",
+        "logfile": "lacuna.log",
+        "timeout": null,
+        "olevel": 1,
+        "force": true,
+        "normalizeOnly": false,
+        "assumeNormalization": false,
+        "directory": "todomvc/examples.lacunised.cl/vanillajs"
+    },
+    "graphStats": {
+        "connectedNodes": 52,
+        "disconnectedNodes": 79,
+        "nodes": 131,
+        "files": 10
+    },
+    "deadFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                179,
+                548
+            ],
+            "bodyRange": [
+                197,
+                548
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 9,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2189,
+                2238
+            ],
+            "bodyRange": [
+                2205,
+                2238
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 72,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2069,
+                2568
+            ],
+            "bodyRange": [
+                2124,
+                2568
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 70,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3076,
+                3136
+            ],
+            "bodyRange": [
+                3091,
+                3136
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 103,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1557,
+                3332
+            ],
+            "bodyRange": [
+                1588,
+                3332
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 56,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3468,
+                3518
+            ],
+            "bodyRange": [
+                3478,
+                3518
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 117,
+                "column": 67
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3404,
+                3646
+            ],
+            "bodyRange": [
+                3427,
+                3646
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 117,
+                "column": 3
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6198,
+                6375
+            ],
+            "bodyRange": [
+                6218,
+                6375
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 216,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5474,
+                6529
+            ],
+            "bodyRange": [
+                5490,
+                6529
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 199,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6836,
+                7176
+            ],
+            "bodyRange": [
+                6849,
+                7176
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 15,
+            "start": {
+                "line": 233,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6567,
+                7199
+            ],
+            "bodyRange": [
+                6579,
+                7199
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 16,
+            "start": {
+                "line": 227,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                208,
+                296
+            ],
+            "bodyRange": [
+                235,
+                296
+            ],
+            "file": "js/helpers.js",
+            "index": 1,
+            "start": {
+                "line": 9,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1206,
+                1446
+            ],
+            "bodyRange": [
+                1234,
+                1446
+            ],
+            "file": "js/helpers.js",
+            "index": 5,
+            "start": {
+                "line": 39,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1255,
+                1380
+            ],
+            "bodyRange": [
+                1271,
+                1380
+            ],
+            "file": "js/store.js",
+            "index": 2,
+            "start": {
+                "line": 49,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1095,
+                1386
+            ],
+            "bodyRange": [
+                1122,
+                1386
+            ],
+            "file": "js/store.js",
+            "index": 3,
+            "start": {
+                "line": 42,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1597,
+                1611
+            ],
+            "bodyRange": [
+                1609,
+                1611
+            ],
+            "file": "js/store.js",
+            "index": 4,
+            "start": {
+                "line": 65,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2224,
+                2238
+            ],
+            "bodyRange": [
+                2236,
+                2238
+            ],
+            "file": "js/store.js",
+            "index": 6,
+            "start": {
+                "line": 81,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2081,
+                2789
+            ],
+            "bodyRange": [
+                2117,
+                2789
+            ],
+            "file": "js/store.js",
+            "index": 7,
+            "start": {
+                "line": 77,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3013,
+                3320
+            ],
+            "bodyRange": [
+                3037,
+                3320
+            ],
+            "file": "js/store.js",
+            "index": 8,
+            "start": {
+                "line": 112,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3479,
+                3617
+            ],
+            "bodyRange": [
+                3499,
+                3617
+            ],
+            "file": "js/store.js",
+            "index": 9,
+            "start": {
+                "line": 132,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                534,
+                548
+            ],
+            "bodyRange": [
+                546,
+                548
+            ],
+            "file": "js/model.js",
+            "index": 1,
+            "start": {
+                "line": 22,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                457,
+                661
+            ],
+            "bodyRange": [
+                484,
+                661
+            ],
+            "file": "js/model.js",
+            "index": 2,
+            "start": {
+                "line": 20,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1432,
+                1446
+            ],
+            "bodyRange": [
+                1444,
+                1446
+            ],
+            "file": "js/model.js",
+            "index": 3,
+            "start": {
+                "line": 49,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2105,
+                2180
+            ],
+            "bodyRange": [
+                2135,
+                2180
+            ],
+            "file": "js/model.js",
+            "index": 5,
+            "start": {
+                "line": 70,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2391,
+                2456
+            ],
+            "bodyRange": [
+                2415,
+                2456
+            ],
+            "file": "js/model.js",
+            "index": 6,
+            "start": {
+                "line": 80,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2629,
+                2684
+            ],
+            "bodyRange": [
+                2649,
+                2684
+            ],
+            "file": "js/model.js",
+            "index": 7,
+            "start": {
+                "line": 89,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2902,
+                3034
+            ],
+            "bodyRange": [
+                2918,
+                3034
+            ],
+            "file": "js/model.js",
+            "index": 8,
+            "start": {
+                "line": 104,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                208,
+                254
+            ],
+            "bodyRange": [
+                223,
+                254
+            ],
+            "file": "js/template.js",
+            "index": 0,
+            "start": {
+                "line": 14,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                370,
+                511
+            ],
+            "bodyRange": [
+                388,
+                511
+            ],
+            "file": "js/template.js",
+            "index": 1,
+            "start": {
+                "line": 21,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                817,
+                934
+            ],
+            "bodyRange": [
+                831,
+                934
+            ],
+            "file": "js/view.js",
+            "index": 1,
+            "start": {
+                "line": 30,
+                "column": 30
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1382,
+                1668
+            ],
+            "bodyRange": [
+                1407,
+                1668
+            ],
+            "file": "js/view.js",
+            "index": 4,
+            "start": {
+                "line": 48,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1699,
+                2011
+            ],
+            "bodyRange": [
+                1720,
+                2011
+            ],
+            "file": "js/view.js",
+            "index": 5,
+            "start": {
+                "line": 61,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2326,
+                2378
+            ],
+            "bodyRange": [
+                2343,
+                2378
+            ],
+            "file": "js/view.js",
+            "index": 6,
+            "start": {
+                "line": 90,
+                "column": 33
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2046,
+                2383
+            ],
+            "bodyRange": [
+                2067,
+                2383
+            ],
+            "file": "js/view.js",
+            "index": 7,
+            "start": {
+                "line": 78,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2598,
+                2649
+            ],
+            "bodyRange": [
+                2610,
+                2649
+            ],
+            "file": "js/view.js",
+            "index": 9,
+            "start": {
+                "line": 101,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3198,
+                3246
+            ],
+            "bodyRange": [
+                3210,
+                3246
+            ],
+            "file": "js/view.js",
+            "index": 15,
+            "start": {
+                "line": 119,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3268,
+                3348
+            ],
+            "bodyRange": [
+                3280,
+                3348
+            ],
+            "file": "js/view.js",
+            "index": 16,
+            "start": {
+                "line": 122,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3363,
+                3432
+            ],
+            "bodyRange": [
+                3375,
+                3432
+            ],
+            "file": "js/view.js",
+            "index": 17,
+            "start": {
+                "line": 125,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3451,
+                3524
+            ],
+            "bodyRange": [
+                3463,
+                3524
+            ],
+            "file": "js/view.js",
+            "index": 18,
+            "start": {
+                "line": 128,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3589,
+                3685
+            ],
+            "bodyRange": [
+                3608,
+                3685
+            ],
+            "file": "js/view.js",
+            "index": 20,
+            "start": {
+                "line": 136,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3812,
+                3943
+            ],
+            "bodyRange": [
+                3824,
+                3943
+            ],
+            "file": "js/view.js",
+            "index": 21,
+            "start": {
+                "line": 143,
+                "column": 48
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3999,
+                4185
+            ],
+            "bodyRange": [
+                4016,
+                4185
+            ],
+            "file": "js/view.js",
+            "index": 22,
+            "start": {
+                "line": 152,
+                "column": 52
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4320,
+                4484
+            ],
+            "bodyRange": [
+                4337,
+                4484
+            ],
+            "file": "js/view.js",
+            "index": 24,
+            "start": {
+                "line": 163,
+                "column": 49
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4623,
+                4675
+            ],
+            "bodyRange": [
+                4635,
+                4675
+            ],
+            "file": "js/view.js",
+            "index": 26,
+            "start": {
+                "line": 176,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4761,
+                4794
+            ],
+            "bodyRange": [
+                4773,
+                4794
+            ],
+            "file": "js/view.js",
+            "index": 27,
+            "start": {
+                "line": 181,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4869,
+                4927
+            ],
+            "bodyRange": [
+                4881,
+                4927
+            ],
+            "file": "js/view.js",
+            "index": 28,
+            "start": {
+                "line": 186,
+                "column": 33
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5021,
+                5078
+            ],
+            "bodyRange": [
+                5033,
+                5078
+            ],
+            "file": "js/view.js",
+            "index": 29,
+            "start": {
+                "line": 191,
+                "column": 53
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5171,
+                5228
+            ],
+            "bodyRange": [
+                5183,
+                5228
+            ],
+            "file": "js/view.js",
+            "index": 30,
+            "start": {
+                "line": 196,
+                "column": 50
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5320,
+                5418
+            ],
+            "bodyRange": [
+                5332,
+                5418
+            ],
+            "file": "js/view.js",
+            "index": 31,
+            "start": {
+                "line": 201,
+                "column": 49
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                349,
+                395
+            ],
+            "bodyRange": [
+                366,
+                395
+            ],
+            "file": "js/controller.js",
+            "index": 0,
+            "start": {
+                "line": 16,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                428,
+                476
+            ],
+            "bodyRange": [
+                444,
+                476
+            ],
+            "file": "js/controller.js",
+            "index": 1,
+            "start": {
+                "line": 20,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                513,
+                577
+            ],
+            "bodyRange": [
+                529,
+                577
+            ],
+            "file": "js/controller.js",
+            "index": 2,
+            "start": {
+                "line": 24,
+                "column": 33
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                616,
+                670
+            ],
+            "bodyRange": [
+                632,
+                670
+            ],
+            "file": "js/controller.js",
+            "index": 3,
+            "start": {
+                "line": 28,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                705,
+                755
+            ],
+            "bodyRange": [
+                721,
+                755
+            ],
+            "file": "js/controller.js",
+            "index": 4,
+            "start": {
+                "line": 32,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                790,
+                860
+            ],
+            "bodyRange": [
+                806,
+                860
+            ],
+            "file": "js/controller.js",
+            "index": 5,
+            "start": {
+                "line": 36,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                900,
+                949
+            ],
+            "bodyRange": [
+                912,
+                949
+            ],
+            "file": "js/controller.js",
+            "index": 6,
+            "start": {
+                "line": 40,
+                "column": 36
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                983,
+                1043
+            ],
+            "bodyRange": [
+                1001,
+                1043
+            ],
+            "file": "js/controller.js",
+            "index": 7,
+            "start": {
+                "line": 44,
+                "column": 30
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1709,
+                1772
+            ],
+            "bodyRange": [
+                1725,
+                1772
+            ],
+            "file": "js/controller.js",
+            "index": 12,
+            "start": {
+                "line": 76,
+                "column": 40
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1636,
+                1777
+            ],
+            "bodyRange": [
+                1648,
+                1777
+            ],
+            "file": "js/controller.js",
+            "index": 13,
+            "start": {
+                "line": 74,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1932,
+                1995
+            ],
+            "bodyRange": [
+                1948,
+                1995
+            ],
+            "file": "js/controller.js",
+            "index": 14,
+            "start": {
+                "line": 86,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1860,
+                2000
+            ],
+            "bodyRange": [
+                1872,
+                2000
+            ],
+            "file": "js/controller.js",
+            "index": 15,
+            "start": {
+                "line": 84,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2310,
+                2387
+            ],
+            "bodyRange": [
+                2322,
+                2387
+            ],
+            "file": "js/controller.js",
+            "index": 16,
+            "start": {
+                "line": 102,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2199,
+                2392
+            ],
+            "bodyRange": [
+                2216,
+                2392
+            ],
+            "file": "js/controller.js",
+            "index": 17,
+            "start": {
+                "line": 95,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2530,
+                2616
+            ],
+            "bodyRange": [
+                2546,
+                2616
+            ],
+            "file": "js/controller.js",
+            "index": 18,
+            "start": {
+                "line": 113,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2473,
+                2621
+            ],
+            "bodyRange": [
+                2487,
+                2621
+            ],
+            "file": "js/controller.js",
+            "index": 19,
+            "start": {
+                "line": 111,
+                "column": 33
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2855,
+                2935
+            ],
+            "bodyRange": [
+                2867,
+                2935
+            ],
+            "file": "js/controller.js",
+            "index": 20,
+            "start": {
+                "line": 126,
+                "column": 41
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2719,
+                2979
+            ],
+            "bodyRange": [
+                2740,
+                2979
+            ],
+            "file": "js/controller.js",
+            "index": 21,
+            "start": {
+                "line": 121,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3122,
+                3212
+            ],
+            "bodyRange": [
+                3138,
+                3212
+            ],
+            "file": "js/controller.js",
+            "index": 22,
+            "start": {
+                "line": 139,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3065,
+                3217
+            ],
+            "bodyRange": [
+                3079,
+                3217
+            ],
+            "file": "js/controller.js",
+            "index": 23,
+            "start": {
+                "line": 137,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3537,
+                3593
+            ],
+            "bodyRange": [
+                3549,
+                3593
+            ],
+            "file": "js/controller.js",
+            "index": 24,
+            "start": {
+                "line": 153,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3478,
+                3617
+            ],
+            "bodyRange": [
+                3492,
+                3617
+            ],
+            "file": "js/controller.js",
+            "index": 25,
+            "start": {
+                "line": 151,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3843,
+                3895
+            ],
+            "bodyRange": [
+                3859,
+                3895
+            ],
+            "file": "js/controller.js",
+            "index": 26,
+            "start": {
+                "line": 166,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3809,
+                3901
+            ],
+            "bodyRange": [
+                3825,
+                3901
+            ],
+            "file": "js/controller.js",
+            "index": 27,
+            "start": {
+                "line": 165,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3737,
+                3925
+            ],
+            "bodyRange": [
+                3749,
+                3925
+            ],
+            "file": "js/controller.js",
+            "index": 28,
+            "start": {
+                "line": 163,
+                "column": 45
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4457,
+                4559
+            ],
+            "bodyRange": [
+                4469,
+                4559
+            ],
+            "file": "js/controller.js",
+            "index": 29,
+            "start": {
+                "line": 185,
+                "column": 50
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4353,
+                4605
+            ],
+            "bodyRange": [
+                4386,
+                4605
+            ],
+            "file": "js/controller.js",
+            "index": 30,
+            "start": {
+                "line": 183,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4881,
+                4954
+            ],
+            "bodyRange": [
+                4897,
+                4954
+            ],
+            "file": "js/controller.js",
+            "index": 31,
+            "start": {
+                "line": 204,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4847,
+                4960
+            ],
+            "bodyRange": [
+                4863,
+                4960
+            ],
+            "file": "js/controller.js",
+            "index": 32,
+            "start": {
+                "line": 203,
+                "column": 45
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4760,
+                4984
+            ],
+            "bodyRange": [
+                4781,
+                4984
+            ],
+            "file": "js/controller.js",
+            "index": 33,
+            "start": {
+                "line": 201,
+                "column": 34
+            },
+            "functionName": null
+        }
+    ],
+    "aliveFunctions": [
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3825,
+                3990
+            ],
+            "bodyRange": [
+                3845,
+                3990
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 126,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3993,
+                4106
+            ],
+            "bodyRange": [
+                4013,
+                4106
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4109,
+                4484
+            ],
+            "bodyRange": [
+                4142,
+                4484
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 137,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4487,
+                5446
+            ],
+            "bodyRange": [
+                4521,
+                5446
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 154,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16,
+                7247
+            ],
+            "bodyRange": [
+                28,
+                7247
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 17,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                149,
+                3349
+            ],
+            "bodyRange": [
+                162,
+                3349
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 8,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4385,
+                4480
+            ],
+            "bodyRange": [
+                4397,
+                4480
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 147,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                642,
+                923
+            ],
+            "bodyRange": [
+                672,
+                923
+            ],
+            "file": "js/helpers.js",
+            "index": 3,
+            "start": {
+                "line": 21,
+                "column": 2
+            },
+            "functionName": "dispatchEvent"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22,
+                1589
+            ],
+            "bodyRange": [
+                40,
+                1589
+            ],
+            "file": "js/helpers.js",
+            "index": 6,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                107,
+                192
+            ],
+            "bodyRange": [
+                134,
+                192
+            ],
+            "file": "js/helpers.js",
+            "index": 0,
+            "start": {
+                "line": 6,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                343,
+                450
+            ],
+            "bodyRange": [
+                389,
+                450
+            ],
+            "file": "js/helpers.js",
+            "index": 2,
+            "start": {
+                "line": 14,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                595,
+                1101
+            ],
+            "bodyRange": [
+                638,
+                1101
+            ],
+            "file": "js/helpers.js",
+            "index": 4,
+            "start": {
+                "line": 20,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26,
+                3701
+            ],
+            "bodyRange": [
+                44,
+                3701
+            ],
+            "file": "js/store.js",
+            "index": 10,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                377,
+                650
+            ],
+            "bodyRange": [
+                408,
+                650
+            ],
+            "file": "js/store.js",
+            "index": 1,
+            "start": {
+                "line": 13,
+                "column": 1
+            },
+            "functionName": "Store"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                435,
+                449
+            ],
+            "bodyRange": [
+                447,
+                449
+            ],
+            "file": "js/store.js",
+            "index": 0,
+            "start": {
+                "line": 14,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1550,
+                1684
+            ],
+            "bodyRange": [
+                1570,
+                1684
+            ],
+            "file": "js/store.js",
+            "index": 5,
+            "start": {
+                "line": 64,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1,
+                3149
+            ],
+            "bodyRange": [
+                19,
+                3149
+            ],
+            "file": "js/model.js",
+            "index": 11,
+            "start": {
+                "line": 1,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                201,
+                255
+            ],
+            "bodyRange": [
+                225,
+                255
+            ],
+            "file": "js/model.js",
+            "index": 0,
+            "start": {
+                "line": 10,
+                "column": 1
+            },
+            "functionName": "Model"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2758,
+                3065
+            ],
+            "bodyRange": [
+                2778,
+                3065
+            ],
+            "file": "js/model.js",
+            "index": 10,
+            "start": {
+                "line": 96,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2868,
+                3060
+            ],
+            "bodyRange": [
+                2884,
+                3060
+            ],
+            "file": "js/model.js",
+            "index": 9,
+            "start": {
+                "line": 103,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1346,
+                1746
+            ],
+            "bodyRange": [
+                1373,
+                1746
+            ],
+            "file": "js/model.js",
+            "index": 4,
+            "start": {
+                "line": 47,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27,
+                2801
+            ],
+            "bodyRange": [
+                45,
+                2801
+            ],
+            "file": "js/template.js",
+            "index": 6,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                623,
+                907
+            ],
+            "bodyRange": [
+                643,
+                907
+            ],
+            "file": "js/template.js",
+            "index": 2,
+            "start": {
+                "line": 32,
+                "column": 1
+            },
+            "functionName": "Template"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2215,
+                2361
+            ],
+            "bodyRange": [
+                2238,
+                2361
+            ],
+            "file": "js/template.js",
+            "index": 4,
+            "start": {
+                "line": 91,
+                "column": 34
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2595,
+                2711
+            ],
+            "bodyRange": [
+                2621,
+                2711
+            ],
+            "file": "js/template.js",
+            "index": 5,
+            "start": {
+                "line": 103,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1437,
+                1991
+            ],
+            "bodyRange": [
+                1453,
+                1991
+            ],
+            "file": "js/template.js",
+            "index": 3,
+            "start": {
+                "line": 60,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                47,
+                5669
+            ],
+            "bodyRange": [
+                65,
+                5669
+            ],
+            "file": "js/view.js",
+            "index": 33,
+            "start": {
+                "line": 3,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                415,
+                785
+            ],
+            "bodyRange": [
+                439,
+                785
+            ],
+            "file": "js/view.js",
+            "index": 0,
+            "start": {
+                "line": 15,
+                "column": 1
+            },
+            "functionName": "View"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4515,
+                5587
+            ],
+            "bodyRange": [
+                4541,
+                5587
+            ],
+            "file": "js/view.js",
+            "index": 32,
+            "start": {
+                "line": 173,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3724,
+                4190
+            ],
+            "bodyRange": [
+                3743,
+                4190
+            ],
+            "file": "js/view.js",
+            "index": 23,
+            "start": {
+                "line": 141,
+                "column": 36
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4231,
+                4489
+            ],
+            "bodyRange": [
+                4250,
+                4489
+            ],
+            "file": "js/view.js",
+            "index": 25,
+            "start": {
+                "line": 161,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2411,
+                3560
+            ],
+            "bodyRange": [
+                2441,
+                3560
+            ],
+            "file": "js/view.js",
+            "index": 19,
+            "start": {
+                "line": 95,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2674,
+                2768
+            ],
+            "bodyRange": [
+                2686,
+                2768
+            ],
+            "file": "js/view.js",
+            "index": 10,
+            "start": {
+                "line": 104,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2795,
+                2885
+            ],
+            "bodyRange": [
+                2807,
+                2885
+            ],
+            "file": "js/view.js",
+            "index": 11,
+            "start": {
+                "line": 107,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                977,
+                1170
+            ],
+            "bodyRange": [
+                1012,
+                1170
+            ],
+            "file": "js/view.js",
+            "index": 2,
+            "start": {
+                "line": 38,
+                "column": 40
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3046,
+                3113
+            ],
+            "bodyRange": [
+                3058,
+                3113
+            ],
+            "file": "js/view.js",
+            "index": 13,
+            "start": {
+                "line": 113,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2914,
+                3030
+            ],
+            "bodyRange": [
+                2926,
+                3030
+            ],
+            "file": "js/view.js",
+            "index": 12,
+            "start": {
+                "line": 110,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2501,
+                2581
+            ],
+            "bodyRange": [
+                2513,
+                2581
+            ],
+            "file": "js/view.js",
+            "index": 8,
+            "start": {
+                "line": 98,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3129,
+                3179
+            ],
+            "bodyRange": [
+                3141,
+                3179
+            ],
+            "file": "js/view.js",
+            "index": 14,
+            "start": {
+                "line": 116,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1202,
+                1344
+            ],
+            "bodyRange": [
+                1225,
+                1344
+            ],
+            "file": "js/view.js",
+            "index": 3,
+            "start": {
+                "line": 43,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                455,
+                529
+            ],
+            "bodyRange": [
+                474,
+                529
+            ],
+            "file": "js/app.js",
+            "index": 1,
+            "start": {
+                "line": 20,
+                "column": 1
+            },
+            "functionName": "setView"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1,
+                6785
+            ],
+            "bodyRange": [
+                19,
+                6785
+            ],
+            "file": "js/controller.js",
+            "index": 38,
+            "start": {
+                "line": 1,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                224,
+                1048
+            ],
+            "bodyRange": [
+                257,
+                1048
+            ],
+            "file": "js/controller.js",
+            "index": 8,
+            "start": {
+                "line": 11,
+                "column": 1
+            },
+            "functionName": "Controller"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1179,
+                1308
+            ],
+            "bodyRange": [
+                1203,
+                1308
+            ],
+            "file": "js/controller.js",
+            "index": 9,
+            "start": {
+                "line": 54,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6372,
+                6691
+            ],
+            "bodyRange": [
+                6395,
+                6691
+            ],
+            "file": "js/controller.js",
+            "index": 37,
+            "start": {
+                "line": 253,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5718,
+                6264
+            ],
+            "bodyRange": [
+                5735,
+                6264
+            ],
+            "file": "js/controller.js",
+            "index": 36,
+            "start": {
+                "line": 234,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5130,
+                5541
+            ],
+            "bodyRange": [
+                5142,
+                5541
+            ],
+            "file": "js/controller.js",
+            "index": 35,
+            "start": {
+                "line": 216,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5185,
+                5536
+            ],
+            "bodyRange": [
+                5202,
+                5536
+            ],
+            "file": "js/controller.js",
+            "index": 34,
+            "start": {
+                "line": 218,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1440,
+                1559
+            ],
+            "bodyRange": [
+                1452,
+                1559
+            ],
+            "file": "js/controller.js",
+            "index": 11,
+            "start": {
+                "line": 64,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1491,
+                1554
+            ],
+            "bodyRange": [
+                1507,
+                1554
+            ],
+            "file": "js/controller.js",
+            "index": 10,
+            "start": {
+                "line": 66,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22,
+                599
+            ],
+            "bodyRange": [
+                34,
+                599
+            ],
+            "file": "js/app.js",
+            "index": 2,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                160,
+                410
+            ],
+            "bodyRange": [
+                180,
+                410
+            ],
+            "file": "js/app.js",
+            "index": 0,
+            "start": {
+                "line": 10,
+                "column": 1
+            },
+            "functionName": "Todo"
+        }
+    ],
+    "allFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                179,
+                548
+            ],
+            "bodyRange": [
+                197,
+                548
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 9,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2189,
+                2238
+            ],
+            "bodyRange": [
+                2205,
+                2238
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 72,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2069,
+                2568
+            ],
+            "bodyRange": [
+                2124,
+                2568
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 70,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3076,
+                3136
+            ],
+            "bodyRange": [
+                3091,
+                3136
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 103,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1557,
+                3332
+            ],
+            "bodyRange": [
+                1588,
+                3332
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 56,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                149,
+                3349
+            ],
+            "bodyRange": [
+                162,
+                3349
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 8,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3468,
+                3518
+            ],
+            "bodyRange": [
+                3478,
+                3518
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 117,
+                "column": 67
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3404,
+                3646
+            ],
+            "bodyRange": [
+                3427,
+                3646
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 117,
+                "column": 3
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3825,
+                3990
+            ],
+            "bodyRange": [
+                3845,
+                3990
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 126,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3993,
+                4106
+            ],
+            "bodyRange": [
+                4013,
+                4106
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4385,
+                4480
+            ],
+            "bodyRange": [
+                4397,
+                4480
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 147,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4109,
+                4484
+            ],
+            "bodyRange": [
+                4142,
+                4484
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 137,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4487,
+                5446
+            ],
+            "bodyRange": [
+                4521,
+                5446
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 154,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6198,
+                6375
+            ],
+            "bodyRange": [
+                6218,
+                6375
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 216,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5474,
+                6529
+            ],
+            "bodyRange": [
+                5490,
+                6529
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 199,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6836,
+                7176
+            ],
+            "bodyRange": [
+                6849,
+                7176
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 15,
+            "start": {
+                "line": 233,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6567,
+                7199
+            ],
+            "bodyRange": [
+                6579,
+                7199
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 16,
+            "start": {
+                "line": 227,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16,
+                7247
+            ],
+            "bodyRange": [
+                28,
+                7247
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 17,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                107,
+                192
+            ],
+            "bodyRange": [
+                134,
+                192
+            ],
+            "file": "js/helpers.js",
+            "index": 0,
+            "start": {
+                "line": 6,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                208,
+                296
+            ],
+            "bodyRange": [
+                235,
+                296
+            ],
+            "file": "js/helpers.js",
+            "index": 1,
+            "start": {
+                "line": 9,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                343,
+                450
+            ],
+            "bodyRange": [
+                389,
+                450
+            ],
+            "file": "js/helpers.js",
+            "index": 2,
+            "start": {
+                "line": 14,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                642,
+                923
+            ],
+            "bodyRange": [
+                672,
+                923
+            ],
+            "file": "js/helpers.js",
+            "index": 3,
+            "start": {
+                "line": 21,
+                "column": 2
+            },
+            "functionName": "dispatchEvent"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                595,
+                1101
+            ],
+            "bodyRange": [
+                638,
+                1101
+            ],
+            "file": "js/helpers.js",
+            "index": 4,
+            "start": {
+                "line": 20,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1206,
+                1446
+            ],
+            "bodyRange": [
+                1234,
+                1446
+            ],
+            "file": "js/helpers.js",
+            "index": 5,
+            "start": {
+                "line": 39,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22,
+                1589
+            ],
+            "bodyRange": [
+                40,
+                1589
+            ],
+            "file": "js/helpers.js",
+            "index": 6,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                435,
+                449
+            ],
+            "bodyRange": [
+                447,
+                449
+            ],
+            "file": "js/store.js",
+            "index": 0,
+            "start": {
+                "line": 14,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                377,
+                650
+            ],
+            "bodyRange": [
+                408,
+                650
+            ],
+            "file": "js/store.js",
+            "index": 1,
+            "start": {
+                "line": 13,
+                "column": 1
+            },
+            "functionName": "Store"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1255,
+                1380
+            ],
+            "bodyRange": [
+                1271,
+                1380
+            ],
+            "file": "js/store.js",
+            "index": 2,
+            "start": {
+                "line": 49,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1095,
+                1386
+            ],
+            "bodyRange": [
+                1122,
+                1386
+            ],
+            "file": "js/store.js",
+            "index": 3,
+            "start": {
+                "line": 42,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1597,
+                1611
+            ],
+            "bodyRange": [
+                1609,
+                1611
+            ],
+            "file": "js/store.js",
+            "index": 4,
+            "start": {
+                "line": 65,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1550,
+                1684
+            ],
+            "bodyRange": [
+                1570,
+                1684
+            ],
+            "file": "js/store.js",
+            "index": 5,
+            "start": {
+                "line": 64,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2224,
+                2238
+            ],
+            "bodyRange": [
+                2236,
+                2238
+            ],
+            "file": "js/store.js",
+            "index": 6,
+            "start": {
+                "line": 81,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2081,
+                2789
+            ],
+            "bodyRange": [
+                2117,
+                2789
+            ],
+            "file": "js/store.js",
+            "index": 7,
+            "start": {
+                "line": 77,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3013,
+                3320
+            ],
+            "bodyRange": [
+                3037,
+                3320
+            ],
+            "file": "js/store.js",
+            "index": 8,
+            "start": {
+                "line": 112,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3479,
+                3617
+            ],
+            "bodyRange": [
+                3499,
+                3617
+            ],
+            "file": "js/store.js",
+            "index": 9,
+            "start": {
+                "line": 132,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                26,
+                3701
+            ],
+            "bodyRange": [
+                44,
+                3701
+            ],
+            "file": "js/store.js",
+            "index": 10,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                201,
+                255
+            ],
+            "bodyRange": [
+                225,
+                255
+            ],
+            "file": "js/model.js",
+            "index": 0,
+            "start": {
+                "line": 10,
+                "column": 1
+            },
+            "functionName": "Model"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                534,
+                548
+            ],
+            "bodyRange": [
+                546,
+                548
+            ],
+            "file": "js/model.js",
+            "index": 1,
+            "start": {
+                "line": 22,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                457,
+                661
+            ],
+            "bodyRange": [
+                484,
+                661
+            ],
+            "file": "js/model.js",
+            "index": 2,
+            "start": {
+                "line": 20,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1432,
+                1446
+            ],
+            "bodyRange": [
+                1444,
+                1446
+            ],
+            "file": "js/model.js",
+            "index": 3,
+            "start": {
+                "line": 49,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1346,
+                1746
+            ],
+            "bodyRange": [
+                1373,
+                1746
+            ],
+            "file": "js/model.js",
+            "index": 4,
+            "start": {
+                "line": 47,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2105,
+                2180
+            ],
+            "bodyRange": [
+                2135,
+                2180
+            ],
+            "file": "js/model.js",
+            "index": 5,
+            "start": {
+                "line": 70,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2391,
+                2456
+            ],
+            "bodyRange": [
+                2415,
+                2456
+            ],
+            "file": "js/model.js",
+            "index": 6,
+            "start": {
+                "line": 80,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2629,
+                2684
+            ],
+            "bodyRange": [
+                2649,
+                2684
+            ],
+            "file": "js/model.js",
+            "index": 7,
+            "start": {
+                "line": 89,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2902,
+                3034
+            ],
+            "bodyRange": [
+                2918,
+                3034
+            ],
+            "file": "js/model.js",
+            "index": 8,
+            "start": {
+                "line": 104,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2868,
+                3060
+            ],
+            "bodyRange": [
+                2884,
+                3060
+            ],
+            "file": "js/model.js",
+            "index": 9,
+            "start": {
+                "line": 103,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2758,
+                3065
+            ],
+            "bodyRange": [
+                2778,
+                3065
+            ],
+            "file": "js/model.js",
+            "index": 10,
+            "start": {
+                "line": 96,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1,
+                3149
+            ],
+            "bodyRange": [
+                19,
+                3149
+            ],
+            "file": "js/model.js",
+            "index": 11,
+            "start": {
+                "line": 1,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                208,
+                254
+            ],
+            "bodyRange": [
+                223,
+                254
+            ],
+            "file": "js/template.js",
+            "index": 0,
+            "start": {
+                "line": 14,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                370,
+                511
+            ],
+            "bodyRange": [
+                388,
+                511
+            ],
+            "file": "js/template.js",
+            "index": 1,
+            "start": {
+                "line": 21,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                623,
+                907
+            ],
+            "bodyRange": [
+                643,
+                907
+            ],
+            "file": "js/template.js",
+            "index": 2,
+            "start": {
+                "line": 32,
+                "column": 1
+            },
+            "functionName": "Template"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1437,
+                1991
+            ],
+            "bodyRange": [
+                1453,
+                1991
+            ],
+            "file": "js/template.js",
+            "index": 3,
+            "start": {
+                "line": 60,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2215,
+                2361
+            ],
+            "bodyRange": [
+                2238,
+                2361
+            ],
+            "file": "js/template.js",
+            "index": 4,
+            "start": {
+                "line": 91,
+                "column": 34
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2595,
+                2711
+            ],
+            "bodyRange": [
+                2621,
+                2711
+            ],
+            "file": "js/template.js",
+            "index": 5,
+            "start": {
+                "line": 103,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                27,
+                2801
+            ],
+            "bodyRange": [
+                45,
+                2801
+            ],
+            "file": "js/template.js",
+            "index": 6,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                415,
+                785
+            ],
+            "bodyRange": [
+                439,
+                785
+            ],
+            "file": "js/view.js",
+            "index": 0,
+            "start": {
+                "line": 15,
+                "column": 1
+            },
+            "functionName": "View"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                817,
+                934
+            ],
+            "bodyRange": [
+                831,
+                934
+            ],
+            "file": "js/view.js",
+            "index": 1,
+            "start": {
+                "line": 30,
+                "column": 30
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                977,
+                1170
+            ],
+            "bodyRange": [
+                1012,
+                1170
+            ],
+            "file": "js/view.js",
+            "index": 2,
+            "start": {
+                "line": 38,
+                "column": 40
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1202,
+                1344
+            ],
+            "bodyRange": [
+                1225,
+                1344
+            ],
+            "file": "js/view.js",
+            "index": 3,
+            "start": {
+                "line": 43,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1382,
+                1668
+            ],
+            "bodyRange": [
+                1407,
+                1668
+            ],
+            "file": "js/view.js",
+            "index": 4,
+            "start": {
+                "line": 48,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1699,
+                2011
+            ],
+            "bodyRange": [
+                1720,
+                2011
+            ],
+            "file": "js/view.js",
+            "index": 5,
+            "start": {
+                "line": 61,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2326,
+                2378
+            ],
+            "bodyRange": [
+                2343,
+                2378
+            ],
+            "file": "js/view.js",
+            "index": 6,
+            "start": {
+                "line": 90,
+                "column": 33
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2046,
+                2383
+            ],
+            "bodyRange": [
+                2067,
+                2383
+            ],
+            "file": "js/view.js",
+            "index": 7,
+            "start": {
+                "line": 78,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2501,
+                2581
+            ],
+            "bodyRange": [
+                2513,
+                2581
+            ],
+            "file": "js/view.js",
+            "index": 8,
+            "start": {
+                "line": 98,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2598,
+                2649
+            ],
+            "bodyRange": [
+                2610,
+                2649
+            ],
+            "file": "js/view.js",
+            "index": 9,
+            "start": {
+                "line": 101,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2674,
+                2768
+            ],
+            "bodyRange": [
+                2686,
+                2768
+            ],
+            "file": "js/view.js",
+            "index": 10,
+            "start": {
+                "line": 104,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2795,
+                2885
+            ],
+            "bodyRange": [
+                2807,
+                2885
+            ],
+            "file": "js/view.js",
+            "index": 11,
+            "start": {
+                "line": 107,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2914,
+                3030
+            ],
+            "bodyRange": [
+                2926,
+                3030
+            ],
+            "file": "js/view.js",
+            "index": 12,
+            "start": {
+                "line": 110,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3046,
+                3113
+            ],
+            "bodyRange": [
+                3058,
+                3113
+            ],
+            "file": "js/view.js",
+            "index": 13,
+            "start": {
+                "line": 113,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3129,
+                3179
+            ],
+            "bodyRange": [
+                3141,
+                3179
+            ],
+            "file": "js/view.js",
+            "index": 14,
+            "start": {
+                "line": 116,
+                "column": 14
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3198,
+                3246
+            ],
+            "bodyRange": [
+                3210,
+                3246
+            ],
+            "file": "js/view.js",
+            "index": 15,
+            "start": {
+                "line": 119,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3268,
+                3348
+            ],
+            "bodyRange": [
+                3280,
+                3348
+            ],
+            "file": "js/view.js",
+            "index": 16,
+            "start": {
+                "line": 122,
+                "column": 20
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3363,
+                3432
+            ],
+            "bodyRange": [
+                3375,
+                3432
+            ],
+            "file": "js/view.js",
+            "index": 17,
+            "start": {
+                "line": 125,
+                "column": 13
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3451,
+                3524
+            ],
+            "bodyRange": [
+                3463,
+                3524
+            ],
+            "file": "js/view.js",
+            "index": 18,
+            "start": {
+                "line": 128,
+                "column": 17
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2411,
+                3560
+            ],
+            "bodyRange": [
+                2441,
+                3560
+            ],
+            "file": "js/view.js",
+            "index": 19,
+            "start": {
+                "line": 95,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3589,
+                3685
+            ],
+            "bodyRange": [
+                3608,
+                3685
+            ],
+            "file": "js/view.js",
+            "index": 20,
+            "start": {
+                "line": 136,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3812,
+                3943
+            ],
+            "bodyRange": [
+                3824,
+                3943
+            ],
+            "file": "js/view.js",
+            "index": 21,
+            "start": {
+                "line": 143,
+                "column": 48
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3999,
+                4185
+            ],
+            "bodyRange": [
+                4016,
+                4185
+            ],
+            "file": "js/view.js",
+            "index": 22,
+            "start": {
+                "line": 152,
+                "column": 52
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3724,
+                4190
+            ],
+            "bodyRange": [
+                3743,
+                4190
+            ],
+            "file": "js/view.js",
+            "index": 23,
+            "start": {
+                "line": 141,
+                "column": 36
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4320,
+                4484
+            ],
+            "bodyRange": [
+                4337,
+                4484
+            ],
+            "file": "js/view.js",
+            "index": 24,
+            "start": {
+                "line": 163,
+                "column": 49
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4231,
+                4489
+            ],
+            "bodyRange": [
+                4250,
+                4489
+            ],
+            "file": "js/view.js",
+            "index": 25,
+            "start": {
+                "line": 161,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4623,
+                4675
+            ],
+            "bodyRange": [
+                4635,
+                4675
+            ],
+            "file": "js/view.js",
+            "index": 26,
+            "start": {
+                "line": 176,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4761,
+                4794
+            ],
+            "bodyRange": [
+                4773,
+                4794
+            ],
+            "file": "js/view.js",
+            "index": 27,
+            "start": {
+                "line": 181,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4869,
+                4927
+            ],
+            "bodyRange": [
+                4881,
+                4927
+            ],
+            "file": "js/view.js",
+            "index": 28,
+            "start": {
+                "line": 186,
+                "column": 33
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5021,
+                5078
+            ],
+            "bodyRange": [
+                5033,
+                5078
+            ],
+            "file": "js/view.js",
+            "index": 29,
+            "start": {
+                "line": 191,
+                "column": 53
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5171,
+                5228
+            ],
+            "bodyRange": [
+                5183,
+                5228
+            ],
+            "file": "js/view.js",
+            "index": 30,
+            "start": {
+                "line": 196,
+                "column": 50
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5320,
+                5418
+            ],
+            "bodyRange": [
+                5332,
+                5418
+            ],
+            "file": "js/view.js",
+            "index": 31,
+            "start": {
+                "line": 201,
+                "column": 49
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4515,
+                5587
+            ],
+            "bodyRange": [
+                4541,
+                5587
+            ],
+            "file": "js/view.js",
+            "index": 32,
+            "start": {
+                "line": 173,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                47,
+                5669
+            ],
+            "bodyRange": [
+                65,
+                5669
+            ],
+            "file": "js/view.js",
+            "index": 33,
+            "start": {
+                "line": 3,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                349,
+                395
+            ],
+            "bodyRange": [
+                366,
+                395
+            ],
+            "file": "js/controller.js",
+            "index": 0,
+            "start": {
+                "line": 16,
+                "column": 28
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                428,
+                476
+            ],
+            "bodyRange": [
+                444,
+                476
+            ],
+            "file": "js/controller.js",
+            "index": 1,
+            "start": {
+                "line": 20,
+                "column": 29
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                513,
+                577
+            ],
+            "bodyRange": [
+                529,
+                577
+            ],
+            "file": "js/controller.js",
+            "index": 2,
+            "start": {
+                "line": 24,
+                "column": 33
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                616,
+                670
+            ],
+            "bodyRange": [
+                632,
+                670
+            ],
+            "file": "js/controller.js",
+            "index": 3,
+            "start": {
+                "line": 28,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                705,
+                755
+            ],
+            "bodyRange": [
+                721,
+                755
+            ],
+            "file": "js/controller.js",
+            "index": 4,
+            "start": {
+                "line": 32,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                790,
+                860
+            ],
+            "bodyRange": [
+                806,
+                860
+            ],
+            "file": "js/controller.js",
+            "index": 5,
+            "start": {
+                "line": 36,
+                "column": 31
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                900,
+                949
+            ],
+            "bodyRange": [
+                912,
+                949
+            ],
+            "file": "js/controller.js",
+            "index": 6,
+            "start": {
+                "line": 40,
+                "column": 36
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                983,
+                1043
+            ],
+            "bodyRange": [
+                1001,
+                1043
+            ],
+            "file": "js/controller.js",
+            "index": 7,
+            "start": {
+                "line": 44,
+                "column": 30
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                224,
+                1048
+            ],
+            "bodyRange": [
+                257,
+                1048
+            ],
+            "file": "js/controller.js",
+            "index": 8,
+            "start": {
+                "line": 11,
+                "column": 1
+            },
+            "functionName": "Controller"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1179,
+                1308
+            ],
+            "bodyRange": [
+                1203,
+                1308
+            ],
+            "file": "js/controller.js",
+            "index": 9,
+            "start": {
+                "line": 54,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1491,
+                1554
+            ],
+            "bodyRange": [
+                1507,
+                1554
+            ],
+            "file": "js/controller.js",
+            "index": 10,
+            "start": {
+                "line": 66,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1440,
+                1559
+            ],
+            "bodyRange": [
+                1452,
+                1559
+            ],
+            "file": "js/controller.js",
+            "index": 11,
+            "start": {
+                "line": 64,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1709,
+                1772
+            ],
+            "bodyRange": [
+                1725,
+                1772
+            ],
+            "file": "js/controller.js",
+            "index": 12,
+            "start": {
+                "line": 76,
+                "column": 40
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1636,
+                1777
+            ],
+            "bodyRange": [
+                1648,
+                1777
+            ],
+            "file": "js/controller.js",
+            "index": 13,
+            "start": {
+                "line": 74,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1932,
+                1995
+            ],
+            "bodyRange": [
+                1948,
+                1995
+            ],
+            "file": "js/controller.js",
+            "index": 14,
+            "start": {
+                "line": 86,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1860,
+                2000
+            ],
+            "bodyRange": [
+                1872,
+                2000
+            ],
+            "file": "js/controller.js",
+            "index": 15,
+            "start": {
+                "line": 84,
+                "column": 38
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2310,
+                2387
+            ],
+            "bodyRange": [
+                2322,
+                2387
+            ],
+            "file": "js/controller.js",
+            "index": 16,
+            "start": {
+                "line": 102,
+                "column": 27
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2199,
+                2392
+            ],
+            "bodyRange": [
+                2216,
+                2392
+            ],
+            "file": "js/controller.js",
+            "index": 17,
+            "start": {
+                "line": 95,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2530,
+                2616
+            ],
+            "bodyRange": [
+                2546,
+                2616
+            ],
+            "file": "js/controller.js",
+            "index": 18,
+            "start": {
+                "line": 113,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2473,
+                2621
+            ],
+            "bodyRange": [
+                2487,
+                2621
+            ],
+            "file": "js/controller.js",
+            "index": 19,
+            "start": {
+                "line": 111,
+                "column": 33
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2855,
+                2935
+            ],
+            "bodyRange": [
+                2867,
+                2935
+            ],
+            "file": "js/controller.js",
+            "index": 20,
+            "start": {
+                "line": 126,
+                "column": 41
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2719,
+                2979
+            ],
+            "bodyRange": [
+                2740,
+                2979
+            ],
+            "file": "js/controller.js",
+            "index": 21,
+            "start": {
+                "line": 121,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3122,
+                3212
+            ],
+            "bodyRange": [
+                3138,
+                3212
+            ],
+            "file": "js/controller.js",
+            "index": 22,
+            "start": {
+                "line": 139,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3065,
+                3217
+            ],
+            "bodyRange": [
+                3079,
+                3217
+            ],
+            "file": "js/controller.js",
+            "index": 23,
+            "start": {
+                "line": 137,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3537,
+                3593
+            ],
+            "bodyRange": [
+                3549,
+                3593
+            ],
+            "file": "js/controller.js",
+            "index": 24,
+            "start": {
+                "line": 153,
+                "column": 24
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3478,
+                3617
+            ],
+            "bodyRange": [
+                3492,
+                3617
+            ],
+            "file": "js/controller.js",
+            "index": 25,
+            "start": {
+                "line": 151,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3843,
+                3895
+            ],
+            "bodyRange": [
+                3859,
+                3895
+            ],
+            "file": "js/controller.js",
+            "index": 26,
+            "start": {
+                "line": 166,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3809,
+                3901
+            ],
+            "bodyRange": [
+                3825,
+                3901
+            ],
+            "file": "js/controller.js",
+            "index": 27,
+            "start": {
+                "line": 165,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3737,
+                3925
+            ],
+            "bodyRange": [
+                3749,
+                3925
+            ],
+            "file": "js/controller.js",
+            "index": 28,
+            "start": {
+                "line": 163,
+                "column": 45
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4457,
+                4559
+            ],
+            "bodyRange": [
+                4469,
+                4559
+            ],
+            "file": "js/controller.js",
+            "index": 29,
+            "start": {
+                "line": 185,
+                "column": 50
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4353,
+                4605
+            ],
+            "bodyRange": [
+                4386,
+                4605
+            ],
+            "file": "js/controller.js",
+            "index": 30,
+            "start": {
+                "line": 183,
+                "column": 39
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4881,
+                4954
+            ],
+            "bodyRange": [
+                4897,
+                4954
+            ],
+            "file": "js/controller.js",
+            "index": 31,
+            "start": {
+                "line": 204,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4847,
+                4960
+            ],
+            "bodyRange": [
+                4863,
+                4960
+            ],
+            "file": "js/controller.js",
+            "index": 32,
+            "start": {
+                "line": 203,
+                "column": 45
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4760,
+                4984
+            ],
+            "bodyRange": [
+                4781,
+                4984
+            ],
+            "file": "js/controller.js",
+            "index": 33,
+            "start": {
+                "line": 201,
+                "column": 34
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5185,
+                5536
+            ],
+            "bodyRange": [
+                5202,
+                5536
+            ],
+            "file": "js/controller.js",
+            "index": 34,
+            "start": {
+                "line": 218,
+                "column": 22
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5130,
+                5541
+            ],
+            "bodyRange": [
+                5142,
+                5541
+            ],
+            "file": "js/controller.js",
+            "index": 35,
+            "start": {
+                "line": 216,
+                "column": 37
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5718,
+                6264
+            ],
+            "bodyRange": [
+                5735,
+                6264
+            ],
+            "file": "js/controller.js",
+            "index": 36,
+            "start": {
+                "line": 234,
+                "column": 32
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6372,
+                6691
+            ],
+            "bodyRange": [
+                6395,
+                6691
+            ],
+            "file": "js/controller.js",
+            "index": 37,
+            "start": {
+                "line": 253,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1,
+                6785
+            ],
+            "bodyRange": [
+                19,
+                6785
+            ],
+            "file": "js/controller.js",
+            "index": 38,
+            "start": {
+                "line": 1,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                160,
+                410
+            ],
+            "bodyRange": [
+                180,
+                410
+            ],
+            "file": "js/app.js",
+            "index": 0,
+            "start": {
+                "line": 10,
+                "column": 1
+            },
+            "functionName": "Todo"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                455,
+                529
+            ],
+            "bodyRange": [
+                474,
+                529
+            ],
+            "file": "js/app.js",
+            "index": 1,
+            "start": {
+                "line": 20,
+                "column": 1
+            },
+            "functionName": "setView"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                22,
+                599
+            ],
+            "bodyRange": [
+                34,
+                599
+            ],
+            "file": "js/app.js",
+            "index": 2,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        }
+    ],
+    "affectedFiles": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/helpers.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/store.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/model.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/template.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/view.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/controller.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/app.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": ".",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": ".",
+            "range": [
+                null,
+                null
+            ]
+        }
+    ]
+}

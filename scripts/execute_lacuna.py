@@ -18,22 +18,22 @@ def invoke_lacuna(subject, onlyDynamic=False):
     if not onlyDynamic:
         toCall = [
             "node",
-            "../lacuna_evaluation/LacunaV2/lacuna",
-            f"../todomvc/examples.normalised//{subject}",
+            "./lacuna_evaluation/LacunaV2/lacuna",
+            f"./todomvc/examples/{subject}",
             "-a",
             "tajs",
             "dynamic",
             "-o",
             "1",
             "-d",
-            f"../todomvc/examples.lacunised/{subject}",
+            f"./todomvc/examples.lacunised/{subject}",
             "-f",
         ]
     else:
         toCall = [
             "node",
-            "../lacuna_evaluation/LacunaV2/lacuna",
-            f"../todomvc/examples.normalised//{subject}",
+            "./lacuna_evaluation/LacunaV2/lacuna",
+            f"./todomvc/examples/{subject}",
             "-a",
             "dynamic",
             "-o",

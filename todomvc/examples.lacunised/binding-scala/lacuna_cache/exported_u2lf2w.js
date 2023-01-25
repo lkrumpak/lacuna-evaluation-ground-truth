@@ -1,0 +1,1 @@
+ com.thoughtworks.todo.Main().main(document.getElementById('application-container')) 

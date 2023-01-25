@@ -1,0 +1,624 @@
+{
+    "runDate": "2023-01-12T23:55:32.296Z",
+    "runOptions": {
+        "analyzer": [
+            "tajs",
+            "dynamic"
+        ],
+        "entry": "index.html",
+        "destination": "todomvc/examples.lacunised.cl/sapui5",
+        "logfile": "lacuna.log",
+        "timeout": null,
+        "olevel": 1,
+        "force": true,
+        "normalizeOnly": false,
+        "assumeNormalization": false,
+        "directory": "todomvc/examples.lacunised.cl/sapui5"
+    },
+    "graphStats": {
+        "connectedNodes": 7,
+        "disconnectedNodes": 9,
+        "nodes": 16,
+        "files": 2
+    },
+    "deadFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                137,
+                506
+            ],
+            "bodyRange": [
+                155,
+                506
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2147,
+                2196
+            ],
+            "bodyRange": [
+                2163,
+                2196
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 70,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2027,
+                2526
+            ],
+            "bodyRange": [
+                2082,
+                2526
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 68,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3034,
+                3094
+            ],
+            "bodyRange": [
+                3049,
+                3094
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 101,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1515,
+                3290
+            ],
+            "bodyRange": [
+                1546,
+                3290
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 54,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3429,
+                3571
+            ],
+            "bodyRange": [
+                3442,
+                3571
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 115,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4260,
+                5100
+            ],
+            "bodyRange": [
+                4294,
+                5100
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 146,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5852,
+                6029
+            ],
+            "bodyRange": [
+                5872,
+                6029
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 204,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5128,
+                6183
+            ],
+            "bodyRange": [
+                5144,
+                6183
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 187,
+                "column": 26
+            },
+            "functionName": null
+        }
+    ],
+    "aliveFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1,
+                6231
+            ],
+            "bodyRange": [
+                13,
+                6231
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 1,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                107,
+                3307
+            ],
+            "bodyRange": [
+                120,
+                3307
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 6,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3598,
+                3763
+            ],
+            "bodyRange": [
+                3618,
+                3763
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 118,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3882,
+                4257
+            ],
+            "bodyRange": [
+                3915,
+                4257
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 129,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3766,
+                3879
+            ],
+            "bodyRange": [
+                3786,
+                3879
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 124,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4158,
+                4253
+            ],
+            "bodyRange": [
+                4170,
+                4253
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 139,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                51,
+                345
+            ],
+            "bodyRange": [
+                63,
+                345
+            ],
+            "file": "js/app.js",
+            "index": 0,
+            "start": {
+                "line": 4,
+                "column": 1
+            },
+            "functionName": null
+        }
+    ],
+    "allFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                137,
+                506
+            ],
+            "bodyRange": [
+                155,
+                506
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 7,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2147,
+                2196
+            ],
+            "bodyRange": [
+                2163,
+                2196
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 70,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2027,
+                2526
+            ],
+            "bodyRange": [
+                2082,
+                2526
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 68,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3034,
+                3094
+            ],
+            "bodyRange": [
+                3049,
+                3094
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 101,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1515,
+                3290
+            ],
+            "bodyRange": [
+                1546,
+                3290
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 54,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                107,
+                3307
+            ],
+            "bodyRange": [
+                120,
+                3307
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 6,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3429,
+                3571
+            ],
+            "bodyRange": [
+                3442,
+                3571
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 115,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3598,
+                3763
+            ],
+            "bodyRange": [
+                3618,
+                3763
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 118,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3766,
+                3879
+            ],
+            "bodyRange": [
+                3786,
+                3879
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 124,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4158,
+                4253
+            ],
+            "bodyRange": [
+                4170,
+                4253
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 139,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3882,
+                4257
+            ],
+            "bodyRange": [
+                3915,
+                4257
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 129,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4260,
+                5100
+            ],
+            "bodyRange": [
+                4294,
+                5100
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 146,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5852,
+                6029
+            ],
+            "bodyRange": [
+                5872,
+                6029
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 204,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5128,
+                6183
+            ],
+            "bodyRange": [
+                5144,
+                6183
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 187,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1,
+                6231
+            ],
+            "bodyRange": [
+                13,
+                6231
+            ],
+            "file": "bower_components/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 1,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                51,
+                345
+            ],
+            "bodyRange": [
+                63,
+                345
+            ],
+            "file": "js/app.js",
+            "index": 0,
+            "start": {
+                "line": 4,
+                "column": 1
+            },
+            "functionName": null
+        }
+    ],
+    "affectedFiles": [
+        {
+            "file": "bower_components/todomvc-common/base.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "js/app.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        }
+    ]
+}

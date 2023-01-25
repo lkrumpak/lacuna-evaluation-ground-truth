@@ -1,0 +1,1668 @@
+{
+    "runDate": "2023-01-12T21:57:32.916Z",
+    "runOptions": {
+        "analyzer": [
+            "tajs",
+            "dynamic"
+        ],
+        "entry": "index.html",
+        "destination": "todomvc/examples.lacunised.cl/gwt",
+        "logfile": "lacuna.log",
+        "timeout": null,
+        "olevel": 1,
+        "force": true,
+        "normalizeOnly": false,
+        "assumeNormalization": false,
+        "directory": "todomvc/examples.lacunised.cl/gwt"
+    },
+    "graphStats": {
+        "connectedNodes": 23,
+        "disconnectedNodes": 22,
+        "nodes": 45,
+        "files": 2
+    },
+    "deadFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                179,
+                548
+            ],
+            "bodyRange": [
+                197,
+                548
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 9,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2189,
+                2238
+            ],
+            "bodyRange": [
+                2205,
+                2238
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 72,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2069,
+                2568
+            ],
+            "bodyRange": [
+                2124,
+                2568
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 70,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3076,
+                3136
+            ],
+            "bodyRange": [
+                3091,
+                3136
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 103,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1557,
+                3332
+            ],
+            "bodyRange": [
+                1588,
+                3332
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 56,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3471,
+                3613
+            ],
+            "bodyRange": [
+                3484,
+                3613
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 117,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4327,
+                5286
+            ],
+            "bodyRange": [
+                4361,
+                5286
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 149,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6038,
+                6215
+            ],
+            "bodyRange": [
+                6058,
+                6215
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 211,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5314,
+                6369
+            ],
+            "bodyRange": [
+                5330,
+                6369
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 194,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6676,
+                7015
+            ],
+            "bodyRange": [
+                6689,
+                7015
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 228,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6407,
+                7038
+            ],
+            "bodyRange": [
+                6419,
+                7038
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 15,
+            "start": {
+                "line": 222,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1603,
+                1643
+            ],
+            "bodyRange": [
+                1614,
+                1643
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 0,
+            "start": {
+                "line": 1,
+                "column": 1603
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2092,
+                2112
+            ],
+            "bodyRange": [
+                2102,
+                2112
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 1,
+            "start": {
+                "line": 1,
+                "column": 2092
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2724,
+                2982
+            ],
+            "bodyRange": [
+                2736,
+                2982
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 8,
+            "start": {
+                "line": 7,
+                "column": 0
+            },
+            "functionName": "i"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2983,
+                3079
+            ],
+            "bodyRange": [
+                2995,
+                3079
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 9,
+            "start": {
+                "line": 8,
+                "column": 0
+            },
+            "functionName": "j"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3080,
+                3173
+            ],
+            "bodyRange": [
+                3092,
+                3173
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 10,
+            "start": {
+                "line": 9,
+                "column": 0
+            },
+            "functionName": "k"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4073,
+                4127
+            ],
+            "bodyRange": [
+                4084,
+                4127
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 16,
+            "start": {
+                "line": 15,
+                "column": 63
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4183,
+                4239
+            ],
+            "bodyRange": [
+                4193,
+                4239
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 18,
+            "start": {
+                "line": 15,
+                "column": 173
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4255,
+                4310
+            ],
+            "bodyRange": [
+                4265,
+                4310
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 19,
+            "start": {
+                "line": 15,
+                "column": 245
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4326,
+                4381
+            ],
+            "bodyRange": [
+                4336,
+                4381
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 20,
+            "start": {
+                "line": 15,
+                "column": 316
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4397,
+                4433
+            ],
+            "bodyRange": [
+                4407,
+                4433
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 21,
+            "start": {
+                "line": 15,
+                "column": 387
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5078,
+                5135
+            ],
+            "bodyRange": [
+                5088,
+                5135
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 26,
+            "start": {
+                "line": 16,
+                "column": 86
+            },
+            "functionName": null
+        }
+    ],
+    "aliveFunctions": [
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3665,
+                3830
+            ],
+            "bodyRange": [
+                3685,
+                3830
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 121,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3833,
+                3946
+            ],
+            "bodyRange": [
+                3853,
+                3946
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 127,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3949,
+                4324
+            ],
+            "bodyRange": [
+                3982,
+                4324
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16,
+                7086
+            ],
+            "bodyRange": [
+                28,
+                7086
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 16,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                149,
+                3349
+            ],
+            "bodyRange": [
+                162,
+                3349
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 8,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4225,
+                4320
+            ],
+            "bodyRange": [
+                4237,
+                4320
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 142,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                0,
+                5398
+            ],
+            "bodyRange": [
+                18,
+                5398
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 27,
+            "start": {
+                "line": 1,
+                "column": 0
+            },
+            "functionName": "gwttodo"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                1929,
+                2122
+            ],
+            "bodyRange": [
+                1941,
+                2122
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 2,
+            "start": {
+                "line": 1,
+                "column": 1929
+            },
+            "functionName": "D"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3285,
+                3752
+            ],
+            "bodyRange": [
+                3297,
+                3752
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 12,
+            "start": {
+                "line": 11,
+                "column": 0
+            },
+            "functionName": "H"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2249,
+                3284
+            ],
+            "bodyRange": [
+                2261,
+                3284
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 11,
+            "start": {
+                "line": 3,
+                "column": 0
+            },
+            "functionName": "G"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2535,
+                2590
+            ],
+            "bodyRange": [
+                2547,
+                2590
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 6,
+            "start": {
+                "line": 5,
+                "column": 0
+            },
+            "functionName": "g"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3753,
+                3800
+            ],
+            "bodyRange": [
+                3766,
+                3800
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 13,
+            "start": {
+                "line": 12,
+                "column": 0
+            },
+            "functionName": "I"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2591,
+                2723
+            ],
+            "bodyRange": [
+                2603,
+                2723
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 7,
+            "start": {
+                "line": 6,
+                "column": 0
+            },
+            "functionName": "h"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2262,
+                2431
+            ],
+            "bodyRange": [
+                2275,
+                2431
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 4,
+            "start": {
+                "line": 3,
+                "column": 13
+            },
+            "functionName": "e"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2432,
+                2534
+            ],
+            "bodyRange": [
+                2445,
+                2534
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 5,
+            "start": {
+                "line": 4,
+                "column": 0
+            },
+            "functionName": "f"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3801,
+                3893
+            ],
+            "bodyRange": [
+                3816,
+                3893
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 14,
+            "start": {
+                "line": 13,
+                "column": 0
+            },
+            "functionName": "J"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3894,
+                4009
+            ],
+            "bodyRange": [
+                3907,
+                4009
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 15,
+            "start": {
+                "line": 14,
+                "column": 0
+            },
+            "functionName": "K"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4016,
+                4456
+            ],
+            "bodyRange": [
+                4026,
+                4456
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 22,
+            "start": {
+                "line": 15,
+                "column": 6
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4131,
+                4167
+            ],
+            "bodyRange": [
+                4141,
+                4167
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 17,
+            "start": {
+                "line": 15,
+                "column": 121
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4525,
+                4571
+            ],
+            "bodyRange": [
+                4536,
+                4571
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 23,
+            "start": {
+                "line": 15,
+                "column": 515
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2123,
+                2248
+            ],
+            "bodyRange": [
+                2135,
+                2248
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 3,
+            "start": {
+                "line": 2,
+                "column": 0
+            },
+            "functionName": "F"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5037,
+                5052
+            ],
+            "bodyRange": [
+                5047,
+                5052
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 25,
+            "start": {
+                "line": 16,
+                "column": 45
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4875,
+                4991
+            ],
+            "bodyRange": [
+                4887,
+                4991
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 24,
+            "start": {
+                "line": 15,
+                "column": 865
+            },
+            "functionName": "O"
+        }
+    ],
+    "allFunctions": [
+        {
+            "type": "FunctionExpression",
+            "range": [
+                179,
+                548
+            ],
+            "bodyRange": [
+                197,
+                548
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 0,
+            "start": {
+                "line": 9,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2189,
+                2238
+            ],
+            "bodyRange": [
+                2205,
+                2238
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 1,
+            "start": {
+                "line": 72,
+                "column": 23
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2069,
+                2568
+            ],
+            "bodyRange": [
+                2124,
+                2568
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 2,
+            "start": {
+                "line": 70,
+                "column": 25
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3076,
+                3136
+            ],
+            "bodyRange": [
+                3091,
+                3136
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 3,
+            "start": {
+                "line": 103,
+                "column": 18
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1557,
+                3332
+            ],
+            "bodyRange": [
+                1588,
+                3332
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 4,
+            "start": {
+                "line": 56,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                149,
+                3349
+            ],
+            "bodyRange": [
+                162,
+                3349
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 5,
+            "start": {
+                "line": 8,
+                "column": 10
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                3471,
+                3613
+            ],
+            "bodyRange": [
+                3484,
+                3613
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 6,
+            "start": {
+                "line": 117,
+                "column": 70
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3665,
+                3830
+            ],
+            "bodyRange": [
+                3685,
+                3830
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 7,
+            "start": {
+                "line": 121,
+                "column": 1
+            },
+            "functionName": "redirect"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3833,
+                3946
+            ],
+            "bodyRange": [
+                3853,
+                3946
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 8,
+            "start": {
+                "line": 127,
+                "column": 1
+            },
+            "functionName": "findRoot"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4225,
+                4320
+            ],
+            "bodyRange": [
+                4237,
+                4320
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 9,
+            "start": {
+                "line": 142,
+                "column": 15
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3949,
+                4324
+            ],
+            "bodyRange": [
+                3982,
+                4324
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 10,
+            "start": {
+                "line": 132,
+                "column": 1
+            },
+            "functionName": "getFile"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4327,
+                5286
+            ],
+            "bodyRange": [
+                4361,
+                5286
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 11,
+            "start": {
+                "line": 149,
+                "column": 1
+            },
+            "functionName": "Learn"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6038,
+                6215
+            ],
+            "bodyRange": [
+                6058,
+                6215
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 12,
+            "start": {
+                "line": 211,
+                "column": 43
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5314,
+                6369
+            ],
+            "bodyRange": [
+                5330,
+                6369
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 13,
+            "start": {
+                "line": 194,
+                "column": 26
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6676,
+                7015
+            ],
+            "bodyRange": [
+                6689,
+                7015
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 14,
+            "start": {
+                "line": 228,
+                "column": 16
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                6407,
+                7038
+            ],
+            "bodyRange": [
+                6419,
+                7038
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 15,
+            "start": {
+                "line": 222,
+                "column": 35
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                16,
+                7086
+            ],
+            "bodyRange": [
+                28,
+                7086
+            ],
+            "file": "node_modules/todomvc-common/base.js",
+            "index": 16,
+            "start": {
+                "line": 2,
+                "column": 1
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                1603,
+                1643
+            ],
+            "bodyRange": [
+                1614,
+                1643
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 0,
+            "start": {
+                "line": 1,
+                "column": 1603
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                2092,
+                2112
+            ],
+            "bodyRange": [
+                2102,
+                2112
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 1,
+            "start": {
+                "line": 1,
+                "column": 2092
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                1929,
+                2122
+            ],
+            "bodyRange": [
+                1941,
+                2122
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 2,
+            "start": {
+                "line": 1,
+                "column": 1929
+            },
+            "functionName": "D"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2123,
+                2248
+            ],
+            "bodyRange": [
+                2135,
+                2248
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 3,
+            "start": {
+                "line": 2,
+                "column": 0
+            },
+            "functionName": "F"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2262,
+                2431
+            ],
+            "bodyRange": [
+                2275,
+                2431
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 4,
+            "start": {
+                "line": 3,
+                "column": 13
+            },
+            "functionName": "e"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2432,
+                2534
+            ],
+            "bodyRange": [
+                2445,
+                2534
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 5,
+            "start": {
+                "line": 4,
+                "column": 0
+            },
+            "functionName": "f"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2535,
+                2590
+            ],
+            "bodyRange": [
+                2547,
+                2590
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 6,
+            "start": {
+                "line": 5,
+                "column": 0
+            },
+            "functionName": "g"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2591,
+                2723
+            ],
+            "bodyRange": [
+                2603,
+                2723
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 7,
+            "start": {
+                "line": 6,
+                "column": 0
+            },
+            "functionName": "h"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2724,
+                2982
+            ],
+            "bodyRange": [
+                2736,
+                2982
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 8,
+            "start": {
+                "line": 7,
+                "column": 0
+            },
+            "functionName": "i"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2983,
+                3079
+            ],
+            "bodyRange": [
+                2995,
+                3079
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 9,
+            "start": {
+                "line": 8,
+                "column": 0
+            },
+            "functionName": "j"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3080,
+                3173
+            ],
+            "bodyRange": [
+                3092,
+                3173
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 10,
+            "start": {
+                "line": 9,
+                "column": 0
+            },
+            "functionName": "k"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                2249,
+                3284
+            ],
+            "bodyRange": [
+                2261,
+                3284
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 11,
+            "start": {
+                "line": 3,
+                "column": 0
+            },
+            "functionName": "G"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3285,
+                3752
+            ],
+            "bodyRange": [
+                3297,
+                3752
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 12,
+            "start": {
+                "line": 11,
+                "column": 0
+            },
+            "functionName": "H"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3753,
+                3800
+            ],
+            "bodyRange": [
+                3766,
+                3800
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 13,
+            "start": {
+                "line": 12,
+                "column": 0
+            },
+            "functionName": "I"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3801,
+                3893
+            ],
+            "bodyRange": [
+                3816,
+                3893
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 14,
+            "start": {
+                "line": 13,
+                "column": 0
+            },
+            "functionName": "J"
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                3894,
+                4009
+            ],
+            "bodyRange": [
+                3907,
+                4009
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 15,
+            "start": {
+                "line": 14,
+                "column": 0
+            },
+            "functionName": "K"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4073,
+                4127
+            ],
+            "bodyRange": [
+                4084,
+                4127
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 16,
+            "start": {
+                "line": 15,
+                "column": 63
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4131,
+                4167
+            ],
+            "bodyRange": [
+                4141,
+                4167
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 17,
+            "start": {
+                "line": 15,
+                "column": 121
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4183,
+                4239
+            ],
+            "bodyRange": [
+                4193,
+                4239
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 18,
+            "start": {
+                "line": 15,
+                "column": 173
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4255,
+                4310
+            ],
+            "bodyRange": [
+                4265,
+                4310
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 19,
+            "start": {
+                "line": 15,
+                "column": 245
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4326,
+                4381
+            ],
+            "bodyRange": [
+                4336,
+                4381
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 20,
+            "start": {
+                "line": 15,
+                "column": 316
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4397,
+                4433
+            ],
+            "bodyRange": [
+                4407,
+                4433
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 21,
+            "start": {
+                "line": 15,
+                "column": 387
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4016,
+                4456
+            ],
+            "bodyRange": [
+                4026,
+                4456
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 22,
+            "start": {
+                "line": 15,
+                "column": 6
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                4525,
+                4571
+            ],
+            "bodyRange": [
+                4536,
+                4571
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 23,
+            "start": {
+                "line": 15,
+                "column": 515
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                4875,
+                4991
+            ],
+            "bodyRange": [
+                4887,
+                4991
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 24,
+            "start": {
+                "line": 15,
+                "column": 865
+            },
+            "functionName": "O"
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5037,
+                5052
+            ],
+            "bodyRange": [
+                5047,
+                5052
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 25,
+            "start": {
+                "line": 16,
+                "column": 45
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionExpression",
+            "range": [
+                5078,
+                5135
+            ],
+            "bodyRange": [
+                5088,
+                5135
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 26,
+            "start": {
+                "line": 16,
+                "column": 86
+            },
+            "functionName": null
+        },
+        {
+            "type": "FunctionDeclaration",
+            "range": [
+                0,
+                5398
+            ],
+            "bodyRange": [
+                18,
+                5398
+            ],
+            "file": "gwttodo/gwttodo.nocache.js",
+            "index": 27,
+            "start": {
+                "line": 1,
+                "column": 0
+            },
+            "functionName": "gwttodo"
+        }
+    ],
+    "affectedFiles": [
+        {
+            "file": "node_modules/todomvc-common/base.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        },
+        {
+            "file": "gwttodo/gwttodo.nocache.js",
+            "type": "rootNode",
+            "range": [
+                null,
+                null
+            ]
+        }
+    ]
+}
