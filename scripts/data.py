@@ -118,7 +118,6 @@ def get_desriptive_stats(name, array):
   median = np.median(array)
   max_value = np.max(array)
   min_value = np.min(array)
-  # CV = (standard deviation / mean) * 100
   cv = (sd / mean) * 100
   return [name,min_value,max_value,median,mean,sd,cv]
 
